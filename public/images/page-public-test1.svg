@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="66" viewBox="0 0 80 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2869" data-name="Rectangle 2869" width="63.824" height="63.824" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_8970" data-name="Group 8970" transform="translate(-796 -1175)">
+    <g id="Group_8514" data-name="Group 8514" transform="translate(804 1176)">
+      <g id="Group_8511" data-name="Group 8511">
+        <g id="Group_8510" data-name="Group 8510" clip-path="url(#clip-path)">
+          <rect id="Rectangle_2868" data-name="Rectangle 2868" width="12.889" height="20.356" transform="translate(8.551 42.467)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_2870" data-name="Rectangle 2870" width="25.472" height="12.37" transform="translate(30.162 42.468)" fill="#f2d499"/>
+      <rect id="Rectangle_2871" data-name="Rectangle 2871" width="25.472" height="12.37" transform="translate(30.162 42.468)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_2872" data-name="Rectangle 2872" width="31.028" height="12.37" transform="translate(8.55 8.746)" fill="#f2d499"/>
+      <rect id="Rectangle_2873" data-name="Rectangle 2873" width="31.028" height="12.37" transform="translate(8.55 8.746)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Group_8513" data-name="Group 8513">
+        <g id="Group_8512" data-name="Group 8512" clip-path="url(#clip-path)">
+          <rect id="Rectangle_2874" data-name="Rectangle 2874" width="54.634" height="4.056" transform="translate(1 31.912)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_14659" data-name="Path 14659" d="M62.824,62.824H1V1H47.431V16.69H62.824Z" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <line id="Line_1692" data-name="Line 1692" x2="2.694" transform="translate(8.551 52.645)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <rect id="Rectangle_3154" data-name="Rectangle 3154" width="80" height="66" transform="translate(796 1175)" fill="none"/>
+  </g>
+</svg>

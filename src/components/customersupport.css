@@ -1,0 +1,40 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.customer-support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  text-align: center;
+}
+.customer-support-content {
+  text-align: center;
+}
+.customer-support-content img {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.customer-support-content a {
+  color: #337ab7;
+}
+.customer-support-content h6 {
+  font-weight: bold;
+  margin: 15px 0;
+}
+.customer-support-content p {
+  font-weight: 500;
+}
+.mailing-address {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .customer-support {
+    display: block;
+  }
+  .customer-support-content {
+    margin-bottom: 20px;
+  }
+}

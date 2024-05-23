@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="66" viewBox="0 0 80 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3241" data-name="Rectangle 3241" width="63.824" height="42.667" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_8989" data-name="Group 8989" transform="translate(-776 -1178)">
+    <g id="Group_8988" data-name="Group 8988" transform="translate(784 1190)">
+      <g id="Group_8987" data-name="Group 8987" clip-path="url(#clip-path)">
+        <rect id="Rectangle_3237" data-name="Rectangle 3237" width="61.824" height="40.667" rx="4" transform="translate(1 1)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_1872" data-name="Line 1872" x2="23.259" transform="translate(6.66 35.37)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Rectangle_3238" data-name="Rectangle 3238" d="M2.908,0h7.665a2.908,2.908,0,0,1,2.908,2.908v.7a2.909,2.909,0,0,1-2.909,2.909H2.908A2.908,2.908,0,0,1,0,3.611v-.7A2.908,2.908,0,0,1,2.908,0Z" transform="translate(41.771 28.852)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect id="Rectangle_3239" data-name="Rectangle 3239" width="61.824" height="6.203" transform="translate(1 9.581)" fill="#ddaa4e"/>
+        <rect id="Rectangle_3240" data-name="Rectangle 3240" width="61.824" height="6.203" transform="translate(1 9.581)" fill="none" stroke="#3b4a62" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3230" data-name="Rectangle 3230" width="80" height="66" transform="translate(776 1178)" fill="none"/>
+  </g>
+</svg>

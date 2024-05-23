@@ -1,0 +1,39 @@
+.footer {
+  background-color: #f2f5f8;
+  padding: 50px 0;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_inner_content h6 {
+  margin-bottom: 20px;
+}
+
+.footer_inner_content li {
+  list-style-type: none;
+  color: #03488d;
+  margin-bottom: 10px;
+}
+
+.social_icons {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer_inner_content {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_content {
+    display: block;
+  }
+  .social_icons{
+    text-align: center;
+    /* margin: 0 auto; */
+    justify-content: center;
+  }
+}
