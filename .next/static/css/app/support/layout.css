@@ -1,0 +1,189 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/footer.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+  background-color: #f2f5f8;
+  padding: 50px 0;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_inner_content h6 {
+  margin-bottom: 20px;
+}
+
+.footer_inner_content li {
+  list-style-type: none;
+  color: #03488d;
+  margin-bottom: 10px;
+}
+
+.social_icons {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer_inner_content {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_content {
+    display: block;
+  }
+  .social_icons{
+    text-align: center;
+    /* margin: 0 auto; */
+    justify-content: center;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/navbar.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+header {
+  padding: 30px 30px 15px 30px;
+  position: relative;
+  background-color: #fff;
+}
+.logo {
+  float: left;
+}
+.get_started_btn {
+  float: right;
+  width: 130px;
+  border-radius: 6px;
+  background: #03488d;
+  color: #f2d499;
+  height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-top: -3.5%;
+}
+.navbar {
+  padding: 0;
+}
+
+.drop-content {
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 50%;
+  transition-duration: 1s;
+  margin-top: 5px;
+}
+.drop-content ul li {
+  padding: 5px 0;
+}
+.drop-content ul {
+  margin: 5px;
+  padding: 6px;
+}
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.button_content li a {
+  color: #333;
+  text-decoration: none;
+}
+.drop-content .home-left,.drop-content .home-right{
+  width: 50%;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+  header {
+    padding-bottom: 60px;
+  }
+  #nav_bar {
+    display: none;
+    margin-top: 41px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .ham_menu {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+  .button_content li {
+    margin: 0;
+  }
+
+  .get_started_btn {
+    float: none;
+    margin: 30px 0 0 0;
+  }
+  nav button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .navbar {
+    display: block;
+  }
+  .arrow {
+    display: block;
+  }
+  .drop-content {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+
+  .banner_content h1 {
+    font-size: 29px;
+  }
+  .banner_content p {
+    font-size: 18px;
+  }
+
+  .page_banner {
+    height: 400px;
+  }
+  .navbar_content {
+    display: block;
+  }
+}
+

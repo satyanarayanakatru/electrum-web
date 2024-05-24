@@ -284,7 +284,21 @@
   font-weight: 700;
   margin-bottom: 45px;
 }
-
+.home-cta-btn {
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #03488d;
+  background-color: #f2d499;
+  max-width: 152px;
+  max-height: 58px;
+  padding: 15px 20px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+}
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
@@ -323,7 +337,7 @@
   display: flex;
   gap: 10px;
   left: 50%;
-  bottom: -35vh;
+  bottom: -37vh;
   transform: translateX(-50%);
   width: 100%;
   z-index: 2;

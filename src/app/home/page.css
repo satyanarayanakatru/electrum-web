@@ -1,3 +1,6 @@
+body{
+  font-family: Helvetica;
+}
 .home-cta-btn {
   border-radius: 6px;
   text-transform: uppercase;
@@ -294,7 +297,7 @@
 }
 .testimonials-div .poly-top {
   position: absolute;
-  top: 0;
+  top: -46%;
   left: 0;
   z-index: 2;
   width: 100%;
@@ -339,6 +342,48 @@
   font-weight: 300;
   margin-top: 20px;
 }
+.bottom-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(../../../public/images/bottom-geometry-mask.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 100%;
+  height: 510px;
+}
+.bottom-cta .bottom-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../../../public/images/bottom-poly-stroke.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 100%;
+  height: 510px;
+}
+.bottom-cta .bottom-cta-text {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: 0 0;
+}
+.bottom-cta .bottom-cta-text h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+
+
 
 @media screen and (max-width: 1450px) {
     .electrum-industry-cards .card-container .industry-card.title-card h2 {

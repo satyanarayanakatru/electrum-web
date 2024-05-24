@@ -154,7 +154,7 @@ a:focus {
 }
 .page-banner-text .banner-text p {
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #fff;
   margin: 0;
 }
@@ -250,92 +250,9 @@ a:focus {
 }
 .page-info-icons .icon-div .page-icon-info-div p {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #394a62;
-}
-.process-div {
-  position: relative;
-  width: 100%;
-  min-height: 780px;
-  margin-top: 15vh;
-  background-image: url(../../../public/images/page-geometry1.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-}
-.process-div .process-bottom-arrow-div {
-  position: absolute;
-  bottom: -30px;
-  width: 50%;
-  left: 50%;
-}
-.process-div h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #394a62;
-}
-.process-div .process-card-div {
-  position: absolute;
-  z-index: 2;
-  width: 75%;
-  margin: 0 auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background: 0 0;
-  gap: 30px;
-}
-.process-div .process-card-div h2 {
-  color: #394a62;
-  font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 45px;
-}
-.process-div .process-card-div .card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  position: relative;
-}
-.process-div .process-card-div .card-container .process-card {
-  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-.process-div .process-card-div .card-container .process-card .process-img-div,
-.process-div .process-card-div .card-container .process-card .process-info {
-  height: 100px;
-  width: 150px;
-}
-.process-div .process-card-div .card-container .process-card .process-img-div {
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding: 15px;
-  position: relative;
-}
-.process-div
-  .process-card-div
-  .card-container
-  .process-card
-  .process-img-div
-  .process-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.process-div .process-card-div .card-container .process-card .process-info {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  color: #fff;
-  background: #394a62;
-  padding: 15px;
-}
-.process-div .process-card-div .card-container .process-card .process-info p {
-  font-weight: 700;
-  font-size: 16px;
+  margin-top: 20px;
 }
 .page-projects-div {
   margin-top: 15vh;
@@ -387,9 +304,10 @@ a:focus {
   font-weight: 700;
 }
 .page-projects-div .project-div .project-info p {
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 16px;
   color: #333;
+  margin-top: 50px;
 }
 
 /* Responsive dropdown pages */

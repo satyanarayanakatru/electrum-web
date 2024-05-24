@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import aboutImage from '../../public/images/about-image1.png';
 import pageExample from '../../public/images/page-example.png';
+import './someofourprojects.css'
 
 
 const SomeOfOurProjects = () => {

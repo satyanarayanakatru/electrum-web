@@ -1,0 +1,1140 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/home/page.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+body{
+  font-family: Helvetica;
+}
+.home-cta-btn {
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #03488d;
+  background-color: #f2d499;
+  max-width: 152px;
+  max-height: 58px;
+  padding: 15px 20px;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+}
+.home-cta-btn:hover {
+  background-color: #f7dca8;
+}
+.home-banner {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.home-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.home-overlay .home-overlay-img {
+  width: 100%;
+  height: auto;
+}
+.home-banner.top-banner {
+  height: 658px;
+}
+.home-overlay.top-overlay .home-overlay-img {
+  height: 658px;
+}
+.home-banner.industry-banner {
+  height: 1500px;
+}
+.electrum-home {
+  min-height: 658px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/_next/static/media/home-bg.7643f10f.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.electrum-home .home-banner {
+  max-height: 658px;
+}
+.electrum-home .home-overlay {
+  opacity: 0.7;
+  height: 658px;
+  background-image: url(/_next/static/media/home-banner-color.3c5a4a0c.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.electrum-home .home-banner-text {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.electrum-home .home-banner-text div {
+  width: 60%;
+}
+.electrum-home .home-banner-text h1,
+.electrum-home .home-banner-text p {
+  color: #fff;
+}
+.electrum-home .home-banner-text h1 {
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 56px;
+}
+.electrum-home .home-banner-text p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 45px;
+  font-weight: 300;
+}
+.electrum-industry-cards {
+  position: relative;
+  background-image: url(/_next/static/media/homepage-geometry1.ad6e0983.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -75px;
+}
+.electrum-industry-cards .card-container {
+  margin-top: 10%;
+  z-index: 2;
+  width: 60%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.electrum-industry-cards .card-container .industry-card.title-card .inner-card {
+  background: #394a62;
+  color: #fff;
+  display: block;
+  text-align: justify;
+}
+.electrum-industry-cards .card-container .industry-card.title-card h2 {
+  font-size: 50px;
+}
+.electrum-industry-cards .card-container .industry-card.title-card svg {
+  margin-top: 15px;
+}
+.electrum-industry-cards .card-container .industry-card {
+  padding: 15px;
+  height: 360px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.electrum-industry-cards .card-container .industry-card .inner-card {
+  height: 360px;
+  background: #fff;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  padding: 30px;
+}
+.electrum-industry-cards .card-container .industry-card .inner-card .card-info {
+  height: 270px;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-info
+  .image-div {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-info
+  h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #394a62;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-info
+  p {
+  color: #333;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.electrum-industry-cards .card-container .industry-card .inner-card .card-link {
+  padding: 15px;
+  font-size: 16px;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-link
+  a {
+  color: #03488d;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-link
+  a:hover {
+  color: #23527c;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-link
+  a:hover
+  svg
+  path {
+  stroke: #23527c;
+}
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-link
+  .link-arrow {
+  margin-left: 15px;
+}
+.card-link a {
+  text-decoration: none;
+}
+.process-info {
+  text-align: left;
+}
+.process-info-heading {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: left;
+}
+.step-info h5 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 30px 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.process-info p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.insights-div {
+  width: 100%;
+  padding: 0;
+  background: #394a62;
+  position: relative;
+  text-align: center;
+  min-height: 600px;
+}
+.insights-div h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+.insights-div .insight-feature {
+  text-align: center;
+  min-height: 250px;
+  color: #fff;
+}
+.insights-div .insight-feature svg {
+  overflow: visible;
+}
+.insights-div .insight-feature h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.smart-energy-container,
+.process-info-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.process-info-container {
+  margin-left: 10%;
+}
+.smart-energy-content img {
+  margin: 0 auto;
+}
+.smart-energy-content h3 {
+  margin-bottom: 10px !important;
+}
+.smart-image {
+  margin-top: -10px !important;
+}
+
+.insights-div .insight-feature p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.testimonials-div {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 550px;
+  background: #fff;
+  position: relative;
+}
+.testimonials-div .poly-top {
+  position: absolute;
+  top: -46%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+}
+.testimonials-div .advantage-div {
+  margin-top: 250px;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.testimonials-div .advantage-content {
+  width: 100%;
+}
+
+.testimonials-div .advantage-div h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #394a62;
+  margin-bottom: 30px;
+}
+.testimonials-div .advantage-div .advantage-info {
+  text-align: center;
+}
+.testimonials-div .advantage-div .advantage-info h3 {
+  text-transform: uppercase;
+  color: #394a62;
+  font-weight: 700;
+  font-size: 16px;
+}
+.testimonials-div .advantage-div .advantage-info p {
+  color: #333;
+}
+.testimonial-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.electrum-industry-cards .card-container .industry-card .inner-card .card-info p{
+  font-weight: 300;
+  margin-top: 20px;
+}
+.bottom-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(/_next/static/media/bottom-geometry-mask.3c6ba266.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 100%;
+  height: 510px;
+}
+.bottom-cta .bottom-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/_next/static/media/bottom-poly-stroke.8f757667.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 100%;
+  height: 510px;
+}
+.bottom-cta .bottom-cta-text {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: 0 0;
+}
+.bottom-cta .bottom-cta-text h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+    .electrum-industry-cards .card-container .industry-card.title-card h2 {
+      font-size: 42px;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+  .electrum-industry-cards {
+    min-height: 1450px;
+    background-size: cover;
+  }
+  .electrum-industry-cards .card-container {
+    margin-top: 0;
+    width: 80%;
+  }
+  .electrum-industry-cards
+    .card-container
+    .industry-card.title-card
+    .inner-card {
+    text-align: left;
+  }
+
+  .testimonials-div .advantage-div {
+    margin-top: 10vh;
+  }
+  .testimonials-div .testimonial-cards .testimonial-slider {
+    transform: translateX(-334.5px);
+  }
+  .testimonials-div .testimonial-cards .testimonial-slider .testimonial-card {
+    width: 669px;
+  }
+  .testimonials-div .testimonial-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .testimonials-div .testimonial-logos img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 980px) {
+    .electrum-industry-cards {
+      min-height: 1200px;
+    }
+    .electrum-industry-cards .card-container .inner-card-container {
+      display: block !important;
+    }
+    .card-inner-content,.smart-inner-content{
+        display: block !important;
+    }
+    .insights-div{
+        min-height: 1000px;
+    }
+  } 
+  
+
+@media screen and (max-width: 700px) {
+  .electrum-stats {
+    display: none;
+  }
+  .electrum-industry-cards {
+    margin-top: -20vh;
+    min-height: 2650px;
+  }
+  .electrum-industry-cards .card-container .industry-card.title-card {
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: -30px;
+  }
+  .electrum-industry-cards
+    .card-container
+    .industry-card.title-card
+    .inner-card {
+    background: 0 0;
+    border-radius: none;
+    height: auto;
+    border: none;
+    color: #394a62;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .electrum-industry-cards
+    .card-container
+    .industry-card.title-card
+    .inner-card
+    svg {
+    display: block;
+    margin: 0 auto;
+  }
+  .insights-div {
+    min-height: 1250px;
+  }
+  .insights-div .insight-feature {
+    display: flex;
+    gap: 30px;
+    min-height: 150px;
+  }
+  .insights-div .insight-feature div {
+    text-align: left;
+    margin-top: 2px;
+  }
+  .insights-div .insight-feature div h3 {
+    margin-top: 0;
+  }
+  .testimonials-div .testimonial-cards {
+    min-height: 650px;
+    margin-top: 75px;
+  }
+  .testimonials-div .testimonial-cards .testimonial-slider {
+    transform: translateX(-187.5px);
+  }
+  .testimonials-div .testimonial-cards .testimonial-slider .testimonial-card {
+    width: 375px;
+    height: 590px;
+    display: block;
+  }
+  .testimonials-div .testimonial-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .testimonials-div .testimonial-logos img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .electrum-home .home-banner-text div {
+    width: 80%;
+  }
+}
+
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/slider.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+
+.slick-slide .slick-active .slick-current{
+    width: 220px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick-theme.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url(/_next/static/media/ajax-loader.0b80f665.gif) center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url(/_next/static/media/slick.25572f22.eot);
+    src: url(/_next/static/media/slick.25572f22.eot?#iefix) format('embedded-opentype'), url(/_next/static/media/slick.653a4cbb.woff) format('woff'), url(/_next/static/media/slick.6aa1ee46.ttf) format('truetype'), url(/_next/static/media/slick.f895cfdf.svg#slick) format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/footer.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+footer{
+    padding: 50px;
+    background-color: #028391;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+}
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-inner-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inner-content h2{
+    font-size: 1.3rem;
+    line-height: 1.1em;
+    margin: 30px 0;
+    font-weight:500;
+}
+.footer-signup{
+    width: 30%;
+    margin-left: 30px;
+}
+.footer-signup p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+.footer-signup label{
+    font-weight: 400 !important;
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+.footer-signup label span{
+    color: red;
+}
+.footer-signup #email{
+    margin: 10px 0;
+    height: 50px;
+    padding: 0 10px;
+    outline-style: none;
+    border-radius: 5px;
+}
+.footer-signup #checkbox{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.asterisk{
+    color: red;
+}
+.footer-signup button,.footer-address button{
+    display: block;
+    background-color: #ffC107;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.footer-address{
+    margin-left: 24px;
+}
+.footer-address p{
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+.social-icons-icon{
+    border-radius: 20px;
+    font-size: 40px;
+    color: #fff;
+    background-color: #ffC107;
+    padding: 10px 5px;
+}
+.copy-rights{
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/navbar.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+header{
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+}
+
+
+nav{
+    background-color: #028391;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.nav-bar-list ul{
+    list-style: none;
+}
+.nav-bar-list ul li,.sol-btn{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.nav-bar-list ul li a{
+    text-decoration: none;
+    padding: 10px 0;
+}
+.search-icon{
+    color: #333;
+    cursor: pointer;
+}
+#myDIV{
+    display: none;
+}
+#myDIV input{
+    outline: none;
+    padding: 10px;
+    position: absolute;
+    bottom: -50%;
+    right: 5%;
+    z-index: 5;
+}
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 777;
+}
+
+@media screen and (max-width: 1199px) {
+  header {
+    padding-bottom: 60px;
+  }
+  #nav_bar {
+    display: none;
+    margin-top: 41px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .ham_menu {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+  .button_content li {
+    margin: 0;
+  }
+
+  nav button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .navbar {
+    display: block;
+  }
+  .arrow {
+    display: block;
+  }
+  .drop-content {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+
+  .banner_content h1 {
+    font-size: 29px;
+  }
+  .banner_content p {
+    font-size: 18px;
+  }
+
+  .page_banner {
+    height: 400px;
+  }
+  .navbar_content {
+    display: block;
+  }
+}
+
+
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/contactModal.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.contact-button{
+    text-transform: uppercase;
+    /* background-color: #F8C794; */
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    /* border: 1px solid #F8C794; */
+}
+.modal-dialog{
+    max-width: 50%;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/dropdown.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.drop-content {
+    position: absolute;
+    z-index: 1;
+    left: 23%;
+    background-color: #394a62;
+    border-radius: 10px;
+    width: 250px;
+    transition-duration: 1s;
+    margin-top: 2%;
+  }
+  .drop-content ul li {
+    padding: 5px 0;
+    color: #fff;
+    text-align: left;
+    display: block; 
+    margin-right: 0px; 
+    font-size: 16px;
+  }
+  .drop-content ul li a:hover{
+    color: #2DD3FA;
+  }
+  .drop-content ul {
+    margin: 5px;
+    padding: 6px;
+  }
+ 
+  

@@ -154,7 +154,7 @@ a:focus {
 }
 .page-banner-text .banner-text p {
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #fff;
   margin: 0;
 }
@@ -250,146 +250,9 @@ a:focus {
 }
 .page-info-icons .icon-div .page-icon-info-div p {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #394a62;
-}
-.process-div {
-  position: relative;
-  width: 100%;
-  min-height: 780px;
-  margin-top: 15vh;
-  background-image: url(../../../public/images/page-geometry1.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-}
-.process-div .process-bottom-arrow-div {
-  position: absolute;
-  bottom: -30px;
-  width: 50%;
-  left: 50%;
-}
-.process-div h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #394a62;
-}
-.process-div .process-card-div {
-  position: absolute;
-  z-index: 2;
-  width: 75%;
-  margin: 0 auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background: 0 0;
-  gap: 30px;
-}
-.process-div .process-card-div h2 {
-  color: #394a62;
-  font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 45px;
-}
-.process-div .process-card-div .card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  position: relative;
-}
-.process-div .process-card-div .card-container .process-card {
-  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-.process-div .process-card-div .card-container .process-card .process-img-div,
-.process-div .process-card-div .card-container .process-card .process-info {
-  height: 100px;
-  width: 150px;
-}
-.process-div .process-card-div .card-container .process-card .process-img-div {
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding: 15px;
-  position: relative;
-}
-.process-div
-  .process-card-div
-  .card-container
-  .process-card
-  .process-img-div
-  .process-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.process-div .process-card-div .card-container .process-card .process-info {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  color: #fff;
-  background: #394a62;
-  padding: 15px;
-}
-.process-div .process-card-div .card-container .process-card .process-info p {
-  font-weight: 700;
-  font-size: 16px;
-}
-.page-projects-div {
-  margin-top: 15vh;
-  background: #fff;
-}
-.page-projects-div h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #394a62;
-  text-align: center;
-  margin-bottom: 45px;
-}
-.page-projects-div .project-div {
-  width: 50%;
-  margin: 0 auto;
-  display: flex;
-  gap: 30px;
-  margin-bottom: 45px;
-}
-.page-projects-div .project-div .project-images {
-  width: 50%;
-}
-.page-projects-div .project-div .project-images .project-image {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 30px;
-}
-.page-projects-div .project-div .project-info {
-  width: 50%;
-}
-.page-projects-div .project-div .project-info h3 {
-  font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 30px;
-  color: #333;
-}
-.page-projects-div .project-div .project-info table {
-  margin-bottom: 30px;
-}
-.page-projects-div .project-div .project-info table tbody tr td {
-  padding: 5px 0;
-  color: #333;
-}
-.page-projects-div .project-div .project-info table tbody tr td:first-child {
-  text-transform: uppercase;
-  color: #394a62;
-  width: 150px;
-  font-weight: 700;
-}
-.page-projects-div .project-div .project-info p {
-  font-weight: lighter;
-  font-size: 16px;
-  color: #333;
+  margin-top: 20px;
 }
 
 /* Responsive dropdown pages */
@@ -410,29 +273,7 @@ a:focus {
     max-width: 240px;
     margin: 0 auto;
   }
-  .process-div {
-    min-height: 950px;
-  }
-  .process-div .process-card-div .card-container {
-    /* display: block; */
-  }
-  .process-div .process-card-div .card-container .card-flex-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 60px;
-  }
-  .process-div .process-card-div .card-container {
-    gap: 20px;
-  }
-  .page-projects-div .project-div {
-    width: 100%;
-  }
-  .page-projects-div .project-div .project-info {
-    padding: 0 5vw;
-  }
-
+ 
   .featured-img-div {
     width: 669px;
     height: 375px;
@@ -448,18 +289,7 @@ a:focus {
     width: 50%;
   }
 }
-@media screen and (max-width: 980px) {
-  .process-div .process-card-div .card-container .process-card .process-img-div,.process-div .process-card-div .card-container .process-card .process-info {
-    width: 120px;
-  }
-  .process-div .process-card-div .card-container {
-    gap: 10px;
-  }
-  .process-div .process-card-div .card-container .process-card .process-info p {
-    font-size: 14px;
-  }
-}
-
+  
 @media screen and (max-width: 768px) {
   .electrum-faq .faq-body {
     width: 75%;
@@ -483,62 +313,7 @@ a:focus {
   .page-info-icons .icon-div .page-icon-info-div {
     height: auto;
   }
-  .process-div {
-    min-height: 1000px;
-  }
-  .process-div .process-card-div .card-container {
-    display: block;
-  }
-  .process-div .process-card-div .process-card.process-card-mobile {
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-  }
-  .process-div
-    .process-card-div
-    .process-card.process-card-mobile
-    .process-img-div,
-  .process-div
-    .process-card-div
-    .process-card.process-card-mobile
-    .process-info {
-    display: flex;
-    align-items: center;
-    border-radius: 0;
-  }
-  .process-div
-    .process-card-div
-    .process-card.process-card-mobile
-    .process-img-div {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-  }
-  .process-div
-    .process-card-div
-    .process-card.process-card-mobile
-    .process-info {
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    flex: 1;
-  }
-  .process-div .process-card-div .down-arrow {
-    margin-bottom: 15px;
-  }
-  .page-projects-div .project-div {
-    display: block;
-    width: 100%;
-  }
-  .page-projects-div .project-div .project-images,
-  .page-projects-div .project-div .project-info {
-    width: 100%;
-  }
-  .page-projects-div .project-div .project-images .project-image {
-    width: 100%;
-    margin-bottom: 0;
-  }
-
+  
   .page-banner-text {
     top: 90px;
   }
@@ -554,172 +329,12 @@ a:focus {
   .page-banner-text .banner-text {
     width: 60%;
   }
-  .process-div .process-card-div .card-container .process-card .process-info {
-    width: 100%;
-    height: 80px;
-  }
-  .process-div
-    .process-card-div
-    .card-container
-    .process-card
-    .process-img-div {
-    width: 100%;
-  }
-  .process-card {
-    margin: 20px 0;
-  }
-  .process-arrow,
-  .process-bottom-arrow {
-    display: none;
-  }
-
-  .page-projects-div .project-div .project-info table {
-    margin: 10px auto;
-  }
+  
   .project-info {
     text-align: center;
   }
 }
-/* @media screen and (max-width: 700px) {
-    .page-info-icons {
-      display: block;
-    }
-    .page-info-icons .icon-div {
-      display: block;
-      gap: 15px;
-      max-width: 100%;
-      width: 100%;
-      margin-bottom: 15px;
-      text-align: left;
-    }
-    .page-info-icons .icon-div .page-icon-info-div {
-      height: auto;
-    }
-    .process-div {
-      min-height: 1000px;
-    }
-    .process-div .process-card-div .card-container {
-      display: block;
-    }
-    .process-div .process-card-div .process-card.process-card-mobile {
-      display: flex;
-      align-items: center;
-      border-radius: 6px;
-      box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
-      margin-bottom: 15px;
-    }
-    .process-div
-      .process-card-div
-      .process-card.process-card-mobile
-      .process-img-div,
-    .process-div
-      .process-card-div
-      .process-card.process-card-mobile
-      .process-info {
-      display: flex;
-      align-items: center;
-      border-radius: 0;
-    }
-    .process-div
-      .process-card-div
-      .process-card.process-card-mobile
-      .process-img-div {
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
-    }
-    .process-div
-      .process-card-div
-      .process-card.process-card-mobile
-      .process-info {
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
-      flex: 1;
-    }
-    .process-div .process-card-div .down-arrow {
-      margin-bottom: 15px;
-    }
-    .page-projects-div .project-div {
-      display: block;
-      width: 100%;
-    }
-    .page-projects-div .project-div .project-images,
-    .page-projects-div .project-div .project-info {
-      width: 100%;
-    }
-    .page-projects-div .project-div .project-images .project-image {
-      width: 100%;
-      margin-bottom: 0;
-    }
-  } */
-/* @media screen and (max-width: 1200px) {
-    .page-info-icons {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin-top: 50vh;
-    }
-    .page-info-icons .icon-div {
-      text-align: center;
-      padding: 15px;
-      max-width: 240px;
-      margin: 0 auto;
-    }
-    .process-div {
-      min-height: 950px;
-    }
-    .process-div .process-card-div .card-container {
-      display: block;
-    }
-    .process-div .process-card-div .card-container .card-flex-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-      margin-bottom: 60px;
-    }
-    .page-projects-div .project-div {
-      width: 100%;
-    }
-    .page-projects-div .project-div .project-info {
-      padding: 0 5vw;
-    }
-  } */
-/* @media screen and (max-width: 1200px) {
-    .featured-img-div {
-      width: 669px;
-      height: 375px;
-      bottom: -187.5px;
-    }
-    .page-banner-text {
-      top: 100px;
-    }
-    .page-banner-text .banner-title {
-      width: 100%;
-    }
-    .page-banner-text .banner-text {
-      width: 50%;
-    }
-  } */
-/* @media screen and (max-width: 700px) {
-    .page-banner-text {
-      top: 90px;
-    }
-    .page-banner.electrum-banner {
-      min-height: 550px;
-    }
-    .banner-overlay {
-      min-height: 550px;
-    }
-    .featured-img-div {
-      width: 100%;
-      height: 225px;
-    }
-    .page-banner-text .banner-text {
-      width: 60%;
-    }
-    .page-info-icons .icon-div{
-      display: block;
-    }
-  } */
+
 @media screen and (max-width: 500px) {
   .page-banner-text {
     top: 75px;

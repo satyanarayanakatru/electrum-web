@@ -42,7 +42,7 @@ const Navbar = () => {
         <div id="nav_bar">
           <div className="navbar">
             <nav>
-              <NavItems onClick={toggleVisibility} />
+              <NavItems onMouseOver={toggleVisibility} />
               <Dropdown isVisible={isVisible} />
             </nav>
           </div>

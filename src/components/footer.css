@@ -5,7 +5,7 @@
 
 .footer_content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .footer_inner_content h6 {

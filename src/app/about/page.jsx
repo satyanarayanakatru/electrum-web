@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import "./About.css";
 import About1 from '../../../public/images/about1.png';
 import About2 from '../../../public/images/about2.png';
@@ -164,9 +165,10 @@ export default function About() {
           <div className="bottom-overlay"></div>
           <div className="bottom-cta-text">
             <h2>Embrace our EV future.</h2>
-            <a href="/contact" className="home-cta-btn">
-              Get started
-            </a>
+            <Link href="/contact" class="home-cta-btn">
+              {" "}
+              Get started{" "}
+            </Link>
           </div>
         </div>
       </div>

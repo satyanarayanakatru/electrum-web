@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { PiTildeBold } from "react-icons/pi";
-import './page.css'
+import "./page.css";
 import HomeSlider from "../../../public/images/home-slider2.png";
 import WhitePoly from "../../../public/images/white-poly.png";
 import BluePoly from "../../../public/images/blue-poly.png";
@@ -22,14 +22,8 @@ import Advantage1 from "../../../public/images/electrum-advantage-1.svg";
 import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
 import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
-import  Logo1 from  "../../../public/images/logo1.png";
-import  Logo2 from  "../../../public/images/logo2.png";
-import  Logo3 from  "../../../public/images/logo3.png";
-import  Logo4 from  "../../../public/images/logo4.png";
-import  Logo5 from  "../../../public/images/logo5.png";
-import  Logo6 from  "../../../public/images/logo6.png";
+import AutoPlay from "../../components/slider";
 
- 
 
 export default function Home() {
   return (
@@ -171,7 +165,9 @@ export default function Home() {
             <div className="col-lg-12 d-flex align-items-center">
               <div className="process-info process-info-container text-center">
                 <div className="col-lg-6 col-lg-offset-4 ">
-                  <h2 className="process-info-heading display-5 font-weight-bold">We're with you, every step of the way</h2>
+                  <h2 className="process-info-heading display-5 font-weight-bold">
+                    We're with you, every step of the way
+                  </h2>
                 </div>
                 <div className="step-info col-lg-6 col-lg-offset-4">
                   <h5 className="font-weight-light">Planning & Design</h5>
@@ -199,7 +195,7 @@ export default function Home() {
               <div className="d-flex justify-between smart-inner-content">
                 <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
                   <div className="smart-energy-content">
-                    <Image src={SmartImage} width={130}/>
+                    <Image src={SmartImage} width={130} />
                     <h3>Key analytics</h3>
                     <p>
                       Big data at your fingertips. Make swift business decisions
@@ -209,8 +205,10 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
                   <div className="smart-energy-content">
-                    <Image src={SmartImage2} width={120}/>
-                    <h3 className="smart-energy-content-heading">Monitor & control</h3>
+                    <Image src={SmartImage2} width={120} />
+                    <h3 className="smart-energy-content-heading">
+                      Monitor & control
+                    </h3>
                     <p>
                       Monitor charging statuses live. Troubleshoot and control
                       any charger in your system remotely.
@@ -219,7 +217,11 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
                   <div className="smart-energy-content">
-                    <Image src={SmartImage3} className="mb-4 mt-2" width={130}/>
+                    <Image
+                      src={SmartImage3}
+                      className="mb-4 mt-2"
+                      width={130}
+                    />
                     <h3>Custom pricing</h3>
                     <p>
                       Set your own charging rates with flexible options like
@@ -231,7 +233,11 @@ export default function Home() {
               <div className="d-flex align-items-center justify-between smart-inner-content">
                 <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
                   <div className="smart-energy-content">
-                    <Image src={SmartImage4} className="mb-5 mt-2" width={130}/>
+                    <Image
+                      src={SmartImage4}
+                      className="mb-5 mt-2"
+                      width={130}
+                    />
                     <h3>Automatic billing</h3>
                     <p>
                       Automatically receive payments on time every billing
@@ -241,7 +247,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
                   <div className="smart-energy-content">
-                    <Image src={SmartImage5} width={130}/>
+                    <Image src={SmartImage5} width={130} />
                     <h3>Dynamic power</h3>
                     <p>
                       Our smart system manages the power consumption of your
@@ -251,7 +257,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
                   <div className="smart-energy-content">
-                    <Image src={SmartImage6} width={130}/>
+                    <Image src={SmartImage6} width={130} />
                     <h3>Easy QR activation</h3>
                     <p>
                       Allow customers the option to quickly charge as guest or
@@ -271,57 +277,52 @@ export default function Home() {
           <div className="advantage-div advantage-content col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 container p-50">
             <h2>The Electrum advantage</h2>
             <div className="d-flex justify-between">
-            <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-              <div>
-                <Image src={Advantage1} className="d-inline"/>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage1} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-4">Technical Experts</h3>
+                <p>
+                  Our certified team of EV experts have extensive experience in
+                  meeting the unique needs of each customer.
+                </p>
               </div>
-              <h3 className="mt-4 mb-4">Technical Experts</h3>
-              <p>
-                Our certified team of EV experts have extensive experience in
-                meeting the unique needs of each customer.
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-              <div>
-              <Image src={Advantage2} className="d-inline"/>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage2} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-2">Cost Recovery & ROI</h3>
+                <p>
+                  We offer numerous cost recovery options through billing,
+                  energy management, carbon offsets, and grid curtailment.
+                </p>
               </div>
-              <h3 className="mt-4 mb-2">Cost Recovery & ROI</h3>
-              <p>
-                We offer numerous cost recovery options through billing, energy
-                management, carbon offsets, and grid curtailment.
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-              <div>
-              <Image src={Advantage3} className="d-inline"/>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage3} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-4">Support driven</h3>
+                <p>
+                  At Electrum, we strive for service excellence and customer
+                  satisfaction, with every client, every time.
+                </p>
               </div>
-              <h3 className="mt-4 mb-4">Support driven</h3>
-              <p>
-                At Electrum, we strive for service excellence and customer
-                satisfaction, with every client, every time.
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-              <div>
-              <Image src={Advantage4} className="d-inline"/>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage4} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-2">Proven track record</h3>
+                <p>
+                  We have built EV infrastructure for some of the largest sites
+                  and brands in the world.
+                </p>
               </div>
-              <h3 className="mt-4 mb-2">Proven track record</h3>
-              <p>
-                We have built EV infrastructure for some of the largest sites
-                and brands in the world.
-              </p>
-            </div>
             </div>
           </div>
         </div>
-          <div className="testimonial-logos col-xs-12">
-            <Image className="testimonial-logo" src={Logo1}/>
-            <Image className="testimonial-logo" src={Logo2}/>
-            <Image className="testimonial-logo" src={Logo3}/>
-            <Image className="testimonial-logo" src={Logo4}/>
-            <Image className="testimonial-logo" src={Logo5}/>
-            <Image className="testimonial-logo" src={Logo6}/>
-          </div>
+        
+        <AutoPlay/>
+        
         <div class="bottom-cta">
           <div class="bottom-overlay"></div>
           <div class="bottom-cta-text">

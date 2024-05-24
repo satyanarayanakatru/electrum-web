@@ -154,7 +154,7 @@ a:focus {
 }
 .page-banner-text .banner-text p {
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #fff;
   margin: 0;
 }

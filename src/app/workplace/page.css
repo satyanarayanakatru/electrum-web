@@ -154,7 +154,7 @@ a:focus {
 }
 .page-banner-text .banner-text p {
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #fff;
   margin: 0;
 }
@@ -250,7 +250,8 @@ a:focus {
 }
 .page-info-icons .icon-div .page-icon-info-div p {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: 300;
+  margin-top: 20px;
   color: #394a62;
 }
 .process-div {
@@ -387,9 +388,10 @@ a:focus {
   font-weight: 700;
 }
 .page-projects-div .project-div .project-info p {
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 16px;
   color: #333;
+  margin-top: 50px;
 }
 
 /* Responsive dropdown pages */

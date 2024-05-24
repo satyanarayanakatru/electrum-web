@@ -7,6 +7,7 @@ import processTest3 from "../../public/images/process-test3.svg";
 import processTest4 from "../../public/images/process-test4.svg";
 import processTest5 from "../../public/images/process-test5.svg";
 import processBottomArrow from "../../public/images/process-bottom-arrow.svg";
+import './endtoend.css'
 
 const EndToEnd = () => {
   return (
