@@ -5,6 +5,7 @@ import "./globals.css";
 export const metadata = {
   title: " | Electrum Charging Solutions",
   description: "",
+  
 };
 
 export default function RootLayout({ children }) {
