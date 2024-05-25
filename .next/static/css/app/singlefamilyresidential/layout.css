@@ -1,105 +1,160 @@
-/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/footer.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************/
-.footer {
-  background-color: #f2f5f8;
-  padding: 50px 0;
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/footer.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+footer{
+    padding: 50px;
+    background-color: #33526f;
+    color: #fff;
+    font-family: 'Trebuchet MS';
 }
-
-.footer_content {
-  display: flex;
-  justify-content: space-evenly;
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
 }
-
-.footer_inner_content h6 {
-  margin-bottom: 20px;
+.footer-inner-content{
+    display: flex;
+    justify-content: space-between;
 }
-
-.footer_inner_content li {
-  list-style-type: none;
-  color: #03488d;
-  margin-bottom: 10px;
+.footer-inner-content h2{
+    font-size: 1.3rem;
+    line-height: 1.1em;
+    margin: 30px 0;
+    font-weight:500;
 }
-
-.social_icons {
-  display: flex;
-  margin-bottom: 50px;
+.footer-signup{
+    width: 30%;
+    margin-left: 30px;
 }
-
-.footer_inner_content {
-  text-align: center;
+.footer-signup p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.3em;
 }
-
-@media screen and (max-width: 768px) {
-  .footer_content {
+.footer-signup label{
+    font-weight: 400 !important;
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+.footer-signup label span{
+    color: red;
+}
+.footer-signup #email{
+    margin: 10px 0;
+    height: 50px;
+    padding: 0 10px;
+    outline-style: none;
+    border-radius: 5px;
+}
+.footer-signup #checkbox{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.asterisk{
+    color: red;
+}
+.footer-signup button,.footer-address button{
     display: block;
-  }
-  .social_icons{
+    background-color: aqua;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.footer-signup button:hover,.footer-address button:hover{
+    background-color: #33526f;
+}
+.footer-address{
+    margin-left: 24px;
+}
+.footer-address p{
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+.social-icons-icon{
+    border-radius: 20px;
+    font-size: 40px;
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 5px;
+}
+.social-icons-icon:hover{
+    background-color: #33526f;
+}
+.copy-rights{
     text-align: center;
-    /* margin: 0 auto; */
-    justify-content: center;
-  }
+    color: #fff;
+    font-size: 19px;
+    margin-top: 25px;
 }
 
-/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/navbar.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************/
-header {
-  padding: 30px 30px 15px 30px;
-  position: relative;
-  background-color: #fff;
-}
-.logo {
-  float: left;
-}
-.get_started_btn {
-  float: right;
-  width: 130px;
-  border-radius: 6px;
-  background: #03488d;
-  color: #f2d499;
-  height: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 8px 15px;
-  margin-top: -3.5%;
-}
-.navbar {
-  padding: 0;
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/navbar.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+header{
+  position: fixed;
+  z-index: 6;
+  width: 100%;
 }
 
-.drop-content {
-  position: absolute;
-  z-index: 1;
-  background-color: #fff;
-  border-radius: 10px;
-  width: 50%;
-  transition-duration: 1s;
-  margin-top: 5px;
+nav{
+    background-color: #33526f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
 }
-.drop-content ul li {
-  padding: 5px 0;
+.nav-bar-list{
+  margin-right: 0;
 }
-.drop-content ul {
-  margin: 5px;
-  padding: 6px;
+
+.nav-bar-list ul{
+    list-style: none;
+}
+.nav-bar-list ul li,.sol-btn{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.3em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-bar-list ul li a{
+    text-decoration: none;
+    padding: 10px 0;
+}
+.search-icon{
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+#myDIV{
+    display: none;
+}
+#myDIV input{
+    outline: none;
+    padding: 10px;
+    position: absolute;
+    bottom: -50%;
+    right: 5%;
+    z-index: 5;
 }
 .fixed {
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 777;
 }
-.button_content li a {
-  color: #333;
-  text-decoration: none;
+.logo{
+  display: flex;
+  align-items: center;
+  margin-right: 22%;
 }
-.drop-content .home-left,.drop-content .home-right{
-  width: 50%;
+.logo2{
+  width: 200px;
 }
-
-
 
 @media screen and (max-width: 1199px) {
   header {
@@ -120,10 +175,6 @@ header {
     margin: 0;
   }
 
-  .get_started_btn {
-    float: none;
-    margin: 30px 0 0 0;
-  }
   nav button {
     display: block;
     text-align: center;
@@ -187,3 +238,56 @@ header {
   }
 }
 
+
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/contactModal.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.contact-button{
+    text-transform: uppercase;
+    background-color: aqua;
+    color: #fff;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.contact-button:hover{
+    background-color: #33526f;
+}
+.modal-dialog{
+    max-width: 50%;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/dropdown.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.drop-content {
+    position: absolute;
+    z-index: 1;
+    left: 47%;
+    background-color: #394a62;
+    border-radius: 10px;
+    width: 250px;
+    transition-duration: 1s;
+    margin-top: 1.3%;
+  }
+  .drop-content ul li {
+    padding: 5px 0;
+    color: #fff;
+    text-align: left;
+    display: block; 
+    margin-right: 0px; 
+    font-size: 16px;
+  }
+  .drop-content ul li a:hover{
+    color: #2DD3FA;
+  }
+  .drop-content ul {
+    margin: 5px;
+    padding: 6px;
+  }
+ 
+  

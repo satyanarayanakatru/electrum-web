@@ -1,9 +1,7 @@
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/home/page.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
-body{
-  font-family: Helvetica;
-}
+
 .home-cta-btn {
   border-radius: 6px;
   text-transform: uppercase;
@@ -46,6 +44,9 @@ body{
 .home-overlay.top-overlay .home-overlay-img {
   height: 658px;
 }
+.home-overlay.top-overlay-home{
+  display: none;
+}
 .home-banner.industry-banner {
   height: 1500px;
 }
@@ -56,10 +57,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/_next/static/media/home-bg.7643f10f.png);
+  background-color: #000028;
+  background-image: url(/_next/static/media/car-five.87c23f19.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
+    height: 100vh;
+    overflow: hidden;
 }
 .electrum-home .home-banner {
   max-height: 658px;
@@ -74,16 +78,17 @@ body{
 }
 .electrum-home .home-banner-text {
   z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 14%;
+  right: -44%
 }
 .electrum-home .home-banner-text div {
   width: 60%;
 }
 .electrum-home .home-banner-text h1,
 .electrum-home .home-banner-text p {
-  color: #fff;
+  color: #33526f;
+  font-weight: 700;
 }
 .electrum-home .home-banner-text h1 {
   margin-bottom: 75px;
@@ -94,7 +99,7 @@ body{
   text-align: center;
   font-size: 24px;
   margin-bottom: 45px;
-  font-weight: 300;
+  font-weight: 700;
 }
 .electrum-industry-cards {
   position: relative;
@@ -113,8 +118,7 @@ body{
   z-index: 2;
   width: 60%;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 .electrum-industry-cards .card-container .industry-card.title-card .inner-card {
   background: #394a62;
@@ -144,7 +148,7 @@ body{
   padding: 30px;
 }
 .electrum-industry-cards .card-container .industry-card .inner-card .card-info {
-  height: 270px;
+  height: 245px;
 }
 .electrum-industry-cards
   .card-container
@@ -294,20 +298,19 @@ body{
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-  min-height: 550px;
   background: #fff;
   position: relative;
 }
 .testimonials-div .poly-top {
   position: absolute;
-  top: -46%;
+  top: -56%;
   left: 0;
   z-index: 2;
   width: 100%;
   height: auto;
 }
 .testimonials-div .advantage-div {
-  margin-top: 250px;
+  margin-top: 10%;
   z-index: 1;
   text-align: center;
   margin-bottom: 60px;
@@ -343,7 +346,7 @@ body{
 }
 .electrum-industry-cards .card-container .industry-card .inner-card .card-info p{
   font-weight: 300;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .bottom-cta {
   display: flex;
@@ -383,6 +386,10 @@ body{
   color: #fff;
   font-weight: 700;
   margin-bottom: 45px;
+}
+
+.col-lg-3{
+  width: 22%;
 }
 
 
@@ -530,9 +537,8 @@ body{
 /*!***********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/slider.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************/
-
-.slick-slide .slick-active .slick-current{
-    width: 220px;
+.slider-container{
+    width: 98%;
 }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick.css ***!
@@ -866,11 +872,11 @@ body{
 }
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/footer.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/footer.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
 footer{
     padding: 50px;
-    background-color: #028391;
+    background-color: #33526f;
     color: #fff;
     font-family: 'Trebuchet MS';
 }
@@ -921,12 +927,16 @@ footer{
 }
 .footer-signup button,.footer-address button{
     display: block;
-    background-color: #ffC107;
+    background-color: aqua;
     padding: 10px 40px;
     border-radius: 50px;
     text-transform: uppercase;
     font-size: 1rem;
     margin-top: 10px;
+    font-weight: bolder;
+}
+.footer-signup button:hover,.footer-address button:hover{
+    background-color: #33526f;
 }
 .footer-address{
     margin-left: 24px;
@@ -940,8 +950,11 @@ footer{
     border-radius: 20px;
     font-size: 40px;
     color: #fff;
-    background-color: #ffC107;
+    background-color: aqua;
     padding: 10px 5px;
+}
+.social-icons-icon:hover{
+    background-color: #33526f;
 }
 .copy-rights{
     text-align: center;
@@ -951,7 +964,7 @@ footer{
 }
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/navbar.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/navbar.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
 header{
   position: fixed;
@@ -959,14 +972,16 @@ header{
   width: 100%;
 }
 
-
 nav{
-    background-color: #028391;
+    background-color: #33526f;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     position: relative;
+}
+.nav-bar-list{
+  margin-right: 0;
 }
 
 .nav-bar-list ul{
@@ -974,12 +989,11 @@ nav{
 }
 .nav-bar-list ul li,.sol-btn{
     display: inline-block;
-    margin-right: 25px;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.3em;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-
 }
 .nav-bar-list ul li a{
     text-decoration: none;
@@ -988,6 +1002,7 @@ nav{
 .search-icon{
     color: #333;
     cursor: pointer;
+    display: none;
 }
 #myDIV{
     display: none;
@@ -1004,6 +1019,14 @@ nav{
   position: sticky;
   top: 0;
   z-index: 777;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin-right: 22%;
+}
+.logo2{
+  width: 200px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1091,35 +1114,38 @@ nav{
 
 
 /*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/contactModal.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/contactModal.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************/
 .contact-button{
     text-transform: uppercase;
-    /* background-color: #F8C794; */
+    background-color: aqua;
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
     padding: 10px;
     border-radius: 50px;
     text-align: center;
     cursor: pointer;
-    /* border: 1px solid #F8C794; */
+    border: none;
+}
+.contact-button:hover{
+    background-color: #33526f;
 }
 .modal-dialog{
     max-width: 50%;
 }
 
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/modrencomponents/dropdown.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/moderncomponents/dropdown.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************/
 .drop-content {
     position: absolute;
     z-index: 1;
-    left: 23%;
+    left: 47%;
     background-color: #394a62;
     border-radius: 10px;
     width: 250px;
     transition-duration: 1s;
-    margin-top: 2%;
+    margin-top: 1.3%;
   }
   .drop-content ul li {
     padding: 5px 0;

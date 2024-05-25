@@ -12,42 +12,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/about/page.css",
-      "static/chunks/app/about/page.js"
-    ],
-    "/about/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/about/layout.css",
-      "static/chunks/app/about/layout.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contact/page.css",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/contact/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contact/layout.css",
-      "static/chunks/app/contact/layout.js"
-    ],
-    "/support/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/support/page.css",
-      "static/chunks/app/support/page.js"
-    ],
-    "/support/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/support/layout.css",
-      "static/chunks/app/support/layout.js"
-    ],
     "/fleet/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -59,18 +23,6 @@
       "static/chunks/main-app.js",
       "static/css/app/fleet/layout.css",
       "static/chunks/app/fleet/layout.js"
-    ],
-    "/singlefamilyresidential/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/singlefamilyresidential/page.css",
-      "static/chunks/app/singlefamilyresidential/page.js"
-    ],
-    "/singlefamilyresidential/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/singlefamilyresidential/layout.css",
-      "static/chunks/app/singlefamilyresidential/layout.js"
     ],
     "/multiunitresidential/page": [
       "static/chunks/webpack.js",
@@ -84,17 +36,29 @@
       "static/css/app/multiunitresidential/layout.css",
       "static/chunks/app/multiunitresidential/layout.js"
     ],
-    "/public/page": [
+    "/singlefamilyresidential/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/public/page.css",
-      "static/chunks/app/public/page.js"
+      "static/css/app/singlefamilyresidential/page.css",
+      "static/chunks/app/singlefamilyresidential/page.js"
     ],
-    "/public/layout": [
+    "/singlefamilyresidential/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/public/layout.css",
-      "static/chunks/app/public/layout.js"
+      "static/css/app/singlefamilyresidential/layout.css",
+      "static/chunks/app/singlefamilyresidential/layout.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/contact/page.css",
+      "static/chunks/app/contact/page.js"
+    ],
+    "/contact/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/contact/layout.css",
+      "static/chunks/app/contact/layout.js"
     ],
     "/workplace/page": [
       "static/chunks/webpack.js",
@@ -108,10 +72,17 @@
       "static/css/app/workplace/layout.css",
       "static/chunks/app/workplace/layout.js"
     ],
-    "/_not-found/page": [
+    "/public/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/public/page.css",
+      "static/chunks/app/public/page.js"
+    ],
+    "/public/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/public/layout.css",
+      "static/chunks/app/public/layout.js"
     ]
   }
 }

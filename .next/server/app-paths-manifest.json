@@ -1,9 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
   "/singlefamilyresidential/page": "app/singlefamilyresidential/page.js",
-  "/multiunitresidential/page": "app/multiunitresidential/page.js",
-  "/public/page": "app/public/page.js",
   "/workplace/page": "app/workplace/page.js",
+  "/public/page": "app/public/page.js",
   "/fleet/page": "app/fleet/page.js"
 }

@@ -324,101 +324,9 @@
     font-weight: 700;
     text-decoration: none;
   }
-/*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/fleet/page.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************/
-* {
-  box-sizing: border-box;
-}
-:after,
-:before {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-a:focus,
-a:hover {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
-.electrum-faq {
-  width: 100%;
-}
-.electrum-faq .page-banner.electrum-banner {
-  min-height: 658px;
-}
-.electrum-faq .banner-overlay {
-  min-height: 658px;
-}
-.electrum-faq .page-banner-text {
-  top: 150px;
-}
-.electrum-faq .faq-body {
-  width: 40%;
-  margin: 0 auto;
-  position: relative;
-  padding: 60px 0;
-}
-.electrum-faq .faq-body .faq-div {
-  margin-bottom: 60px;
-}
-.electrum-faq .faq-body .faq-div a {
-  display: flex;
-  align-items: center;
-  outline: 0;
-  text-decoration: none;
-}
-.electrum-faq .faq-body .faq-div a h3 {
-  color: #394a62;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.electrum-faq .faq-body .faq-div a svg {
-  margin-left: 10px;
-  margin-top: 4px;
-  transform: rotate(0);
-  width: 20px;
-  height: 20px;
-}
-.electrum-faq .faq-body .faq-div a.collapsed .dd-arrow {
-  transform: rotate(180deg);
-}
-.electrum-faq .faq-body .faq-div a:hover {
-  color: #f2d499;
-}
-.electrum-faq .faq-body .faq-div .answer-div {
-  transition: max-height 0.2s ease-out;
-  font-size: 18px;
-  font-weight: lighter;
-  color: #333;
-  overflow: hidden;
-}
-
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/singlefamilyresidential/page.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
 .page-banner.electrum-banner {
   position: relative;
   background-image: url(/_next/static/media/page-banner-background.d25f6c66.png);
@@ -441,23 +349,35 @@ a:focus {
   top: 0;
   width: 100%;
 }
-.car-one {
-  background-image: url(/_next/static/media/page-example.0ed0dc9c.png);
-}
-.car-second {
-  background-image: url(/_next/static/media/multires-banner.24d498fe.png);
-}
+
+
 .featured-img-div {
   background-size: cover;
   background-position-x: center;
   background-repeat: no-repeat;
   z-index: 2;
-  width: 966px;
-  height: 543px;
   margin: 0 auto;
   position: relative;
   bottom: -271.5px;
 }
+.car-one,.car-two,.car-three,.car-four,.car-five{
+  background-image: url(/_next/static/media/car-one.50d99e91.JPEG);
+  width: 100%;
+  height: 1280px;
+}
+.car-two{
+  background-image: url(/_next/static/media/car-two.4d2f6135.jpg);
+}
+.car-three{
+  background-image: url(/_next/static/media/car-three.b9695ef6.jpeg);
+}
+.car-four{
+  background-image: url(/_next/static/media/car-four.ae34ad40.jpg);
+}
+.car-five{
+  background-image: url(/_next/static/media/car-five.87c23f19.jpg);
+}
+
 .page-banner-text {
   z-index: 2;
   width: 100%;
@@ -580,17 +500,13 @@ a:focus {
 .page-info-icons .icon-div .page-icon-info-div p {
   font-size: 16px;
   font-weight: 300;
-  color: #394a62;
   margin-top: 20px;
+  color: #394a62;
 }
 
 /* Responsive dropdown pages */
 
 @media screen and (max-width: 1200px) {
-  .electrum-faq .faq-body {
-    width: 50%;
-  }
-
   .page-info-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -602,7 +518,7 @@ a:focus {
     max-width: 240px;
     margin: 0 auto;
   }
- 
+
   .featured-img-div {
     width: 669px;
     height: 375px;
@@ -618,15 +534,8 @@ a:focus {
     width: 50%;
   }
 }
-  
-@media screen and (max-width: 768px) {
-  .electrum-faq .faq-body {
-    width: 75%;
-  }
-  .electrum-faq .faq-body .faq-div {
-    margin-bottom: 30px;
-  }
 
+@media screen and (max-width: 768px) {
   .page-info-icons {
     display: block;
     margin-bottom: 40%;
@@ -642,7 +551,7 @@ a:focus {
   .page-info-icons .icon-div .page-icon-info-div {
     height: auto;
   }
-  
+
   .page-banner-text {
     top: 90px;
   }
@@ -658,12 +567,7 @@ a:focus {
   .page-banner-text .banner-text {
     width: 60%;
   }
-  
-  .project-info {
-    text-align: center;
-  }
 }
-
 @media screen and (max-width: 500px) {
   .page-banner-text {
     top: 75px;
