@@ -390,6 +390,35 @@
   width: 22%;
 }
 
+.industry-cards{
+  text-align: center;
+  background-color: #e9f5f6;
+}
+.industry-cards h2{
+  font-size: 50px;
+  padding: 30px 0;
+  font-weight: 700;
+}
+.industry-cards img{
+  margin: 0 auto;
+}
+.industry-cards-content{
+  margin: 0 20px;
+
+}
+.industry-cards-content h3{
+  font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #394a62;
+}
+.industry-cards-content p{
+    margin: 15px 0;
+    font-size: 16px;
+}
+.industry-cards-content a{
+  color: #03488d;
+}
 
 
 

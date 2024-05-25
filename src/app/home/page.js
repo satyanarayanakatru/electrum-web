@@ -24,7 +24,6 @@ import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
 import AutoPlay from "../../components/slider";
 
-
 export default function Home() {
   return (
     <div>
@@ -33,11 +32,8 @@ export default function Home() {
           <div className="home-overlay top-overlay-home"></div>
           <div className="home-banner-text">
             <div className="text-center">
-            
               <h1>Cutting-Edge EV Charging and Energy Management Software</h1>
-              <p>
-              Leading the Way in EV Charging and Energy Optimization
-              </p>
+              <p>Leading the Way in EV Charging and Energy Optimization</p>
               <Link href="/contact" className="home-cta-btn">
                 Get Started
               </Link>
@@ -157,6 +153,53 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="industry-cards">
+          <h2>Industries we electrify</h2>
+          <div className="d-flex justify-between">
+            <div className="industry-cards-content">
+              <Image src={Single} className="mb-3" width={150} height={150} />
+              <h3>Single Residential</h3>
+              <p>Single-family detached and semi-detached houses.</p>
+              <Link href="/singlefamilyresidential">
+                Learn more &nbsp; &gt;
+              </Link>
+            </div>
+
+            <div className="industry-cards-content">
+              <Image src={Multi} className="mb-3" width={150} height={150} />
+              <h3>Multi-Unit Residential</h3>
+              <p>Apartments, condos and other MURBs.</p>
+              <Link href="/multiunitresidential">Learn more &nbsp; &gt;</Link>
+            </div>
+
+            <div className="industry-cards-content">
+              <Image
+                src={Workplace}
+                className="mb-3"
+                width={150}
+                height={150}
+              />
+              <h3>Workplace</h3>
+              <p>Corporate, government and other office buildings.</p>
+              <Link href="/workplace">Learn more &nbsp; &gt;</Link>
+            </div>
+
+            <div className="industry-cards-content">
+              <Image src={Public} className="mb-3" width={150} height={150} />
+              <h3>Public</h3>
+              <p>Retail, parking, and other public spaces.</p>
+              <Link href="/public">Learn more &nbsp; &gt;</Link>
+            </div>
+
+            <div className="industry-cards-content">
+              <Image src={Fleet} className="mb-3" width={150} height={150} />
+              <h3>Fleet</h3>
+              <p>Transit, ride-hailing, and delivery fleets.</p>
+              <Link href="/fleet">Learn more &nbsp; &gt;</Link>
+            </div>
+
           </div>
         </div>
         <div className="col-lg-12 hidden-sm hidden-xs hidden-md">
@@ -320,9 +363,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
-        <AutoPlay/>
-        
+
+        <AutoPlay />
+
         <div class="bottom-cta">
           <div class="bottom-overlay"></div>
           <div class="bottom-cta-text">
