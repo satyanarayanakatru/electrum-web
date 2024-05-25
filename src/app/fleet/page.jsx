@@ -7,7 +7,7 @@ import pageTest3 from "../../../public/images/page-test3.svg";
 import EndToEnd  from "../../components/endtoend";
 import SomeOfOurProjects  from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "./page.css";
+import '../singlefamilyresidential/page.css';
 
 // eslint-disable-next-line react/display-name
 export default function () {
@@ -27,7 +27,7 @@ export default function () {
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-one"></div>
+        <div class="featured-img-div car-four"></div>
       </div>
       <div className="page-info-icons">
         <div className="icon-div">

@@ -6,11 +6,11 @@ import "./page.css";
 import HomeSlider from "../../../public/images/home-slider2.png";
 import WhitePoly from "../../../public/images/white-poly.png";
 import BluePoly from "../../../public/images/blue-poly.png";
-import CardImage from "../../../public/images/card-image1.png";
-import CardImage2 from "../../../public/images/card-image2.png";
-import CardImage3 from "../../../public/images/card-image3.png";
-import CardImage4 from "../../../public/images/card-image4.png";
-import CardImage5 from "../../../public/images/card-image5.png";
+import Single from "../../../public/images/single.svg";
+import Multi from "../../../public/images/multi.svg";
+import Workplace from "../../../public/images/workplace.svg";
+import Fleet from "../../../public/images/fleet.svg";
+import Public from "../../../public/images/public.svg";
 import SmartImage from "../../../public/images/SE-1.png";
 import SmartImage2 from "../../../public/images/SE-2.png";
 import SmartImage3 from "../../../public/images/SE-3.png";
@@ -30,13 +30,13 @@ export default function Home() {
     <div>
       <div className="electrum-page">
         <div className="electrum-banner electrum-home">
-          <div className="home-overlay top-overlay"></div>
+          <div className="home-overlay top-overlay-home"></div>
           <div className="home-banner-text">
             <div className="text-center">
-              <h1>Driving the global e-mobility revolution</h1>
+            
+              <h1>Cutting-Edge EV Charging and Energy Management Software</h1>
               <p>
-                We provide end-to-end solutions for EV charging infrastructure
-                and energy management.
+              Leading the Way in EV Charging and Energy Optimization
               </p>
               <Link href="/contact" className="home-cta-btn">
                 Get Started
@@ -60,13 +60,13 @@ export default function Home() {
                   <div className="card-info">
                     <div className="image-div">
                       <Image
-                        src={CardImage}
-                        className="m-0"
+                        src={Single}
+                        className="mb-3"
                         width={150}
                         height={150}
                       />
                     </div>
-                    <h3 className="pt-6">Residential</h3>
+                    <h3>Single Residential</h3>
                     <p>Single-family detached and semi-detached houses.</p>
                   </div>
                   <div className="card-link ">
@@ -81,8 +81,8 @@ export default function Home() {
                   <div className="card-info">
                     <div className="image-div">
                       <Image
-                        src={CardImage2}
-                        className="m-1"
+                        src={Multi}
+                        className="mb-3"
                         width={150}
                         height={150}
                       />
@@ -104,7 +104,7 @@ export default function Home() {
                   <div className="card-info">
                     <div className="image-div">
                       <Image
-                        src={CardImage3}
+                        src={Workplace}
                         className="mb-3"
                         width={150}
                         height={150}
@@ -123,9 +123,9 @@ export default function Home() {
                   <div className="card-info">
                     <div className="image-div">
                       <Image
-                        src={CardImage5}
-                        className="mb-4"
-                        width={160}
+                        src={Public}
+                        className="mb-3"
+                        width={150}
                         height={150}
                       />
                     </div>
@@ -142,8 +142,8 @@ export default function Home() {
                   <div className="card-info">
                     <div className="image-div">
                       <Image
-                        src={CardImage4}
-                        className="mb-5"
+                        src={Fleet}
+                        className="mb-3"
                         width={150}
                         height={150}
                       />

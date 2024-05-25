@@ -5,7 +5,7 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd  from "../../components/endtoend";
 import SomeOfOurProjects  from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "./page.css";
+import '../singlefamilyresidential/page.css';
 
 export default function MultiUnitResidential  () {
   return (

@@ -1,5 +1,5 @@
-import Footer from "../../components/footer";
-import Navbar from "../../components/navbar";
+import Footer from "../../moderncomponents/footer";
+import Navbar from "../../moderncomponents/navbar";
 
 export default function HomeLayout({ children }) {
   return (

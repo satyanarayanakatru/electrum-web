@@ -1,0 +1,17 @@
+.contact-button{
+    text-transform: uppercase;
+    background-color: aqua;
+    color: #fff;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.contact-button:hover{
+    background-color: #33526f;
+}
+.modal-dialog{
+    max-width: 50%;
+}

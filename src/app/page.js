@@ -1,7 +1,8 @@
 import React from "react";
 import Home from "./home/page";
-import Navbar from "@/modrencomponents/navbar";
-import Footer from "@/modrencomponents/footer";
+import Navbar from "@/moderncomponents/navbar";
+import Footer from "@/moderncomponents/footer";
+
 
 
 export default function LandingPage() {

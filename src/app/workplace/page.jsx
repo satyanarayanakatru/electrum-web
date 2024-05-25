@@ -5,7 +5,7 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch  from "../../components/getintouch";
-import "./page.css";
+import '../singlefamilyresidential/page.css';
 
 
 export default function WorkPlace ()  {
@@ -26,8 +26,7 @@ export default function WorkPlace ()  {
           </div>
         </div>
         <div
-          class="featured-img-div car-second"
-        //   style={{ backgroundImage: `url(./multires-banner.png)` }}
+          class="featured-img-div car-five"
         ></div>
       </div>
       <div className="page-info-icons">

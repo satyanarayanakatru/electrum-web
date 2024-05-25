@@ -5,7 +5,7 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "./page.css";
+import '../singlefamilyresidential/page.css';
 
 export default function Public() {
   return (
@@ -24,7 +24,7 @@ export default function Public() {
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-one"></div>
+        <div class="featured-img-div car-three"></div>
       </div>
       <div className="page-info-icons">
         <div className="icon-div">

@@ -1,5 +1,6 @@
-import Footer from "../../components/footer";
-import Navbar from "../../components/navbar";
+
+import Navbar from "../../moderncomponents/navbar";
+import Footer from "../../moderncomponents/footer";
 
 export default function SingleFamilyUnitLayout({ children }) {
   return (

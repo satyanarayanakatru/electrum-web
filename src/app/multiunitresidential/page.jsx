@@ -5,7 +5,7 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "./page.css";
+import '../singlefamilyresidential/page.css';
 
 export default function MultiUnitResidential  () {
   return (
@@ -26,7 +26,7 @@ export default function MultiUnitResidential  () {
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-second" 
+        <div class="featured-img-div car-two" 
         ></div>
       </div>
       <div className="page-info-icons">
