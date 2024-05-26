@@ -11,7 +11,7 @@
 .banner-overlay {
   height: auto;
   min-height: 658px;
-  background-image: url(../../../public/images/page-banner-geometry.svg);
+  background-image: url(../../../public/images/ElectrumImage.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -32,39 +32,38 @@
   position: relative;
   bottom: -271.5px;
 }
-.page-banner-text {
+.about-banner-text {
   z-index: 2;
   width: 100%;
   text-align: center;
   position: relative;
   top: 120px;
 }
-.page-banner-text .banner-title {
+.about-banner-text .banner-title {
   width: 80%;
   margin: 0 auto 30px auto;
   text-align: center;
 }
-.page-banner-text .banner-title h1 {
+.about-banner-text .banner-title h1 {
   font-size: 56px;
   font-weight: 700;
-  color: #fff;
+  color: #394a62;
   margin: 0;
 }
-.page-banner-text .banner-text {
+.about-banner-text .banner-text {
   width: 35%;
   margin: 0 auto;
   text-align: center;
 }
-.page-banner-text .banner-text p {
+.about-banner-text .banner-text p {
   font-size: 24px;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   margin: 0;
 }
 .electrum-about .our-story {
   background: #fff;
   max-height: 500px;
-  margin-top: 271.5px;
 }
 .electrum-about .our-story .our-story-container {
   position: relative;
@@ -77,14 +76,14 @@
 }
 .electrum-about .our-story .our-story-container .story-info h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 56px;
   color: #394a62;
   margin-bottom: 45px;
 }
 .electrum-about .our-story .our-story-container .story-info p {
   font-weight: 300;
-  font-size: 18px;
-  color: #333;
+  font-size: 19px;
+  color: #000;
   margin-bottom: 15px;
 }
 .electrum-about .our-story .our-story-container .story-imgs {
@@ -321,7 +320,8 @@
   width: 50%;
   max-height: 600px;
   margin: 0 auto;
-  margin-top: 25%;
+  margin-top: 10%;
+  text-align: center;
 }
 
 .electrum-about .our-story .our-story-container {

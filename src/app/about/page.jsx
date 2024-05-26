@@ -2,37 +2,32 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "./About.css";
-import About1 from '../../../public/images/about1.png';
-import About2 from '../../../public/images/about2.png';
-import Quote from '../../../public/images/quote.png';
-import AboutIcon1 from '../../../public/images/about-icon1.svg';
-import AboutIcon2 from '../../../public/images/about-icon2.svg';
-import AboutIcon3 from '../../../public/images/about-icon3.svg';
-import AboutIcon4 from '../../../public/images/about-icon4.svg';
+import About1 from "../../../public/images/about1.png";
+import About2 from "../../../public/images/about2.png";
+import Quote from "../../../public/images/quote.png";
+import AboutIcon1 from "../../../public/images/about-icon1.svg";
+import AboutIcon2 from "../../../public/images/about-icon2.svg";
+import AboutIcon3 from "../../../public/images/about-icon3.svg";
+import AboutIcon4 from "../../../public/images/about-icon4.svg";
 
- 
 export default function About() {
   return (
     <div>
       <div className="electrum-about">
         <div className="electrum-banner page-banner">
           <div className="banner-overlay"></div>
-          <div className="page-banner-text">
-            <div className="banner-title">
-              <h1>About us</h1>
-            </div>
-            <div className="banner-text">
-              <p>
-                Electrum provides end-to-end electric mobility solutions
-                tailored to your needs, from planning, installation, to
-                software.
-              </p>
-            </div>
-          </div>
-
-          <div className="featured-img-div"></div>
         </div>
-
+        <div className="about-banner-text">
+          <div className="banner-title">
+            <h1>About us</h1>
+          </div>
+          <div className="banner-text">
+            <p>
+              Electrum provides end-to-end electric mobility solutions tailored
+              to your needs, from planning, installation, to software.
+            </p>
+          </div>
+        </div>
         <div className="our-story">
           <div className="our-story-container">
             <div className="story-info">
@@ -53,14 +48,14 @@ export default function About() {
               </p>
             </div>
             <div className="story-imgs">
-                <Image src={About1} className="story-inner-img"/>
-                <Image src={About2} className="story-inner-img"/>
+              <Image src={About1} className="story-inner-img" />
+              <Image src={About2} className="story-inner-img" />
             </div>
           </div>
         </div>
         <div className="quotes-info">
           <div className="info-div">
-                <Image src={Quote}/>
+            <Image src={Quote} />
             <div className="info">
               <p>
                 We empower our customers by providing solutions that allow for
@@ -78,7 +73,7 @@ export default function About() {
           <div className="icons">
             <div className="icon-div">
               <div>
-                <Image src={AboutIcon1}/>
+                <Image src={AboutIcon1} />
               </div>
               <div>
                 <h3>Technical experts</h3>
@@ -90,7 +85,7 @@ export default function About() {
             </div>
             <div className="icon-div">
               <div>
-              <Image src={AboutIcon2}/>
+                <Image src={AboutIcon2} />
               </div>
               <div>
                 <h3>Cost Recovery & ROI</h3>
@@ -102,7 +97,7 @@ export default function About() {
             </div>
             <div className="icon-div">
               <div>
-              <Image src={AboutIcon3}/>
+                <Image src={AboutIcon3} />
               </div>
               <div>
                 <h3>Support driven</h3>
@@ -114,7 +109,7 @@ export default function About() {
             </div>
             <div className="icon-div">
               <div>
-              <Image src={AboutIcon4}/>
+                <Image src={AboutIcon4} />
               </div>
               <div>
                 <h3>Proven track record</h3>
@@ -141,21 +136,14 @@ export default function About() {
             <div className="about-bottom-links">
               <a href="">
                 BC’s EV charger rebate program
-                <span className="ml-8">
-                    &gt;
-                </span>
+                <span className="ml-8">&gt;</span>
               </a>
               <a href="">
                 Canada’s ZEV infrastructure program{" "}
-                <span className="ml-8">
-                  &gt;
-                </span>
+                <span className="ml-8">&gt;</span>
               </a>
               <a href="">
-                Incentives - Plug In BC{" "}
-                <span className="ml-8">
-                 &gt;
-                </span>
+                Incentives - Plug In BC <span className="ml-8">&gt;</span>
               </a>
             </div>
           </div>

@@ -11,3 +11,9 @@
 .slider-content p{
     font-size: 25px;
 }
+.caption{
+  display: none;
+}
+.caption h3,.caption p{
+  color: #000;
+}
