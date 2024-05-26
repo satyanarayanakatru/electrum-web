@@ -23,24 +23,25 @@ import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
 import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
 import AutoPlay from "../../components/slider";
+import BannerSlider from "./BannerSlider";
 
 export default function Home() {
   return (
     <div>
+
       <div className="electrum-page">
-        <div className="electrum-banner electrum-home">
+      <BannerSlider/>
+
+        {/* <div className="electrum-banner electrum-home">
           <div className="home-overlay top-overlay-home"></div>
           <div className="home-banner-text">
             <div className="text-center">
               <h1>Cutting-Edge EV Charging and Energy Management Software</h1>
-              <p>Leading the Way in EV Charging and Energy Optimization</p>
-              <Link href="/contact" className="home-cta-btn">
-                Get Started
-              </Link>
+              <h2>Leading the Way in EV Charging and Energy Optimization</h2>
             </div>
           </div>
-        </div>
-        <div className="electrum-industry-cards">
+        </div> */}
+        {/* <div className="electrum-industry-cards">
           <div className="card-container">
             <div className="inner-card-container card-inner-content d-flex align-items-center">
               <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card title-card">
@@ -154,52 +155,54 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="industry-cards">
-          <h2>Industries we electrify</h2>
-          <div className="d-flex justify-between">
-            <div className="industry-cards-content">
-              <Image src={Single} className="mb-3" width={150} height={150} />
-              <h3>Single Residential</h3>
-              <p>Single-family detached and semi-detached houses.</p>
-              <Link href="/singlefamilyresidential">
-                Learn more &nbsp; &gt;
-              </Link>
-            </div>
+        </div> */}
+        <div className="industry-card-main-content">
+          <div className="industry-card-bg-image"></div>
+          <div className="industry-cards">
+            <h2>Industries we electrify</h2>
+            <div className="d-flex justify-between">
+              <div className="industry-cards-content">
+                <Image src={Single} className="mb-3" width={150} height={150} />
+                <h3>Single Residential</h3>
+                <p>Single-family detached and semi-detached houses.</p>
+                <Link href="/singlefamilyresidential">
+                  Learn more &nbsp; &gt;
+                </Link>
+              </div>
 
-            <div className="industry-cards-content">
-              <Image src={Multi} className="mb-3" width={150} height={150} />
-              <h3>Multi-Unit Residential</h3>
-              <p>Apartments, condos and other MURBs.</p>
-              <Link href="/multiunitresidential">Learn more &nbsp; &gt;</Link>
-            </div>
+              <div className="industry-cards-content">
+                <Image src={Multi} className="mb-3" width={150} height={150} />
+                <h3>Multi-Unit Residential</h3>
+                <p>Apartments, condos and other MURBs.</p>
+                <Link href="/multiunitresidential">Learn more &nbsp; &gt;</Link>
+              </div>
 
-            <div className="industry-cards-content">
-              <Image
-                src={Workplace}
-                className="mb-3"
-                width={150}
-                height={150}
-              />
-              <h3>Workplace</h3>
-              <p>Corporate, government and other office buildings.</p>
-              <Link href="/workplace">Learn more &nbsp; &gt;</Link>
-            </div>
+              <div className="industry-cards-content">
+                <Image
+                  src={Workplace}
+                  className="mb-3"
+                  width={150}
+                  height={150}
+                />
+                <h3>Workplace</h3>
+                <p>Corporate, government and other office buildings.</p>
+                <Link href="/workplace">Learn more &nbsp; &gt;</Link>
+              </div>
 
-            <div className="industry-cards-content">
-              <Image src={Public} className="mb-3" width={150} height={150} />
-              <h3>Public</h3>
-              <p>Retail, parking, and other public spaces.</p>
-              <Link href="/public">Learn more &nbsp; &gt;</Link>
-            </div>
+              <div className="industry-cards-content">
+                <Image src={Public} className="mb-3" width={150} height={150} />
+                <h3>Public</h3>
+                <p>Retail, parking, and other public spaces.</p>
+                <Link href="/public">Learn more &nbsp; &gt;</Link>
+              </div>
 
-            <div className="industry-cards-content">
-              <Image src={Fleet} className="mb-3" width={150} height={150} />
-              <h3>Fleet</h3>
-              <p>Transit, ride-hailing, and delivery fleets.</p>
-              <Link href="/fleet">Learn more &nbsp; &gt;</Link>
+              <div className="industry-cards-content">
+                <Image src={Fleet} className="mb-3" width={150} height={150} />
+                <h3>Fleet</h3>
+                <p>Transit, ride-hailing, and delivery fleets.</p>
+                <Link href="/fleet">Learn more &nbsp; &gt;</Link>
+              </div>
             </div>
-
           </div>
         </div>
         <div className="col-lg-12 hidden-sm hidden-xs hidden-md">

@@ -26,7 +26,7 @@ export default function WorkPlace ()  {
           </div>
         </div>
         <div
-          class="featured-img-div car-five"
+          class="featured-img-div car-workplace"
         ></div>
       </div>
       <div className="page-info-icons">

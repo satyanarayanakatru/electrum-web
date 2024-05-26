@@ -10,9 +10,9 @@
 }
 .process-div .process-bottom-arrow-div {
   position: absolute;
-  bottom: -30px;
+  bottom: -10px;
   width: 50%;
-  left: 50%;
+  left: 51%;
 }
 .process-div h2 {
   font-size: 40px;
@@ -35,7 +35,6 @@
   color: #394a62;
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: 45px;
 }
 .process-div .process-card-div .card-container {
   display: flex;
@@ -45,8 +44,8 @@
   position: relative;
 }
 .process-div .process-card-div .card-container .process-card {
-  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin-top: 8%;
 }
 .process-div .process-card-div .card-container .process-card .process-img-div,
 .process-div .process-card-div .card-container .process-card .process-info {
@@ -54,10 +53,6 @@
   width: 150px;
 }
 .process-div .process-card-div .card-container .process-card .process-img-div {
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding: 15px;
   position: relative;
 }
 .process-div
@@ -72,15 +67,17 @@
   transform: translate(-50%, -50%);
 }
 .process-div .process-card-div .card-container .process-card .process-info {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  color: #fff;
-  background: #394a62;
   padding: 15px;
+  margin-top: 22px;
 }
 .process-div .process-card-div .card-container .process-card .process-info p {
   font-weight: 700;
   font-size: 16px;
+}
+.process-arrow{
+  /* position: absolute;
+    top: 20%;
+    left: 20% */
 }
 
 @media screen and (max-width: 1200px) {

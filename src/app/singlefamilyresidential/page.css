@@ -31,25 +31,25 @@
   position: relative;
   bottom: -271.5px;
 }
-.car-one,.car-two,.car-three,.car-four,.car-five{
-  background-image: url(../../../public/images/car-one.JPEG);
+.car-single,.car-multi,.car-workplace,.car-public,.car-fleet{
+  background-image: url(../../../public/images/car-single.jpg);
   width: 80%;
   height: 800px;
   position: absolute;
     top: 60%;
     left: 10%;
 }
-.car-two{
-  background-image: url(../../../public/images/car-two.jpg);
+.car-multi{
+  background-image: url(../../../public/images/car-multi.jpg);
 }
-.car-three{
-  background-image: url(../../../public/images/car-three.jpeg);
+.car-public{
+  background-image: url(../../../public/images/car-public.jpg);
 }
-.car-four{
-  background-image: url(../../../public/images/car-four.jpg);
+.car-workplace{
+  background-image: url(../../../public/images/car-workplace.jpeg);
 }
-.car-five{
-  background-image: url(../../../public/images/car-five.jpg);
+.car-fleet{
+  background-image: url(../../../public/images/car-fleet.jpg);
 }
 
 .page-banner-text {

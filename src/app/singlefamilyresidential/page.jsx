@@ -26,7 +26,7 @@ export default function SingleFamilyResidential() {
             </div>
           </div>
           <div 
-            class="featured-img-div car-one"
+            class="featured-img-div car-single"
           >
           </div>
         </div>

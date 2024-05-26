@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import processTest1 from "../../public/images/process-test1.svg";
+import Process from "../../public/images/process.svg";
+import Installation from "../../public/images/installation.svg";
+import Energy from "../../public/images/energy.svg";
+import Billing from "../../public/images/billing.svg";
+import Maintenance from "../../public/images/maintenance.svg";
 import processArrow from "../../public/images/process-arrow.svg";
-import processTest2 from "../../public/images/process-test2.svg";
-import processTest3 from "../../public/images/process-test3.svg";
-import processTest4 from "../../public/images/process-test4.svg";
-import processTest5 from "../../public/images/process-test5.svg";
 import processBottomArrow from "../../public/images/process-bottom-arrow.svg";
 import './endtoend.css'
 
@@ -18,7 +18,7 @@ const EndToEnd = () => {
           <div className="card-container">
             <div className="process-card">
               <div className="process-img-div">
-                <Image src={processTest1} className="process-img" />
+                <Image src={Process} className="process-img" />
               </div>
               <div className="process-info">
                 <p>1. Process & Design</p>
@@ -34,7 +34,7 @@ const EndToEnd = () => {
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image className="process-img" src={processTest2} />
+                <Image className="process-img" src={Installation} />
               </div>
               <div className="process-info">
                 <p>2. Installation</p>
@@ -44,7 +44,7 @@ const EndToEnd = () => {
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image className="process-img" src={processTest3} />
+                <Image className="process-img" src={Energy} />
               </div>
               <div className="process-info">
                 <p>3. Energy Management</p>
@@ -55,7 +55,7 @@ const EndToEnd = () => {
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image src={processTest4} className="process-img" />
+                <Image src={Billing} className="process-img" />
               </div>
               <div className="process-info">
                 <p>4. Access & Billing</p>
@@ -66,11 +66,7 @@ const EndToEnd = () => {
 
             <div className="process-card">
               <div className="process-img-div">
-                <img
-                  className="process-img"
-                  src="assets/plugins/nodebb-theme-electrum/images/process-test5.svg"
-                />
-                <Image src={processTest5} className="process-img" />
+                <Image src={Maintenance} className="process-img"/>
               </div>
               <div className="process-info">
                 <p>5. Monitoring and Maintenance</p>
