@@ -1,6 +1,6 @@
 footer{
     padding: 50px;
-    background-color: #33526f;
+    background-color: #000103;
     color: #fff;
     font-family: 'Trebuchet MS';
     position: relative;
@@ -102,8 +102,8 @@ footer{
 
 
 .e-logo{
-    width: 160px;
+    width: 75px;
     position: absolute;
-    left: 1%;
-    top: 10%
+    left: 7%;
+    top: 6%;
 }

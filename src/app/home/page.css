@@ -1,4 +1,3 @@
-
 .home-cta-btn {
   border-radius: 6px;
   text-transform: uppercase;
@@ -39,7 +38,7 @@
 .home-overlay.top-overlay .home-overlay-img {
   height: 658px;
 }
-.home-overlay.top-overlay-home{
+.home-overlay.top-overlay-home {
   display: none;
 }
 .home-banner.industry-banner {
@@ -57,8 +56,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-    height: 100vh;
-    overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 .electrum-home .home-banner {
   max-height: 658px;
@@ -75,7 +74,7 @@
   z-index: 2;
   position: absolute;
   top: 25%;
-  left: 0%
+  left: 0%;
 }
 .electrum-home .home-banner-text div {
   width: 40%;
@@ -83,13 +82,12 @@
 .electrum-home .home-banner-text h1,
 .electrum-home .home-banner-text h2 {
   color: #33526f;
-  
+
   /* color: #000; */
 }
 .electrum-home .home-banner-text h1 {
   margin-bottom: 75px;
   text-align: center;
-  
 }
 .electrum-home .home-banner-text h2 {
   text-align: center;
@@ -97,18 +95,18 @@
   margin-bottom: 45px;
   font-weight: 700;
 }
-.industry-card-main-content{
+.industry-card-main-content {
   position: relative;
 }
-.industry-card-bg-image{
+.industry-card-bg-image {
   background-image: url(../../../public//images//homepage-geometry1.png);
-  position: absolute; 
+  position: absolute;
   background-repeat: no-repeat;
   background-position-x: center;
   width: 100%;
   z-index: 1;
   top: -19%;
-    height: 88px;
+  height: 88px;
 }
 .electrum-industry-cards {
   position: relative;
@@ -127,7 +125,6 @@
   z-index: 2;
   width: 60%;
   position: relative;
-  
 }
 .electrum-industry-cards .card-container .industry-card.title-card .inner-card {
   background: #394a62;
@@ -233,8 +230,8 @@
 .card-link a {
   text-decoration: none;
 }
-.planning-info-inner-content{
-  background-image: url(../../../public/images/planning.jpg);
+.planning-info-inner-content {
+  background-image: url(../../../public/images/planning.png);
   width: 100%;
   height: 800px;
   background-repeat: no-repeat;
@@ -251,20 +248,20 @@
   font-family: sans-serif;
 }
 .planning-info h2 {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: bolder;
 }
 .planning-info h5 {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 43px;
+  font-weight: bolder;
   margin: 30px 0;
   text-transform: uppercase;
 }
 .planning-info p {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 33px;
+  font-weight: bolder;
 }
-.planning-info-right-content{
+.planning-info-right-content {
   background-image: url(../../../public/images/single-banner.jpg);
   width: 50%;
   height: 800px;
@@ -307,7 +304,7 @@
 .process-info-container {
   margin-left: 10%;
 }
-.smart-energy-content{
+.smart-energy-content {
   margin-right: 10px;
 }
 .smart-energy-content img {
@@ -374,7 +371,12 @@
   width: 80%;
   margin: 0 auto;
 }
-.electrum-industry-cards .card-container .industry-card .inner-card .card-info p{
+.electrum-industry-cards
+  .card-container
+  .industry-card
+  .inner-card
+  .card-info
+  p {
   font-weight: 300;
   margin-top: 15px;
 }
@@ -383,7 +385,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  
 }
 .bottom-cta .bottom-overlay {
   left: 0;
@@ -412,51 +413,48 @@
   margin-bottom: 45px;
 }
 
-.col-lg-3{
+.col-lg-3 {
   width: 22%;
 }
 
-.industry-cards{
+.industry-cards {
   text-align: center;
   background-color: #e9f5f6;
   padding-bottom: 50px;
 }
-.industry-cards h2{
+.industry-cards h2 {
   font-size: 50px;
   padding: 30px 0;
   font-weight: 700;
 }
-.industry-cards img{
+.industry-cards img {
   margin: 0 auto;
 }
-.industry-cards-content{
+.industry-cards-content {
   margin: 0 20px;
-
 }
-.industry-cards-content h3{
+.industry-cards-content h3 {
   font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #394a62;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #394a62;
 }
-.industry-cards-content p{
-    margin: 15px 0;
-    font-size: 16px;
+.industry-cards-content p {
+  margin: 15px 0;
+  font-size: 16px;
 }
-.industry-cards-content a{
+.industry-cards-content a {
   color: #03488d;
 }
-.smart-inner-content{
+.smart-inner-content {
   padding-bottom: 30px;
 }
 
-
-
 @media screen and (max-width: 1450px) {
-    .electrum-industry-cards .card-container .industry-card.title-card h2 {
-      font-size: 42px;
-    }
+  .electrum-industry-cards .card-container .industry-card.title-card h2 {
+    font-size: 42px;
   }
+}
 
 @media screen and (max-width: 1200px) {
   .electrum-industry-cards {
@@ -495,20 +493,20 @@
   }
 }
 @media screen and (max-width: 980px) {
-    .electrum-industry-cards {
-      min-height: 1200px;
-    }
-    .electrum-industry-cards .card-container .inner-card-container {
-      display: block !important;
-    }
-    .card-inner-content,.smart-inner-content{
-        display: block !important;
-    }
-    .insights-div{
-        min-height: 1000px;
-    }
-  } 
-  
+  .electrum-industry-cards {
+    min-height: 1200px;
+  }
+  .electrum-industry-cards .card-container .inner-card-container {
+    display: block !important;
+  }
+  .card-inner-content,
+  .smart-inner-content {
+    display: block !important;
+  }
+  .insights-div {
+    min-height: 1000px;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .electrum-stats {
@@ -589,4 +587,3 @@
     width: 80%;
   }
 }
-

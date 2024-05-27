@@ -6,6 +6,7 @@ import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import "../singlefamilyresidential/page.css";
+import PublicProject from "./public-project";
 
 export default function Public() {
   return (
@@ -101,7 +102,7 @@ export default function Public() {
         </div>
       </div>
       <EndToEnd />
-      <SomeOfOurProjects />
+      <PublicProject/>
       <GetInTouch />
     </div>
   );

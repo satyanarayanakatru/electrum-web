@@ -36,11 +36,7 @@ export default function navItems(props) {
             <Link href="/casestudies" className="hover:text-cyan-500">Case Studies</Link>
           </li>
 
-          <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <Link href="/support" className="hover:text-cyan-500">
-              Support
-            </Link>
-          </li>
+         
 
           <li onMouseEnter={hide} className="d-inline-block ml-8">
             <Link href="/contact" className="hover:text-cyan-500">

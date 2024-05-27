@@ -6,6 +6,7 @@ import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import "../singlefamilyresidential/page.css";
+import WorkplaceProject from "./workplace-project";
 
 export default function WorkPlace() {
   return (
@@ -101,7 +102,7 @@ export default function WorkPlace() {
         </div>
       </div>
       <EndToEnd />
-      <SomeOfOurProjects />
+      <WorkplaceProject/>
       <GetInTouch />
     </div>
   );

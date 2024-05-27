@@ -1,0 +1,36 @@
+.public-project{
+    padding: 50px 0;
+}
+.public-project-inner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    padding: 20px 0;
+}
+.project-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #394a62;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.project-inner-heading{
+    color: #394a62;
+}
+.public-left-content{
+    width: 50%;
+    font-size: 22px;
+    margin-right: 37px;
+}
+.public-left-content ul li{
+    list-style-type: square;
+    margin-top: 20px;
+}
+.chargers{
+    color: #212529;
+    font-weight: 300;
+}
+.public-image{
+    width: 750px;
+}

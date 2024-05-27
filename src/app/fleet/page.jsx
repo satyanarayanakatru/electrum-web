@@ -8,6 +8,7 @@ import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import "../singlefamilyresidential/page.css";
+import FleetProjects from "./fleetprojects";
 
 // eslint-disable-next-line react/display-name
 export default function () {
@@ -100,7 +101,7 @@ export default function () {
         </div>
       </div>
       <EndToEnd />
-      <SomeOfOurProjects />
+      <FleetProjects/>
       <GetInTouch />
     </div>
   );

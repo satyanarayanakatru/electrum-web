@@ -6,6 +6,7 @@ import SomeOfOurProjects from "../../components/someofourprojects";
 import EndToEnd from "../../components/endtoend";
 import GetInTouch from "../../components/getintouch";
 import "./page.css";
+import SingleProject from "./single-project";
 
 export default function SingleFamilyResidential() {
   return (
@@ -102,7 +103,7 @@ export default function SingleFamilyResidential() {
           </div>
         </div>
         <EndToEnd />
-        <SomeOfOurProjects />
+        <SingleProject/>
         <GetInTouch />
       </div>
     </div>
