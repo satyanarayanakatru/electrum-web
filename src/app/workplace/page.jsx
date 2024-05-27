@@ -4,11 +4,10 @@ import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
-import GetInTouch  from "../../components/getintouch";
-import '../singlefamilyresidential/page.css';
+import GetInTouch from "../../components/getintouch";
+import "../singlefamilyresidential/page.css";
 
-
-export default function WorkPlace ()  {
+export default function WorkPlace() {
   return (
     <div>
       <div className="electrum-banner page-banner">
@@ -19,15 +18,14 @@ export default function WorkPlace ()  {
           </div>
           <div className="banner-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
+              We conduct thorough evaluations of your workplace to determine the
+              optimal locations for EV chargers. Our team handles everything
+              from design to installation, ensuring a seamless setup of charging
+              stations.
             </p>
           </div>
         </div>
-        <div
-          class="featured-img-div car-workplace"
-        ></div>
+        <div class="featured-img-div car-workplace"></div>
       </div>
       <div className="page-info-icons">
         <div className="icon-div">
@@ -42,7 +40,8 @@ export default function WorkPlace ()  {
           <div className="page-icon-info-div">
             <h3>INCREASE VALUE</h3>
             <p>
-            Having EV charging increases the value of your building and attracts tenants.
+              Having EV charging increases the value of your building and
+              attracts tenants.
             </p>
           </div>
         </div>
@@ -59,7 +58,8 @@ export default function WorkPlace ()  {
           <div className="page-icon-info-div">
             <h3>RETAIN TALENT</h3>
             <p>
-            Being able to top off at work can be a key perk to attract and retain employees.
+              Being able to top off at work can be a key perk to attract and
+              retain employees.
             </p>
           </div>
         </div>
@@ -76,7 +76,8 @@ export default function WorkPlace ()  {
           <div className="page-icon-info-div">
             <h3>LOREM IPSUM</h3>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
             </p>
           </div>
         </div>
@@ -93,7 +94,8 @@ export default function WorkPlace ()  {
           <div className="page-icon-info-div">
             <h3>LOREM IPSUM</h3>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
             </p>
           </div>
         </div>
@@ -103,4 +105,4 @@ export default function WorkPlace ()  {
       <GetInTouch />
     </div>
   );
-};
+}

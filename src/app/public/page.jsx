@@ -5,7 +5,7 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import '../singlefamilyresidential/page.css';
+import "../singlefamilyresidential/page.css";
 
 export default function Public() {
   return (
@@ -18,9 +18,10 @@ export default function Public() {
           </div>
           <div className="banner-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
+              We design, deploy, and manage public charging stations to create
+              an accessible EV charging network. We work with local governments
+              and municipalities to support EV infrastructure deployment and
+              policy development.
             </p>
           </div>
         </div>
@@ -104,4 +105,4 @@ export default function Public() {
       <GetInTouch />
     </div>
   );
-};
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import Dropdown from "./dropdown";
+import Link from "next/link";
 
 export default function navItems(props) {
   const [isShow, setIsShow] = useState(false);
@@ -11,48 +12,46 @@ export default function navItems(props) {
   const hide = () => {
     setIsShow(false);
   };
+  
 
   return (
     <div>
       <div className="nav-bar-list">
         <ul>
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <a href="/" className="hover:text-cyan-500">
+            <Link href="/" className="hover:text-cyan-500">
               Home
-            </a>
+            </Link>
           </li>
 
           <button
-            onMouseEnter={show}
+            onMouseEnter={show} 
             className="hover:text-cyan-500  ml-8 sol-btn"
           >
-            Solutions
+            Services
             <Dropdown isVisible={isShow} />
           </button>
 
-          <li
-            onMouseEnter={hide}
-            className="d-inline-block ml-8 hover:text-cyan-500"
-          >
-            <a href="/chargingstations">Charging Stations</a>
+          <li onMouseEnter={hide} className="d-inline-block ml-8">
+            <Link href="/casestudies" className="hover:text-cyan-500">Case Studies</Link>
           </li>
 
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <a href="/support" className="hover:text-cyan-500">
+            <Link href="/support" className="hover:text-cyan-500">
               Support
-            </a>
+            </Link>
           </li>
 
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <a href="/contact" className="hover:text-cyan-500">
+            <Link href="/contact" className="hover:text-cyan-500">
               Contact
-            </a>
+            </Link>
           </li>
 
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <a href="/about" className="hover:text-cyan-500">
+            <Link href="/about" className="hover:text-cyan-500">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

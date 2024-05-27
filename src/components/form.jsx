@@ -1,5 +1,7 @@
 import React from "react";
-import './form.css'
+import "./form.css";
+import Link from "next/link";
+import CustomerSupport from "./customersupport";
 
 const Form = () => {
   return (
@@ -143,10 +145,7 @@ const Form = () => {
             <div className="form-group">
               <label className="col-sm-12">How did you hear about us?</label>
               <div className="col-sm-12">
-                <select
-                  className="select"
-                  name="leadsource"
-                >
+                <select className="select" name="leadsource">
                   <option value="social">Social media</option>
                   <option value="friend">From a friend</option>
                   <option value="website">On your website</option>
@@ -183,8 +182,20 @@ const Form = () => {
           </form>
         </div>
       </div>
+      <CustomerSupport/>
+
+      <div className="bottom-cta">
+        <div className="bottom-overlay"></div>
+        <div className="bottom-cta-text">
+          <h2>Embrace our EV future.</h2>
+          <Link href="/contact" class="home-cta-btn">
+            {" "}
+            Get started{" "}
+          </Link>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default Form;

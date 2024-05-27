@@ -4,16 +4,22 @@
 }
 .slider-content h3,
 .slider-content p {
-  font-weight: 700;
+  font-weight: bolder;
   color: #fff;
   font-size: 49px;
 }
-.slider-content p{
-    font-size: 25px;
+.carousel-caption {
+  width: 40%;
+  left: 0% !important;
+  top: 35%;
 }
-.caption{
+.slider-content p {
+  font-size: 25px;
+}
+.caption {
   display: none;
 }
-.caption h3,.caption p{
+.caption h3,
+.caption p {
   color: #000;
 }

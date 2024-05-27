@@ -3,8 +3,8 @@ import Image from "next/image";
 import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import SomeOfOurProjects from "../../components/someofourprojects";
-import EndToEnd  from "../../components/endtoend";
-import GetInTouch  from "../../components/getintouch";
+import EndToEnd from "../../components/endtoend";
+import GetInTouch from "../../components/getintouch";
 import "./page.css";
 
 export default function SingleFamilyResidential() {
@@ -20,15 +20,13 @@ export default function SingleFamilyResidential() {
             <div className="banner-text">
               <p>
                 We work with homeowners to assess their unique EV charging
-                requirements. With on-site consultation and training, we provide
-                safe and hassle-free charging solutions for all.
+                requirements and provide customized recommendations. With
+                on-site consultation and professional installation, we ensure
+                safe and efficient charging solutions.
               </p>
             </div>
           </div>
-          <div 
-            class="featured-img-div car-single"
-          >
-          </div>
+          <div class="featured-img-div car-single"></div>
         </div>
         <div className="page-info-icons">
           <div className="icon-div">
@@ -103,9 +101,9 @@ export default function SingleFamilyResidential() {
             </div>
           </div>
         </div>
-        <EndToEnd/>
-        <SomeOfOurProjects/>
-        <GetInTouch/>
+        <EndToEnd />
+        <SomeOfOurProjects />
+        <GetInTouch />
       </div>
     </div>
   );

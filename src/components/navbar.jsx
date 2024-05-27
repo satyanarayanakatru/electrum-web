@@ -4,7 +4,6 @@ import Image from "next/image";
 import NavItems from "./navItems";
 import Dropdown from "./dropdown";
 import './navbar.css';
-import Logo from '../../public/images/logo.svg'
 
 const Navbar = () => {
   function myFunction(x,y) {

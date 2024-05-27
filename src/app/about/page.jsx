@@ -134,17 +134,17 @@ export default function About() {
               EV ready.
             </p>
             <div className="about-bottom-links">
-              <a href="">
+              <Link href="">
                 BC’s EV charger rebate program
                 <span className="ml-8">&gt;</span>
-              </a>
-              <a href="">
+              </Link>
+              <Link href="">
                 Canada’s ZEV infrastructure program{" "}
                 <span className="ml-8">&gt;</span>
-              </a>
-              <a href="">
+              </Link>
+              <Link href="">
                 Incentives - Plug In BC <span className="ml-8">&gt;</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

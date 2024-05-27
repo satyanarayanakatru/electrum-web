@@ -1,24 +1,12 @@
 .page-banner.electrum-banner {
   position: relative;
-  background-image: url(../../../public/images/page-banner-background.png);
+  background-image: url(../../../public/images/blue-bg.jpg);
   width: 100%;
   height: auto;
   min-height: 658px;
   background-position-x: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.banner-overlay {
-  height: auto;
-  min-height: 658px;
-  background-image: url(../../../public/images/page-banner-geometry.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
 }
 
 
@@ -31,24 +19,28 @@
   position: relative;
   bottom: -271.5px;
 }
-.car-single,.car-multi,.car-workplace,.car-public,.car-fleet{
+.car-single,
+.car-multi,
+.car-workplace,
+.car-public,
+.car-fleet {
   background-image: url(../../../public/images/car-single.jpg);
   width: 80%;
   height: 800px;
   position: absolute;
-    top: 60%;
-    left: 10%;
+  top: 64%;
+  left: 10%;
 }
-.car-multi{
+.car-multi {
   background-image: url(../../../public/images/car-multi.jpg);
 }
-.car-public{
+.car-public {
   background-image: url(../../../public/images/car-public.jpg);
 }
-.car-workplace{
+.car-workplace {
   background-image: url(../../../public/images/car-workplace.jpeg);
 }
-.car-fleet{
+.car-fleet {
   background-image: url(../../../public/images/car-fleet.jpg);
 }
 
@@ -87,12 +79,12 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url(../../../public/images/bottom-geometry-mask.png);
+  background-image: url(../../../public/images/single-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   width: 100%;
-  height: 510px;
+  height: 800px;
 }
 .bottom-cta .bottom-overlay {
   position: absolute;
@@ -104,6 +96,7 @@
   background-position-x: center;
   width: 100%;
   height: 510px;
+  display: none !important;
 }
 .bottom-cta .bottom-cta-text {
   text-align: center;

@@ -5,7 +5,6 @@ import Image from "next/image";
 import "./footer.css";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -16,17 +15,17 @@ export default function Footer() {
           <div className="logo">
             <div>
               <a href="">
-                <Image src={Logo} width={38} height={100} />
+                <Image src={Logo} width={38} height={100} className="e-logo"/>
               </a>
             </div>
 
             <div>
               <a href="">
-                <Image src={Logo2} width={100} className="logo2" />
+                <Image src={Logo2} width={100} className="logo2 footerlogo" />
               </a>
             </div>
           </div>
-            <h2>EV Charging and Energy Management</h2>
+            <h2 className="footer-heading">EV Charging and Energy Management</h2>
           </div>
           <div className="footer-signup">
             <p>

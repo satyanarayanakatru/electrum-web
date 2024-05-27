@@ -5,9 +5,9 @@ function NavItems(props) {
   return (
     <div >
       <li className="d-inline-block ml-8">
-        <a href="/" className="hover:text-cyan-500">
+        <Link href="/" className="hover:text-cyan-500">
           Home
-        </a>
+        </Link>
       </li>
       <button onMouseOver={props.onMouseOver} className="hover:text-cyan-500  ml-8">
         Solutions

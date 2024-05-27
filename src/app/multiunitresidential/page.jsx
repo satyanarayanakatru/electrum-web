@@ -5,29 +5,27 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import '../singlefamilyresidential/page.css';
+import "../singlefamilyresidential/page.css";
 
-export default function MultiUnitResidential  () {
+export default function MultiUnitResidential() {
   return (
     <div>
       <div className="electrum-banner page-banner">
         <div className="banner-overlay"></div>
         <div className="page-banner-text">
           <div className="banner-title">
-            <h1>
-              Multiple-Unit Residential Buildings 
-            </h1>
+            <h1>Multiple-Unit Residential Buildings</h1>
           </div>
           <div className="banner-text">
             <p>
-              From retrofitting existing buildings to future-proofing new
-              constructions, we have extensive experience in installing EV
-              infrastructure that will meet any project requirements.
+              We tailor our services to meet the specific needs of multi-unit
+              residential properties, providing scalable solutions. Our
+              solutions include technology for tracking individual usage and
+              managing billing for multiple residents.
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-multi" 
-        ></div>
+        <div class="featured-img-div car-multi"></div>
       </div>
       <div className="page-info-icons">
         <div className="icon-div">
@@ -102,9 +100,9 @@ export default function MultiUnitResidential  () {
           </div>
         </div>
       </div>
-      <EndToEnd/>
-      <SomeOfOurProjects/>
-      <GetInTouch/>
+      <EndToEnd />
+      <SomeOfOurProjects />
+      <GetInTouch />
     </div>
   );
-};
+}

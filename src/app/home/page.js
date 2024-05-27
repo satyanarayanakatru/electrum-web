@@ -28,134 +28,9 @@ import BannerSlider from "./BannerSlider";
 export default function Home() {
   return (
     <div>
-
       <div className="electrum-page">
-      <BannerSlider/>
+        <BannerSlider />
 
-        {/* <div className="electrum-banner electrum-home">
-          <div className="home-overlay top-overlay-home"></div>
-          <div className="home-banner-text">
-            <div className="text-center">
-              <h1>Cutting-Edge EV Charging and Energy Management Software</h1>
-              <h2>Leading the Way in EV Charging and Energy Optimization</h2>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="electrum-industry-cards">
-          <div className="card-container">
-            <div className="inner-card-container card-inner-content d-flex align-items-center">
-              <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card title-card">
-                <div className="inner-card">
-                  <h2>
-                    Industries we electrify <br />
-                    <PiTildeBold />
-                  </h2>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card">
-                <div className="inner-card">
-                  <div className="card-info">
-                    <div className="image-div">
-                      <Image
-                        src={Single}
-                        className="mb-3"
-                        width={150}
-                        height={150}
-                      />
-                    </div>
-                    <h3>Single Residential</h3>
-                    <p>Single-family detached and semi-detached houses.</p>
-                  </div>
-                  <div className="card-link ">
-                    <Link href="/single-residential">
-                      Learn more &nbsp; &gt;
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card">
-                <div className="inner-card">
-                  <div className="card-info">
-                    <div className="image-div">
-                      <Image
-                        src={Multi}
-                        className="mb-3"
-                        width={150}
-                        height={150}
-                      />
-                    </div>
-                    <h3>Multi-Unit Residential</h3>
-                    <p>Apartments, condos and other MURBs.</p>
-                  </div>
-                  <div className="card-link">
-                    <Link href="/multi-residential">
-                      Learn more &nbsp; &gt;
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="inner-card-container card-inner-content d-flex">
-              <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card">
-                <div className="inner-card">
-                  <div className="card-info">
-                    <div className="image-div">
-                      <Image
-                        src={Workplace}
-                        className="mb-3"
-                        width={150}
-                        height={150}
-                      />
-                    </div>
-                    <h3>Workplace</h3>
-                    <p>Corporate, government and other office buildings.</p>
-                  </div>
-                  <div className="card-link">
-                    <Link href="/workplace">Learn more &nbsp; &gt;</Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card">
-                <div className="inner-card">
-                  <div className="card-info">
-                    <div className="image-div">
-                      <Image
-                        src={Public}
-                        className="mb-3"
-                        width={150}
-                        height={150}
-                      />
-                    </div>
-                    <h3>Public</h3>
-                    <p>Retail, parking, and other public spaces.</p>
-                  </div>
-                  <div className="card-link">
-                    <Link href="/public">Learn more &nbsp; &gt;</Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12 industry-card">
-                <div className="inner-card">
-                  <div className="card-info">
-                    <div className="image-div">
-                      <Image
-                        src={Fleet}
-                        className="mb-3"
-                        width={150}
-                        height={150}
-                      />
-                    </div>
-                    <h3>Fleet</h3>
-                    <p>Transit, ride-hailing, and delivery fleets.</p>
-                  </div>
-                  <div className="card-link">
-                    <Link href="/fleet">Learn more &nbsp; &gt;</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="industry-card-main-content">
           <div className="industry-card-bg-image"></div>
           <div className="industry-cards">
@@ -208,15 +83,11 @@ export default function Home() {
         <div className="col-lg-12 hidden-sm hidden-xs hidden-md">
           <div className="col-lg-12">
             <Image src={WhitePoly} className="poly-img poly-top" />
-            <div className="col-lg-12 d-flex align-items-center">
-              <div className="process-info process-info-container text-center">
-                <div className="col-lg-6 col-lg-offset-4 ">
-                  <h2 className="process-info-heading display-5 font-weight-bold">
-                    We're with you, every step of the way
-                  </h2>
-                </div>
-                <div className="step-info col-lg-6 col-lg-offset-4">
-                  <h5 className="font-weight-light">Planning & Design</h5>
+            <div className="process-info-content">
+              <div className="process-info-inner-content">
+                <div className="process-info">
+                  <h2>We're with you, every step of the way</h2>
+                  <h5>Planning & Design</h5>
                   <p>
                     The first phase of your journey with us begins with the
                     electrical planning and design. We’ll work with you to
@@ -227,11 +98,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="process-image">
-                <Image className="slider-image" src={HomeSlider} />
-              </div>
             </div>
-            <Image className="poly-img poly-bottom" src={BluePoly} />
           </div>
         </div>
         <div className="insights-div col-lg-12">
@@ -316,10 +183,6 @@ export default function Home() {
           </div>
         </div>
         <div className="col-lg-12 testimonials-div">
-          <Image
-            className="poly-img poly-top hidden-md visible-lg hidden-sm hidden-xs"
-            src={BluePolyReverse}
-          />
           <div className="advantage-div advantage-content col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 container p-50">
             <h2>The Electrum advantage</h2>
             <div className="d-flex justify-between">

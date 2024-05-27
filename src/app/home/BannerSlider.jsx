@@ -19,7 +19,7 @@ function BannerSlider() {
   };
 
   return (
-    <Carousel {...settings}>
+    <Carousel {...settings} className='carousel-banner'>
       <Carousel.Item>
         <Image src={Image1} text="First slide" className='img-slide'/>
         <Carousel.Caption className='slider-content'>

@@ -4,10 +4,10 @@ import Image from "next/image";
 import pageTest1 from "../../../public/images/page-test1.svg";
 import pageTest2 from "../../../public/images/page-test2.svg";
 import pageTest3 from "../../../public/images/page-test3.svg";
-import EndToEnd  from "../../components/endtoend";
-import SomeOfOurProjects  from "../../components/someofourprojects";
+import EndToEnd from "../../components/endtoend";
+import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import '../singlefamilyresidential/page.css';
+import "../singlefamilyresidential/page.css";
 
 // eslint-disable-next-line react/display-name
 export default function () {
@@ -21,9 +21,9 @@ export default function () {
           </div>
           <div className="banner-text">
             <p>
-              We work with homeowners to assess their unique EV charging
-              requirements. With on-site consultation and training, we provide
-              safe and hassle-free charging solutions for all.
+              We conduct detailed assessments to create a customized
+              electrification plan for your fleet. We design and install robust
+              charging infrastructure to support the demands of electric fleets.
             </p>
           </div>
         </div>
@@ -104,4 +104,4 @@ export default function () {
       <GetInTouch />
     </div>
   );
-};
+}
