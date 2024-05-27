@@ -83,9 +83,9 @@ export default function Home() {
         <div className="col-lg-12 hidden-sm hidden-xs hidden-md">
           <div className="col-lg-12">
             {/* <Image src={WhitePoly} className="poly-img poly-top" /> */}
-            <div className="process-info-content">
-              <div className="process-info-inner-content">
-                <div className="process-info">
+            <div className="planning-info-content">
+              <div className="planning-info-inner-content">
+                <div className="planning-info">
                   <h2>We're with you, every step of the way</h2>
                   <h5>Planning & Design</h5>
                   <p>

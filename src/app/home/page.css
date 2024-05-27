@@ -233,7 +233,7 @@
 .card-link a {
   text-decoration: none;
 }
-.process-info-inner-content{
+.planning-info-inner-content{
   background-image: url(../../../public/images/planning.jpg);
   width: 100%;
   height: 800px;
@@ -242,7 +242,7 @@
   background-size: cover;
   background-position: center;
 }
-.process-info {
+.planning-info {
   width: 90%;
   position: absolute;
   bottom: 4%;
@@ -250,21 +250,21 @@
   color: black;
   font-family: sans-serif;
 }
-.process-info h2 {
+.planning-info h2 {
   font-size: 40px;
   font-weight: 700;
 }
-.process-info h5 {
+.planning-info h5 {
   font-size: 30px;
   font-weight: 700;
   margin: 30px 0;
   text-transform: uppercase;
 }
-.process-info p {
+.planning-info p {
   font-size: 25px;
   font-weight: 700;
 }
-.process-info-right-content{
+.planning-info-right-content{
   background-image: url(../../../public/images/single-banner.jpg);
   width: 50%;
   height: 800px;
