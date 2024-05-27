@@ -153,7 +153,7 @@ export default function About() {
           <div className="bottom-overlay"></div>
           <div className="bottom-cta-text">
             <h2>Embrace our EV future.</h2>
-            <Link href="/contact" class="home-cta-btn">
+            <Link href="/contact" className="home-cta-btn">
               {" "}
               Get started{" "}
             </Link>

@@ -10,12 +10,12 @@ const SomeOfOurProjects = () => {
     <div>
         <div className="page-projects-div">
           <h2>Some of our projects</h2>
-          <div class="project-div">
-            <div class="project-images">
-              <Image src={ aboutImage } class="project-image"/>
-              <Image src={ aboutImage } class="project-image"/>
+          <div className="project-div">
+            <div className="project-images">
+              <Image src={ aboutImage } className="project-image"/>
+              <Image src={ aboutImage } className="project-image"/>
             </div>
-            <div class="project-info">
+            <div className="project-info">
               <h3>Lorem Ipsum</h3>
               <table>
                 <tbody>
@@ -57,8 +57,8 @@ const SomeOfOurProjects = () => {
             </div>
           </div>
 
-          <div class="project-div">
-            <div class="project-info">
+          <div className="project-div">
+            <div className="project-info">
               <h3>Lorem Ipsum</h3>
               <table>
                 <tbody>
@@ -98,18 +98,18 @@ const SomeOfOurProjects = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
-            <div class="project-images hidden-xs visible-md visible-sm visible-lg">
-              <Image src={pageExample} class="project-image"/>
-              <Image src={aboutImage} class="project-image"/>
+            <div className="project-images hidden-xs visible-md visible-sm visible-lg">
+              <Image src={pageExample} className="project-image"/>
+              <Image src={aboutImage} className="project-image"/>
             </div>
           </div>
 
-          <div class="project-div">
-            <div class="project-images">
-              <Image src={pageExample} class="project-image"/>
-              <Image src={aboutImage} class="project-image"/>
+          <div className="project-div">
+            <div className="project-images">
+              <Image src={pageExample} className="project-image"/>
+              <Image src={aboutImage} className="project-image"/>
             </div>
-            <div class="project-info">
+            <div className="project-info">
               <h3>Lorem Ipsum</h3>
               <table>
                 <tbody>

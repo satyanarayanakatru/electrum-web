@@ -10,7 +10,7 @@ import SingleProject from "./single-project";
 
 export default function SingleFamilyResidential() {
   return (
-    <div class="" id="content" component="content">
+    <div className="" id="content" component="content">
       <div className="electrum-page">
         <div className="electrum-banner page-banner">
           <div className="banner-overlay"></div>
@@ -27,7 +27,7 @@ export default function SingleFamilyResidential() {
               </p>
             </div>
           </div>
-          <div class="featured-img-div car-single"></div>
+          <div className="featured-img-div car-single"></div>
         </div>
         <div className="page-info-icons">
           <div className="icon-div">

@@ -26,7 +26,7 @@ export default function MultiUnitResidential  () {
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-second" 
+        <div className="featured-img-div car-second" 
         ></div>
       </div>
       <div className="page-info-icons">
