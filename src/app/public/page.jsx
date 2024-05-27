@@ -25,7 +25,7 @@ export default function Public() {
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-public"></div>
+        <div className="featured-img-div car-public"></div>
       </div>
       <div className="page-info-icons">
         <div className="icon-div">

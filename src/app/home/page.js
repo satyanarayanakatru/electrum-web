@@ -232,11 +232,11 @@ export default function Home() {
 
         <AutoPlay />
 
-        <div class="bottom-cta">
-          <div class="bottom-overlay"></div>
-          <div class="bottom-cta-text">
+        <div className="bottom-cta">
+          <div className="bottom-overlay"></div>
+          <div className="bottom-cta-text">
             <h2>Invest in your EV future today.</h2>
-            <Link href="/contact" class="home-cta-btn">
+            <Link href="/contact" className="home-cta-btn">
               {" "}
               Get started{" "}
             </Link>

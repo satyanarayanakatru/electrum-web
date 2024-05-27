@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import NavItems from "./navItems";
+import Logo from "../../public/images/logo.png";
 import Dropdown from "./dropdown";
 import './navbar.css';
 

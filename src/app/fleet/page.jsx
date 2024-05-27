@@ -27,7 +27,7 @@ export default function () {
             </p>
           </div>
         </div>
-        <div class="featured-img-div car-fleet"></div>
+        <div className="featured-img-div car-fleet"></div>
       </div>
       <div className="page-info-icons">
         <div className="icon-div">
