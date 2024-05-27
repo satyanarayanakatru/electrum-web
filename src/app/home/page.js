@@ -82,7 +82,7 @@ export default function Home() {
         </div>
         <div className="col-lg-12 hidden-sm hidden-xs hidden-md">
           <div className="col-lg-12">
-            <Image src={WhitePoly} className="poly-img poly-top" />
+            {/* <Image src={WhitePoly} className="poly-img poly-top" /> */}
             <div className="process-info-content">
               <div className="process-info-inner-content">
                 <div className="process-info">

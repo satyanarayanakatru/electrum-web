@@ -4,7 +4,7 @@
   text-transform: uppercase;
   font-size: 16px;
   color: #03488d;
-  background-color: #f2d499;
+  background-color: aqua;
   max-width: 152px;
   max-height: 58px;
   padding: 15px 20px;
@@ -13,9 +13,7 @@
   text-align: center;
   font-weight: 700;
 }
-.home-cta-btn:hover {
-  background-color: #f7dca8;
-}
+
 .home-banner {
   width: 100%;
   height: auto;
@@ -276,10 +274,10 @@
   background-image: url(../../../public/images/bulb.jpg);
   width: 100%;
   padding: 0;
-  /* background: ; */
   position: relative;
   text-align: center;
   min-height: 600px;
+  padding: 50px 0;
 }
 .insights-div h2 {
   font-weight: 700;
@@ -309,6 +307,9 @@
 .process-info-container {
   margin-left: 10%;
 }
+.smart-energy-content{
+  margin-right: 10px;
+}
 .smart-energy-content img {
   margin: 0 auto;
 }
@@ -330,14 +331,14 @@
   background: #fff;
   position: relative;
 }
-.testimonials-div .poly-top {
+/* .testimonials-div .poly-top {
   position: absolute;
   top: -56%;
   left: 0;
   z-index: 2;
   width: 100%;
   height: auto;
-}
+} */
 .testimonials-div .advantage-div {
   margin-top: 10%;
   z-index: 1;
@@ -418,6 +419,7 @@
 .industry-cards{
   text-align: center;
   background-color: #e9f5f6;
+  padding-bottom: 50px;
 }
 .industry-cards h2{
   font-size: 50px;
@@ -443,6 +445,9 @@
 }
 .industry-cards-content a{
   color: #03488d;
+}
+.smart-inner-content{
+  padding-bottom: 30px;
 }
 
 

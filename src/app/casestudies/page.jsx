@@ -8,9 +8,9 @@ import './page.css'
 
 export default function CaseStudies() {
   return (
-    <div>
+    <div className='casestudy-content'>
         <div className='container'>
-            <Image src={CaseStudy1} className='caseimage'/>
+            <Image src={CaseStudy1} className='caseimage caseimage1'/>
             <Image src={CaseStudy2} className='caseimage'/>
             <Image src={CaseStudy3} className='caseimage'/>
             <Image src={CaseStudy4} className='caseimage'/>

@@ -1,5 +1,12 @@
 .caseimage{
-    max-width: 100%;
+    width: 1200px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 0px;
+}
+.caseimage1{
+    padding-top: 64px;
+    margin: 0 auto;
+}
+.casestudy-content{
+    background-image: url(../../../public/images/blue-bg.jpg);
 }
