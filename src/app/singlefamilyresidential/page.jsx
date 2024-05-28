@@ -40,7 +40,7 @@ export default function SingleFamilyResidential() {
               />
             </div>
             <div className="page-icon-info-div">
-              <h3>On-site assessment</h3>
+              <h3 >On-site assessment</h3>
               <p>
                 Professional assessment of your home and charging needs with no
                 additional fees.
@@ -76,7 +76,7 @@ export default function SingleFamilyResidential() {
               />
             </div>
             <div className="page-icon-info-div">
-              <h3>Quick installation</h3>
+              <h3 >Quick installation</h3>
               <p>
                 Our skilled technicians ensure a proper installation that’s done
                 cleanly and quickly.

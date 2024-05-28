@@ -9,13 +9,20 @@ import AboutIcon1 from "../../../public/images/about-icon1.svg";
 import AboutIcon2 from "../../../public/images/about-icon2.svg";
 import AboutIcon3 from "../../../public/images/about-icon3.svg";
 import AboutIcon4 from "../../../public/images/about-icon4.svg";
+import Advantage1 from "../../../public/images/electrum-advantage-1.svg";
+import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
+import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
+import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
+import ElectrumBanner from "../../../public/images/ElectrumImage.png"
 
 export default function About() {
   return (
     <div>
       <div className="electrum-about">
         <div className="electrum-banner page-banner">
-          <div className="banner-overlay"></div>
+          <div className="banner-overlay">
+            <Image src={ElectrumBanner}/>
+          </div>
         </div>
         <div className="about-banner-text">
           <div className="banner-title">
@@ -66,7 +73,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="about-icons">
+        {/* <div className="about-icons">
           <div className="icons-title">
             <h2>The Electrum Advantage</h2>
           </div>
@@ -116,6 +123,53 @@ export default function About() {
                 <p>
                   With 5000+ installations, we have built EV infrastructure for
                   some of the largest sites and brands in the world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */}
+        <div className="col-lg-12 testimonials-div">
+          <div className="advantage-div advantage-content col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 container p-50">
+            <h2>The Electrum advantage</h2>
+            <div className="d-flex justify-between">
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage1} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-3">Technical Experts</h3>
+                <p>
+                  Our certified team of EV experts have extensive experience in
+                  meeting the unique needs of each customer.
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage2} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-3">Cost Recovery & ROI</h3>
+                <p>
+                  We offer numerous cost recovery options through billing,
+                  energy management, carbon offsets, and grid curtailment.
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage3} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-3">Support driven</h3>
+                <p>
+                  At Electrum, we strive for service excellence and customer
+                  satisfaction, with every client, every time.
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
+                <div>
+                  <Image src={Advantage4} className="d-inline" />
+                </div>
+                <h3 className="mt-4 mb-3">Proven track record</h3>
+                <p>
+                  We have built EV infrastructure for some of the largest sites
+                  and brands in the world.
                 </p>
               </div>
             </div>

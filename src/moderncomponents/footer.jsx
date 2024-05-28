@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../public/images/logo.png";
-import Logo2 from "../../public/images/electrum-logo3.jpg";
+import Logo2 from "../../public/images/electrum-logo3.png";
 import Image from "next/image";
 import "./footer.css";
 import { FaTwitter } from "react-icons/fa";

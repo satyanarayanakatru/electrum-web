@@ -7,6 +7,7 @@ import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import "../singlefamilyresidential/page.css";
 import MultiProject from "./multiprojects";
+import UncontrolledExample from "./multislider";
 
 export default function MultiUnitResidential() {
   return (
@@ -103,6 +104,7 @@ export default function MultiUnitResidential() {
       </div>
       <EndToEnd />
       <MultiProject/>
+      {/* <UncontrolledExample/> */}
       <GetInTouch />
     </div>
   );

@@ -29,8 +29,14 @@
 }
 .chargers{
     color: #212529;
-    font-weight: 300;
+    font-weight: 700;
 }
 .public-image{
     width: 750px;
+}
+.public-left-content,.public-inner-heading,.chargers{
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
 }

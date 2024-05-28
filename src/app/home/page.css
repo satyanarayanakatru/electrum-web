@@ -106,7 +106,7 @@
   width: 100%;
   z-index: 1;
   top: -19%;
-  height: 88px;
+  height: 90px;
 }
 .electrum-industry-cards {
   position: relative;
@@ -230,7 +230,7 @@
 .card-link a {
   text-decoration: none;
 }
-.planning-info-inner-content {
+/* .planning-info-inner-content {
   background-image: url(../../../public/images/planning.png);
   width: 100%;
   height: 800px;
@@ -238,28 +238,34 @@
   position: relative;
   background-size: cover;
   background-position: center;
-}
+} */
 .planning-info {
-  width: 90%;
+  /* width: 90%;
   position: absolute;
   bottom: 4%;
-  left: 9%;
+  left: 9%; */
+  text-align: center;
   color: black;
   font-family: sans-serif;
+  padding: 50px 0;
+  background: #e9f5f6;
 }
 .planning-info h2 {
-  font-size: 55px;
+  font-size: 44px;
   font-weight: bolder;
 }
 .planning-info h5 {
-  font-size: 43px;
+  font-size: 33px;
   font-weight: bolder;
-  margin: 30px 0;
+  margin: 15px 0;
   text-transform: uppercase;
 }
 .planning-info p {
-  font-size: 33px;
+  font-size: 26px;
   font-weight: bolder;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
 }
 .planning-info-right-content {
   background-image: url(../../../public/images/single-banner.jpg);
@@ -279,7 +285,7 @@
 .insights-div h2 {
   font-weight: 700;
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 60px;
 }
 .insights-div .insight-feature {
@@ -292,8 +298,8 @@
 }
 .insights-div .insight-feature h3 {
   margin-top: 20px;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 .smart-energy-container,
@@ -318,8 +324,8 @@
 }
 
 .insights-div .insight-feature p {
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .testimonials-div {
   width: 100%;
@@ -358,11 +364,13 @@
 .testimonials-div .advantage-div .advantage-info h3 {
   text-transform: uppercase;
   color: #394a62;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: bolder;
+  font-size: 22px;
 }
 .testimonials-div .advantage-div .advantage-info p {
   color: #333;
+  font-size: 20px;
+  font-weight: 700;
 }
 .testimonial-logos {
   display: flex;
@@ -425,7 +433,8 @@
 .industry-cards h2 {
   font-size: 50px;
   padding: 30px 0;
-  font-weight: 700;
+  font-weight: bolder;
+  color: #394a62;
 }
 .industry-cards img {
   margin: 0 auto;
@@ -434,17 +443,21 @@
   margin: 0 20px;
 }
 .industry-cards-content h3 {
-  font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
   color: #394a62;
+  font-size: 19px;
 }
 .industry-cards-content p {
   margin: 15px 0;
   font-size: 16px;
+  font-size: 19px;
+  font-weight: 700;
 }
 .industry-cards-content a {
   color: #03488d;
+  font-size: 19px;
+  font-weight: 700;
 }
 .smart-inner-content {
   padding-bottom: 30px;

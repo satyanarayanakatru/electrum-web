@@ -16,21 +16,31 @@ function WorkplaceProject() {
             Hospital, Richmond BC, Canada
           </h6>
           <p className="mb-3">
-            <b className="project-inner-heading">Location:</b>Richmond{" "}
+            <b className="project-inner-heading">Location:</b> Richmond{" "}
           </p>
           <p>
             <b className="project-inner-heading">
-              Chargers: <span className="chargers"></span>
+              Chargers:<span className="chargers"> 4 (Private)</span>
             </b>
           </p>
-          <ul>
+        </div>
+        <div>
+          <Image src={WorkPlaceProjectImage2} className="workplace-image" />
+        </div>
+      </div>
+      <div className="workplace-project-inner-content">
+        <div className="mr-5">
+          <Image src={WorkPlaceProjectImage} className="workplace-image" />
+        </div>
+        <div className="workplace-left-content ml-5">
+          <ul className="ml-5">
             <li>
               Successfully deployed and deployed 40 Level II chargers and 2 DCFC
               charger that are connected and managed by Electrum’s network
               platform.
             </li>
             <li>
-              §Customized software, enabling management to notify customers when
+              Customized software, enabling management to notify customers when
               a charge is complete through text/email alerts, and notify parking
               management if an EV had not vacated after a charge was completed
             </li>
@@ -39,11 +49,6 @@ function WorkplaceProject() {
               300 electric-battery busses.
             </li>
           </ul>
-        </div>
-        <div>
-          <Image src={WorkPlaceProjectImage2} className="workplace-image" />
-          <Image src={WorkPlaceProjectImage} className="workplace-image" />
-          
         </div>
       </div>
     </div>

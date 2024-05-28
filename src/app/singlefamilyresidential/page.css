@@ -132,7 +132,7 @@
 .page-info-icons {
   display: flex;
   gap: 15px;
-  width: 75%;
+  width: 80%;
   background: #fff;
   justify-content: center;
   align-items: center;
@@ -143,7 +143,7 @@
 .page-info-icons .icon-div {
   text-align: center;
   padding: 15px;
-  max-width: 240px;
+  max-width: 290px;
 }
 .page-info-icons .icon-div .page-icon-div {
   display: flex;
@@ -159,13 +159,13 @@
   height: 200px;
 }
 .page-info-icons .icon-div .page-icon-info-div h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   color: #394a62;
 }
 .page-info-icons .icon-div .page-icon-info-div p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   margin-top: 20px;
   color: #394a62;

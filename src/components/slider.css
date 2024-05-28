@@ -1,3 +1,8 @@
-.slider-container{
-    width: 98%;
+.slider-container {
+    padding: 0 30px;
+    width: 100%;
+    background-color: #e9f5f6;
+}
+.slick-prev:before, .slick-next:before{
+    display: none;
 }

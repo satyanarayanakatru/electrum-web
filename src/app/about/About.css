@@ -1,6 +1,6 @@
 .page-banner.electrum-banner {
   position: relative;
-  background-image: url(../../../public/images/page-banner-background.png);
+  /* background-image: url(../../../public/images/page-banner-background.png); */
   width: 100%;
   height: auto;
   min-height: 658px;
@@ -9,19 +9,22 @@
   background-repeat: no-repeat;
 }
 .banner-overlay {
-  height: auto;
-  min-height: 658px;
-  background-image: url(../../../public/images/ElectrumImage.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
 }
+.banner-overlay img {
+  width: 81%;
+  height: 509px;
+  position: absolute;
+  /* top: 30%; */
+  right: 11%;
+  margin-top: 10%;
+  /* transform: translate(-50%,-50%); */
+}
 .featured-img-div {
-  background-image: url(../../../public/images/page-example.png);
+  /* background-image: url(../../../public/images/page-example.png); */
   background-size: cover;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -45,9 +48,10 @@
   text-align: center;
 }
 .about-banner-text .banner-title h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: #394a62;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
   margin: 0;
 }
 .about-banner-text .banner-text {
@@ -56,11 +60,12 @@
   text-align: center;
 }
 .about-banner-text .banner-text p {
-  font-size: 24px;
-  font-weight: 300;
-  color: #000;
+  font-size: 29px;
+  font-weight: bold;
+  color: #fff;
   margin: 0;
 }
+
 .electrum-about .our-story {
   background: #fff;
   max-height: 500px;
@@ -81,8 +86,8 @@
   margin-bottom: 45px;
 }
 .electrum-about .our-story .our-story-container .story-info p {
-  font-weight: 300;
-  font-size: 19px;
+  font-weight: bolder;
+  font-size: 20px;
   color: #000;
   margin-bottom: 15px;
 }
@@ -126,9 +131,9 @@
   margin-top: 15px;
 }
 .electrum-about .quotes-info .info-div .info p {
-  font-weight: light;
+  font-weight: bolder;
   font-size: 30px;
-  color: #333;
+  color: #000;
 }
 .electrum-about .quotes-info .info-div .info-stats {
   display: flex;
@@ -224,14 +229,15 @@
   transform: translate(-50%, -50%);
 }
 .electrum-about .about-bottom-banner .bottom-banner-text h3 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   color: #394a62;
   margin-bottom: 30px;
+  text-transform: capitalize;
 }
 .electrum-about .about-bottom-banner .bottom-banner-text p {
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 20px;
   color: #333;
   margin-bottom: 60px;
 }
@@ -240,7 +246,8 @@
 }
 .electrum-about .about-bottom-banner .about-bottom-links a {
   display: block;
-  font-weight: 300;
+  font-weight: lighter;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -288,6 +295,63 @@
   text-align: center;
   font-weight: 700;
 }
+.electrum-about {
+  background-color: #000103;
+}
+.testimonials-div {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: #fff;
+  position: relative;
+}
+/* .testimonials-div .poly-top {
+  position: absolute;
+  top: -56%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+} */
+.testimonials-div .advantage-div {
+  padding: 50px 0;
+  z-index: 1;
+  text-align: center;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.testimonials-div .advantage-content {
+  width: 100%;
+}
+
+.testimonials-div .advantage-div h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #394a62;
+  margin-bottom: 30px;
+}
+.testimonials-div .advantage-div .advantage-info {
+  text-align: center;
+}
+.testimonials-div .advantage-div .advantage-info h3 {
+  text-transform: uppercase;
+  color: #394a62;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.testimonials-div .advantage-div .advantage-info p {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+}
+.testimonial-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
@@ -365,11 +429,11 @@
 .electrum-about .about-icons .icons {
   width: 100%;
 }
-.icons .icon-div{
-    text-align: center;
+.icons .icon-div {
+  text-align: center;
 }
-.icons .icon-div div img{
-    margin: 0 auto;
+.icons .icon-div div img {
+  margin: 0 auto;
 }
 .electrum-about .about-bottom-banner {
   background: #f2f5f8;

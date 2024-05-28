@@ -34,3 +34,9 @@
 .workplace-image{
     width: 750px;
 }
+.workplace-left-content,.work-inner-heading,.chargers{
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}

@@ -10,7 +10,7 @@ import Single from "../../../public/images/single.svg";
 import Multi from "../../../public/images/multi.svg";
 import Workplace from "../../../public/images/workplace.svg";
 import Fleet from "../../../public/images/fleet.svg";
-import Public from "../../../public/images/public.svg";
+import Public from "../../../public/images/public.png";
 import SmartImage from "../../../public/images/SE-1.png";
 import SmartImage2 from "../../../public/images/SE-2.png";
 import SmartImage3 from "../../../public/images/SE-3.png";
@@ -24,6 +24,7 @@ import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
 import AutoPlay from "../../components/slider";
 import BannerSlider from "./BannerSlider";
+import Planning from '../../../public/images/planning1.jpg';
 
 export default function Home() {
   return (
@@ -82,7 +83,7 @@ export default function Home() {
         </div>
         <div className="col-lg-12 hidden-sm hidden-xs hidden-md">
           <div className="col-lg-12">
-            {/* <Image src={WhitePoly} className="poly-img poly-top" /> */}
+            <Image src={Planning} className="" />
             <div className="planning-info-content">
               <div className="planning-info-inner-content">
                 <div className="planning-info">
@@ -190,7 +191,7 @@ export default function Home() {
                 <div>
                   <Image src={Advantage1} className="d-inline" />
                 </div>
-                <h3 className="mt-4 mb-4">Technical Experts</h3>
+                <h3 className="mt-4 mb-3">Technical Experts</h3>
                 <p>
                   Our certified team of EV experts have extensive experience in
                   meeting the unique needs of each customer.
@@ -200,7 +201,7 @@ export default function Home() {
                 <div>
                   <Image src={Advantage2} className="d-inline" />
                 </div>
-                <h3 className="mt-4 mb-2">Cost Recovery & ROI</h3>
+                <h3 className="mt-4 mb-3">Cost Recovery & ROI</h3>
                 <p>
                   We offer numerous cost recovery options through billing,
                   energy management, carbon offsets, and grid curtailment.
@@ -210,7 +211,7 @@ export default function Home() {
                 <div>
                   <Image src={Advantage3} className="d-inline" />
                 </div>
-                <h3 className="mt-4 mb-4">Support driven</h3>
+                <h3 className="mt-4 mb-3">Support driven</h3>
                 <p>
                   At Electrum, we strive for service excellence and customer
                   satisfaction, with every client, every time.
@@ -220,7 +221,7 @@ export default function Home() {
                 <div>
                   <Image src={Advantage4} className="d-inline" />
                 </div>
-                <h3 className="mt-4 mb-2">Proven track record</h3>
+                <h3 className="mt-4 mb-3">Proven track record</h3>
                 <p>
                   We have built EV infrastructure for some of the largest sites
                   and brands in the world.
