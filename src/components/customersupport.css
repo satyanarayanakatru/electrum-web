@@ -15,6 +15,7 @@
 .customer-support-content img {
   margin-bottom: 10px;
   display: inline-block;
+  width: 75px;
 }
 .customer-support-content a {
   color: #337ab7;
@@ -22,9 +23,11 @@
 .customer-support-content h6 {
   font-weight: bold;
   margin: 15px 0;
+  font-size: 20px;
 }
 .customer-support-content p {
   font-weight: 500;
+  font-size: 17px;
 }
 .mailing-address {
   margin-top: 25px;

@@ -21,40 +21,40 @@ function BannerSlider() {
   return (
     <Carousel {...settings} className='carousel-banner'>
       <Carousel.Item>
-        <Image src={Image1} text="First slide" className='img-slide'/>
+        <Image src={Image2} text="First slide" className='img-slide'  alt='slide-image'/>
         <Carousel.Caption className='slider-content'>
           <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Image src={Image2} text="Second slide" className='img-slide'/>
         <Carousel.Caption className='slider-content caption'>
         <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
-        <Image src={Image3} text="Third slide" className='img-slide'/>
+        <Image src={Image3} text="Third slide" className='img-slide' alt='slide-image'/>
         <Carousel.Caption className='slider-content caption'>
         <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={Image4} text="Second slide" className='img-slide'/>
+        <Image src={Image4} text="Second slide" className='img-slide'  alt='slide-image'/>
         <Carousel.Caption className='slider-content caption'>
         <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Image src={Image5} text="Second slide" className='img-slide'/>
         <Carousel.Caption className='slider-content caption'>
         <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

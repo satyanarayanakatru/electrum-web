@@ -5,7 +5,7 @@ header{
 }
 
 nav{
-    background-color: #000103;
+    background-color: #394B62;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,10 +55,13 @@ nav{
 .logo{
   display: flex;
   align-items: center;
-  margin-right: 34%;
+  margin-right: 49%;
 }
 .logo2{
   width: 200px;
+}
+.list-item:hover{
+  color: #ffd166;
 }
 
 @media screen and (max-width: 1199px) {

@@ -26,22 +26,22 @@ function AutoPlay() {
     <div className="slider-container">
       <Slider {...settings}>
         <div className="slider-image">
-          <Image src={Logo1} />
+          <Image src={Logo1} alt="logo"/>
         </div>
         <div className="slider-image">
-          <Image src={Logo2} />
+          <Image src={Logo2} alt="logo"/>
         </div>
         <div className="slider-image">
-          <Image src={Logo3} />
+          <Image src={Logo3} alt="logo"/>
         </div>
         <div className="slider-image">
-          <Image src={Logo4} />
+          <Image src={Logo4} alt="logo"/>
         </div>
         <div className="slider-image">
-          <Image src={Logo5} />
+          <Image src={Logo5} alt="logo"/>
         </div>
         <div className="slider-image">
-          <Image src={Logo6} />
+          <Image src={Logo6} alt="logo"/>
         </div>
       </Slider>
     </div>

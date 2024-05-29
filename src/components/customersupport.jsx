@@ -12,7 +12,7 @@ const CustomerSupport  = () => {
           <Image src={CustomerSupportIcon} alt="customer-support"  width={50} height={50}/>
           <h6>CUSTOMER SUPPORT</h6>
           <p>1-866-898-3873</p>
-          <a href="">contact@electrumcharging.com</a>
+          <p>support@electrumcharging.com</p>
         </div>
         <div className="customer-support-content mailing-address">
             <Image src={MailAddressIcon} alt="mailing-address" width={50} height={80}/>

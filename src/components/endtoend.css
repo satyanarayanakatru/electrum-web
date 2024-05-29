@@ -1,8 +1,7 @@
 .process-div {
   position: relative;
   width: 100%;
-  min-height: 780px;
-  margin-top: 15vh;
+  min-height: 600px;
   background-image: url(../../public/images/page-geometry1.svg);
   background-size: cover;
   background-repeat: no-repeat;

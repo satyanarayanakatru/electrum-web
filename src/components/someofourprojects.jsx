@@ -12,8 +12,8 @@ const SomeOfOurProjects = () => {
           <h2>Some of our projects</h2>
           <div className="project-div">
             <div className="project-images">
-              <Image src={ aboutImage } className="project-image"/>
-              <Image src={ aboutImage } className="project-image"/>
+              <Image src={ aboutImage } className="project-image" alt='project-image'/>
+              <Image src={ aboutImage } className="project-image" alt='project-image'/>
             </div>
             <div className="project-info">
               <h3>Lorem Ipsum</h3>
@@ -99,15 +99,15 @@ const SomeOfOurProjects = () => {
               </p>
             </div>
             <div className="project-images hidden-xs visible-md visible-sm visible-lg">
-              <Image src={pageExample} className="project-image"/>
-              <Image src={aboutImage} className="project-image"/>
+              <Image src={pageExample} className="project-image" alt='project-image'/>
+              <Image src={aboutImage} className="project-image" alt='project-image'/>
             </div>
           </div>
 
           <div className="project-div">
             <div className="project-images">
-              <Image src={pageExample} className="project-image"/>
-              <Image src={aboutImage} className="project-image"/>
+              <Image src={pageExample} className="project-image" alt='project-image'/>
+              <Image src={aboutImage} className="project-image" alt='project-image'/>
             </div>
             <div className="project-info">
               <h3>Lorem Ipsum</h3>

@@ -26,13 +26,13 @@ export default function Navbar() {
           <div className="logo">
             <div>
               <a href="">
-                <Image src={Logo} width={38} height={100} />
+                {/* <Image src={Logo} width={38} height={100} /> */}
               </a>
             </div>
 
             <div>
               <a href="">
-                <Image src={Logo2} width={100} className="logo2" />
+                <Image src={Logo2} width={100} className="logo2" alt="logo"/>
               </a>
             </div>
           </div>

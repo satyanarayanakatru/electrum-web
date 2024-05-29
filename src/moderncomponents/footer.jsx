@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../public/images/logo.png";
 import Logo2 from "../../public/images/electrum-logo3.png";
 import Image from "next/image";
+import Link from "next/link";
 import "./footer.css";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,13 +16,13 @@ export default function Footer() {
           <div className="logo">
             <div>
               <a href="">
-                <Image src={Logo} width={38} height={100} className="e-logo"/>
+                {/* <Image src={Logo} width={38} height={100} className="e-logo"/> */}
               </a>
             </div>
 
             <div>
               <a href="">
-                <Image src={Logo2} width={100} className="logo2 footerlogo" />
+                <Image src={Logo2} width={100} className="logo2 footerlogo" alt="footer-logo" />
               </a>
             </div>
           </div>
@@ -44,16 +45,16 @@ export default function Footer() {
             <button type="submit">submit</button>
           </div>
           <div className="footer-address">
-            <p>Electrum Charging Solutions Pvt Ltd.</p>
-            <p>Global: +972-73-2239850</p>
-            <p>Europe: +44-800-418-780</p>
-            <p>US Toll Free: +1-888-5202404</p>
+            <p>Electrum Charging Solutions Inc,</p>
+            {/* <p>Global: +972-73-2239850</p> */}
+            <p>Address: 104-17741 65A Ave, Surrey, BC V3S 1Z8 </p>
+            <p>Canada: +1 866 898 3873</p>
             <p>
-              Email: <a href="">contactus@electrum charging solutions</a>
+              Email: <a href="">support@electrumcharging.com</a>
             </p>
             <div className="social-icons">
-              <a href=""><FaTwitter className="d-inline-block m-4 social-icons-icon"/></a>
-              <a href=""><FaLinkedinIn className="d-inline-block social-icons-icon"/></a>
+              <Link href="https://x.com/electrumchrge?s=11"><FaTwitter className="d-inline-block m-4 social-icons-icon"/></Link>
+              <Link href="https://www.linkedin.com/company/electrum-charging-solutions/"><FaLinkedinIn className="d-inline-block social-icons-icon"/></Link>
             </div>
             <button>We are hiring</button>
           </div>
@@ -62,7 +63,7 @@ export default function Footer() {
           <p>
             <a href="">Privacy Policy</a>{" "}
             <a href="">Website Terms & Conditions</a> | Copyright © 2024 Electrum Charging Solutions
-            Pvt Ltd. All rights reserved.
+            Inc, All rights reserved.
           </p>
         </div>
       </div>

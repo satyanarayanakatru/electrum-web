@@ -3,7 +3,8 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
-import './contactModal.css'
+import './contactModal.css';
+import Link from "next/link";
 
 function FormModal() {
   const [show, setShow] = useState(false);
@@ -13,9 +14,9 @@ function FormModal() {
 
   return (
     <>
-      <Button onClick={handleShow} className="contact-button ">
+      <Link href="/contact" className="contact-button ">
         Talk to Us
-      </Button>
+      </Link>
 
       <Modal show={show} onHide={handleClose} className="contact-modal">
         <Modal.Header closeButton>

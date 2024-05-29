@@ -7,7 +7,7 @@ import Billing from "../../public/images/billing.svg";
 import Maintenance from "../../public/images/maintenance.svg";
 import processArrow from "../../public/images/process-arrow.svg";
 import processBottomArrow from "../../public/images/process-bottom-arrow.svg";
-import './endtoend.css'
+import "./endtoend.css";
 
 const EndToEnd = () => {
   return (
@@ -18,7 +18,7 @@ const EndToEnd = () => {
           <div className="card-container">
             <div className="process-card">
               <div className="process-img-div">
-                <Image src={Process} className="process-img" />
+                <Image src={Process} className="process-img" alt="process" />
               </div>
               <div className="process-info">
                 <p>1. Process & Design</p>
@@ -30,43 +30,52 @@ const EndToEnd = () => {
               src={processArrow}
               width={10}
               height={10}
+              alt="process"
             />
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image className="process-img" src={Installation} />
+                <Image
+                  className="process-img"
+                  src={Installation}
+                  alt="process"
+                />
               </div>
               <div className="process-info">
                 <p>2. Installation</p>
               </div>
             </div>
-            <Image className="process-arrow" src={processArrow} />
+            <Image className="process-arrow" src={processArrow} alt="process" />
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image className="process-img" src={Energy} />
+                <Image className="process-img" src={Energy} alt="process" />
               </div>
               <div className="process-info">
                 <p>3. Energy Management</p>
               </div>
             </div>
 
-            <Image className="process-arrow" src={processArrow} />
+            <Image className="process-arrow" src={processArrow} alt="process" />
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image src={Billing} className="process-img" />
+                <Image src={Billing} className="process-img" alt="process" />
               </div>
               <div className="process-info">
                 <p>4. Access & Billing</p>
               </div>
             </div>
 
-            <Image className="process-arrow" src={processArrow} />
+            <Image className="process-arrow" src={processArrow} alt="process" />
 
             <div className="process-card">
               <div className="process-img-div">
-                <Image src={Maintenance} className="process-img"/>
+                <Image
+                  src={Maintenance}
+                  className="process-img"
+                  alt="process"
+                />
               </div>
               <div className="process-info">
                 <p>5. Monitoring and Maintenance</p>
@@ -77,6 +86,7 @@ const EndToEnd = () => {
               <Image
                 className="process-bottom-arrow"
                 src={processBottomArrow}
+                alt="process"
               />
             </div>
           </div>

@@ -12,41 +12,32 @@ export default function navItems(props) {
   const hide = () => {
     setIsShow(false);
   };
-  
 
   return (
     <div>
       <div className="nav-bar-list">
         <ul>
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <Link href="/" className="hover:text-cyan-500">
+            <Link href="/" className="list-item">
               Home
             </Link>
           </li>
 
           <button
             onMouseEnter={show} 
-            className="hover:text-cyan-500  ml-8 sol-btn"
+            className="list-item  ml-8 sol-btn"
           >
             Services
             <Dropdown isVisible={isShow} />
           </button>
 
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <Link href="/casestudies" className="hover:text-cyan-500">Case Studies</Link>
-          </li>
-
-         
-
-          <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <Link href="/contact" className="hover:text-cyan-500">
-              Contact
-            </Link>
+            <Link href="/blog" className="list-item">Blog</Link>
           </li>
 
           <li onMouseEnter={hide} className="d-inline-block ml-8">
-            <Link href="/about" className="hover:text-cyan-500">
-              About
+            <Link href="/about" className="list-item">
+              About Us
             </Link>
           </li>
         </ul>

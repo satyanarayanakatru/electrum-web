@@ -7,6 +7,7 @@ import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import "../singlefamilyresidential/page.css";
 import PublicProject from "./public-project";
+import './page.css'
 
 export default function Public() {
   return (
@@ -28,7 +29,24 @@ export default function Public() {
         </div>
         <div className="featured-img-div car-public"></div>
       </div>
-      <div className="page-info-icons">
+      <div className="services-info">
+        <h2>Services</h2>
+        <div className="services-info-main-content">
+            <div className="services-info-inner-content">
+              <h4>Commercial</h4>
+              <p>Yet to Update *</p>
+            </div>
+            <div className="services-info-inner-content">
+              <h4>Shopping-Center</h4>
+              <p>Yet to Update *</p>
+            </div>
+            <div className="services-info-inner-content">
+              <h4>Arena</h4>
+              <p>Yet to Update *</p>
+            </div>
+          </div>
+      </div>
+      <div className="page-info-icons page-info-main-content">
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
@@ -36,6 +54,7 @@ export default function Public() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-public image"
             />
           </div>
           <div className="page-icon-info-div">
@@ -54,6 +73,7 @@ export default function Public() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-public image"
             />
           </div>
           <div className="page-icon-info-div">
@@ -72,6 +92,7 @@ export default function Public() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-public image"
             />
           </div>
           <div className="page-icon-info-div">
@@ -90,6 +111,7 @@ export default function Public() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-public image"
             />
           </div>
           <div className="page-icon-info-div">

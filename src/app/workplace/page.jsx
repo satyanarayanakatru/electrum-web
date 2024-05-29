@@ -36,6 +36,7 @@ export default function WorkPlace() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-image"
             />
           </div>
           <div className="page-icon-info-div">
@@ -54,6 +55,7 @@ export default function WorkPlace() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-image"
             />
           </div>
           <div className="page-icon-info-div">
@@ -72,6 +74,7 @@ export default function WorkPlace() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-image"
             />
           </div>
           <div className="page-icon-info-div">
@@ -90,6 +93,7 @@ export default function WorkPlace() {
               width={100}
               height={100}
               className="page-icon"
+              alt="page-image"
             />
           </div>
           <div className="page-icon-info-div">

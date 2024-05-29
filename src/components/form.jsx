@@ -1,9 +1,18 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import "./form.css";
 import Link from "next/link";
 import CustomerSupport from "./customersupport";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Form = () => {
+  const [captcha, setCaptcha] = useState ();
+  const onSubmit = (e) => {
+    console.log(captcha);
+    if (captcha) {
+      console.log('Recaptcha verified!');
+    }
+  }
   return (
     <div>
       <div className="electrum-contact">
@@ -23,7 +32,7 @@ const Form = () => {
           </div>
         </div>
         <div className="contact-form-container">
-          <form id="contact-form" className="form-horizontal" method="post">
+          <form id="contact-form" className="form-horizontal" method="post" onSubmit={onSubmit}>
             <div className="form-group">
               <div className="col-sm-6 col-xs-12">
                 <label className="col-sm-12">
@@ -149,12 +158,12 @@ const Form = () => {
                   <option value="social">Social media</option>
                   <option value="friend">From a friend</option>
                   <option value="website">On your website</option>
-                  <option value="other">OtNameher</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
             </div>
             <div className="form-group">
-              <label className="col-sm-12" for="message">
+              <label className="col-sm-12" htmlFor="message">
                 Message
               </label>
               <div className="col-sm-12">
@@ -166,12 +175,14 @@ const Form = () => {
                 ></textarea>
               </div>
             </div>
-            <input
+            {/* <input
               type="hidden"
               name="_csrf"
               value="MJRxcFsq-IEKuVnCqO4Wckb0SstDqhHzbIpE"
-            />
-
+            /> */}
+            <div className="captcha ">
+            <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={setCaptcha} required/>
+            </div>
             <div className="form-group flex-group">
               <div>
                 <button id="send" className="btn btn-primary">

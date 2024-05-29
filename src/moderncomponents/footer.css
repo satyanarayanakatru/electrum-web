@@ -1,6 +1,6 @@
 footer{
     padding: 50px;
-    background-color: #000103;
+    background-color: #394B62;
     color: #fff;
     font-family: 'Trebuchet MS';
     position: relative;
@@ -51,7 +51,7 @@ footer{
 }
 .footer-signup button,.footer-address button{
     display: block;
-    background-color: aqua;
+    background-color: #ffd166;
     padding: 10px 40px;
     border-radius: 50px;
     text-transform: uppercase;
@@ -64,6 +64,7 @@ footer{
 }
 .footer-address{
     margin-left: 24px;
+    width: 50%;
 }
 .footer-address p{
     font-size: 18px;
@@ -74,7 +75,7 @@ footer{
     border-radius: 20px;
     font-size: 40px;
     color: #fff;
-    background-color: aqua;
+    background-color: #ffd166;
     padding: 10px 5px;
 }
 .social-icons-icon:hover{

@@ -28,12 +28,12 @@ function PublicProject() {
           </h5>
         </div>
         <div>
-          <Image src={PublicProjectImage} className="public-image" />
+          <Image src={PublicProjectImage} className="public-image" alt="public-image"/>
         </div>
       </div>
       <div className="public-project-inner-content">
         <div>
-          <Image src={WorkPlaceProjectImage2} className="public-image" />
+          <Image src={WorkPlaceProjectImage2} className="public-image" alt="public-image"/>
         </div>
         <div className="public-left-content ml-5">
           <h6 className="mb-3">
@@ -70,7 +70,7 @@ function PublicProject() {
           </ul>
         </div>
         <div className="mr-5">
-          <Image src={WorkPlaceProjectImage} className="public-image" />
+          <Image src={WorkPlaceProjectImage} className="public-image" alt="public-image"/>
         </div>
       </div>
     </div>

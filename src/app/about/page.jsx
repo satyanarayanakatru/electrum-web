@@ -13,13 +13,13 @@ import Advantage1 from "../../../public/images/electrum-advantage-1.svg";
 import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
 import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
-import ElectrumBanner from "../../../public/images/ElectrumImage.png"
+import ElectrumBanner from "../../../public/images/ElectrumImage.png";
 
 export default function About() {
   return (
     <div>
       <div className="electrum-about">
-        <div className="electrum-banner page-banner">
+        {/* <div className="electrum-banner page-banner">
           <div className="banner-overlay">
             <Image src={ElectrumBanner}/>
           </div>
@@ -33,6 +33,22 @@ export default function About() {
               Electrum provides end-to-end electric mobility solutions tailored
               to your needs, from planning, installation, to software.
             </p>
+          </div>
+        </div> */}
+
+        <div className="quotes-info">
+          <h1 className="mission-heading">Mission Statement</h1>
+
+          <div className="info-div">
+            <Image src={Quote} alt="quote-image"/>
+            <div className="info">
+              <p>
+                We empower our customers by providing solutions that allow for
+                the adoption of electrified platforms. We advance climate
+                solutions and new technologies for the intelligent management of
+                electricity from ‘Generation-To-User’.
+              </p>
+            </div>
           </div>
         </div>
         <div className="our-story">
@@ -55,24 +71,12 @@ export default function About() {
               </p>
             </div>
             <div className="story-imgs">
-              <Image src={About1} className="story-inner-img" />
-              <Image src={About2} className="story-inner-img" />
+              <Image src={About1} className="story-inner-img" alt="about-image"/>
+              <Image src={About2} className="story-inner-img" alt="about-image"/>
             </div>
           </div>
         </div>
-        <div className="quotes-info">
-          <div className="info-div">
-            <Image src={Quote} />
-            <div className="info">
-              <p>
-                We empower our customers by providing solutions that allow for
-                the adoption of electrified platforms. We advance climate
-                solutions and new technologies for the intelligent management of
-                electricity from ‘Generation-To-User’.
-              </p>
-            </div>
-          </div>
-        </div>
+
         {/* <div className="about-icons">
           <div className="icons-title">
             <h2>The Electrum Advantage</h2>
@@ -128,13 +132,28 @@ export default function About() {
             </div>
           </div>
         </div> */}
+
+        <div className="leadership-section">
+          <h2>LeaderShip</h2>
+          <div className="leadership-main-content">
+            <div className="leadership-inner-content">
+              <h4>Dan Trudel</h4>
+              <p>yet to update *</p>
+            </div>
+            <div className="leadership-inner-content">
+              <h4>Chris Lee</h4>
+              <p>yet to update *</p>
+            </div>
+          </div>
+        </div>
+
         <div className="col-lg-12 testimonials-div">
           <div className="advantage-div advantage-content col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 container p-50">
             <h2>The Electrum advantage</h2>
             <div className="d-flex justify-between">
               <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
                 <div>
-                  <Image src={Advantage1} className="d-inline" />
+                  <Image src={Advantage1} className="d-inline" alt="advantage-image"/>
                 </div>
                 <h3 className="mt-4 mb-3">Technical Experts</h3>
                 <p>
@@ -144,7 +163,7 @@ export default function About() {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
                 <div>
-                  <Image src={Advantage2} className="d-inline" />
+                  <Image src={Advantage2} className="d-inline" alt="advantage-image"/>
                 </div>
                 <h3 className="mt-4 mb-3">Cost Recovery & ROI</h3>
                 <p>
@@ -154,7 +173,7 @@ export default function About() {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
                 <div>
-                  <Image src={Advantage3} className="d-inline" />
+                  <Image src={Advantage3} className="d-inline" alt="advantage-image"/>
                 </div>
                 <h3 className="mt-4 mb-3">Support driven</h3>
                 <p>
@@ -164,7 +183,7 @@ export default function About() {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
                 <div>
-                  <Image src={Advantage4} className="d-inline" />
+                  <Image src={Advantage4} className="d-inline" alt="advantage-image"/>
                 </div>
                 <h3 className="mt-4 mb-3">Proven track record</h3>
                 <p>
@@ -175,7 +194,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="about-bottom-banner">
+        {/* <div className="about-bottom-banner">
           <div className="about-bg"></div>
           <div className="bottom-banner-text">
             <h3>Our green future, now</h3>
@@ -201,7 +220,7 @@ export default function About() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bottom-cta">
           <div className="bottom-overlay"></div>

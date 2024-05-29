@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position-x: center;
     width: 100%;
-    height: 510px;
+    height: 635px;
   }
   .bottom-cta .bottom-overlay {
     position: absolute;
@@ -41,8 +41,8 @@
     border-radius: 6px;
     text-transform: uppercase;
     font-size: 16px;
-    color: #03488d;
-    background-color: aqua;
+    color: black;
+    background-color: #ffd166;
     max-width: 152px;
     max-height: 58px;
     padding: 15px 20px;

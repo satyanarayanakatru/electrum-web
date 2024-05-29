@@ -30,7 +30,24 @@ export default function () {
         </div>
         <div className="featured-img-div car-fleet"></div>
       </div>
-      <div className="page-info-icons">
+      <div className="services-info">
+        <h2>Services</h2>
+        <div className="services-info-main-content">
+            <div className="services-info-inner-content">
+              <h4>Car Sharing</h4>
+              <p>Yet to Update *</p>
+            </div>
+            <div className="services-info-inner-content">
+              <h4>Transportation</h4>
+              <p>Yet to Update *</p>
+            </div>
+            <div className="services-info-inner-content">
+              <h4>Logistics</h4>
+              <p>Yet to Update *</p>
+            </div>
+          </div>
+      </div>
+      <div className="page-info-icons page-info-main-content">
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
