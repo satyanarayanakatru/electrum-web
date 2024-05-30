@@ -3,8 +3,8 @@ import "./navbar.css";
 import Dropdown from "./dropdown";
 import Link from "next/link";
 
-export default function navItems(props) {
-  const [isShow, setIsShow] = useState(false);
+export default function NavItems(props) {
+  const [isShow, setIsShow] = useState(props.isShow);
   const show = () => {
     setIsShow(true);
   };
@@ -27,7 +27,7 @@ export default function navItems(props) {
             onMouseEnter={show} 
             className="list-item  ml-8 sol-btn"
           >
-            Services
+            Solutions
             <Dropdown isVisible={isShow} />
           </button>
 
