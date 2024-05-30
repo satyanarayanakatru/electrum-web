@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import SingleProjectImage from "../../../public/images/single-project.png";
-import './single-project.css';
+// import './single-project.css';
 
 function SingleProject() {
   return (

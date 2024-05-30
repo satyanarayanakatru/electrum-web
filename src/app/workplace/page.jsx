@@ -5,8 +5,8 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "../singlefamilyresidential/page.css";
 import WorkplaceProject from "./workplace-project";
+import '../globals.css';
 
 export default function WorkPlace() {
   return (
@@ -19,7 +19,7 @@ export default function WorkPlace() {
           </div>
           <div className="banner-text">
             <p>
-              We conduct thorough evaluations of your workplace to determine the
+              We conduct through evaluations of your workplace to determine the
               optimal locations for EV chargers. Our team handles everything
               from design to installation, ensuring a seamless setup of charging
               stations.

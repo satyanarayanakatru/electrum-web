@@ -20,7 +20,7 @@ function WorkplaceProject() {
           </p>
           <p>
             <b className="project-inner-heading">
-              Chargers:<span className="chargers"> 4 (Private)</span>
+              Chargers:<span className="chargers"> 30 (Shared)</span>
             </b>
           </p>
         </div>
@@ -44,10 +44,7 @@ function WorkplaceProject() {
               a charge is complete through text/email alerts, and notify parking
               management if an EV had not vacated after a charge was completed
             </li>
-            <li>
-              Opportunity to capitalize on TransLink’s bus depot development for
-              300 electric-battery busses.
-            </li>
+            
           </ul>
         </div>
       </div>

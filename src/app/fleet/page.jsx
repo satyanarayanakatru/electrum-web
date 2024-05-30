@@ -7,8 +7,9 @@ import pageTest3 from "../../../public/images/page-test3.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "../singlefamilyresidential/page.css";
 import FleetProjects from "./fleetprojects";
+import "../globals.css";
+
 
 // eslint-disable-next-line react/display-name
 export default function () {

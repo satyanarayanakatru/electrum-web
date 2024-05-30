@@ -1,20 +1,62 @@
-import React from 'react';
-import Image from 'next/image';
-import CaseStudy1 from '../../../public/images/casestudy1.png'
-import CaseStudy2 from '../../../public/images/casestudy2.png'
-import CaseStudy3 from '../../../public/images/casestudy3.png'
-import CaseStudy4 from '../../../public/images/casestudy4.png'
-import './page.css'
+"use client";
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import "../blog/ev-charging-energy-blog/page";
+import CarbonCreditImage from "../../../public/images/carbon-credit-blog.jpg";
+import "./page.css";
 
-export default function Blog() {
+
+function Blog(props) {
+  const data = [
+    {
+      image: CarbonCreditImage,
+      title: "BLOG",
+      heading: "How Does Carbon Credit Aggregation Work?",
+    },
+   
+   
+  ];
   return (
-    <div className='casestudy-content'>
-        <div className='container'>
-            <Image src={CaseStudy1} className='caseimage caseimage1' alt='case-image'/>
-            <Image src={CaseStudy2} className='caseimage' alt='case-image'/>
-            <Image src={CaseStudy3} className='caseimage' alt='case-image'/>
-            <Image src={CaseStudy4} className='caseimage' alt='case-image'/>
-        </div>
+    <div>
+      {data.map((items) => {
+        return (
+          <div className="blog-content">
+            <div className="container">
+              <div className="blog-card">
+              <div className="blog-card-image">
+                <Link href="/blog/ev-charging-energy-blog">
+                  <Image src={items.image} alt="blog-image" className="blog-image"/>
+                </Link>
+              </div>
+              <div className="blog-info">
+                <h6>{items.title}</h6>
+                <Link href="/blog/ev-charging-energy-blog">{items.heading}</Link>
+              </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
-  )
+    // <div className="blog-content">
+    //   <div className="container">
+    //     <div className="blog-card">
+    //       <div className="blog-card-image">
+    //         <Link href="/blog/ev-charging-energy-blog">
+    //           <Image src={CarbonCreditImage} className="blog-image" />
+    //         </Link>
+    //       </div>
+    //       <div className="blog-info">
+    //         <h6>BLOG</h6>
+    //         <Link href="/blog/ev-charging-energy-blog">
+    //           How Does Carbon Credit Aggregation Work?
+    //         </Link>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+  );
 }
+
+export default Blog;

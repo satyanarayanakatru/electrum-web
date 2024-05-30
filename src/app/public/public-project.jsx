@@ -12,8 +12,8 @@ function PublicProject() {
       <div className="public-project-inner-content">
         <div className="public-left-content">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Company Name:</b> Pacific Coach
-            Lines / Air Canada
+            <b className="project-inner-heading">Customer Name: </b> 
+            Surrey Elite Auto Spa
           </h6>
           <p className="mb-3">
             <b className="project-inner-heading">Location:</b> Surrey
@@ -63,10 +63,7 @@ function PublicProject() {
               a charge is complete through text/email alerts, and notify parking
               management if an EV had not vacated after a charge was completed
             </li>
-            <li>
-              Opportunity to capitalize on TransLink’s bus depot development for
-              300 electric-battery busses.
-            </li>
+            
           </ul>
         </div>
         <div className="mr-5">

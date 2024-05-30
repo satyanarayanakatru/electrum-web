@@ -228,7 +228,7 @@ export default function About() {
             <h2>Embrace our EV future.</h2>
             <Link href="/contact" className="home-cta-btn">
               {" "}
-              Get started{" "}
+              Contact Us{" "}
             </Link>
           </div>
         </div>

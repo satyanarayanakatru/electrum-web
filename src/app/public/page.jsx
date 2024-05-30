@@ -5,9 +5,10 @@ import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
-import "../singlefamilyresidential/page.css";
 import PublicProject from "./public-project";
 import './page.css'
+import '../globals.css';
+
 
 export default function Public() {
   return (

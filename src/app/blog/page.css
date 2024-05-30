@@ -1,12 +1,46 @@
-.caseimage{
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 0px;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.caseimage1{
-    padding-top: 64px;
-    margin: 0 auto;
+.blog-card {
+  background-color: #fff;
+  width: 25.9%;
+  border-radius: 5px;
 }
-.casestudy-content{
-    background-image: url(../../../public/images/blue-bg.jpg);
+.blog-image {
+  width: 305px;
+  height: 305px;
+  display: block;
+  transition: transform 1s ease-out;
+}
+.blog-card-image {
+  overflow: hidden;
+}
+.blog-image:hover {
+  max-width: 100%;
+  transform: scale(1.4);
+  transition: transform 1s ease-in;
+}
+.blog-content {
+  padding: 100px 0;
+  /* background-image: url(../../../public/images/blue-bg.jpg); */
+  background-color: #F3F3F2;
+}
+.blog-info {
+  padding: 30px 10px;
+}
+.blog-info h6 {
+  color: #000028;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.blog-info a {
+  color: #000028;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 3px;
+}
+.blog-info a:hover {
+  color: #2dd3fa;
 }

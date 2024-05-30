@@ -2,40 +2,39 @@ import React, { useState } from "react";
 import "./navbar.css";
 import Dropdown from "./dropdown";
 import Link from "next/link";
+import DropdownMenu from "./DropdownMenu";
 
 export default function navItems(props) {
-  const [isShow, setIsShow] = useState(false);
-  const show = () => {
-    setIsShow(true);
-  };
+  // const [isShow, setIsShow] = useState(false);
+  // const show = () => {
+  //   setIsShow(true);
+  // };
 
-  const hide = () => {
-    setIsShow(false);
-  };
+  // const hide = () => {
+  //   setIsShow(false);
+  // };
 
   return (
     <div>
       <div className="nav-bar-list">
         <ul>
-          <li onMouseEnter={hide} className="d-inline-block ml-8">
+          <li  className="d-inline-block ml-8">
             <Link href="/" className="list-item">
               Home
             </Link>
           </li>
 
-          <button
-            onMouseEnter={show} 
-            className="list-item  ml-8 sol-btn"
-          >
-            Services
-            <Dropdown isVisible={isShow} />
-          </button>
+          <li className="ml-8 list-item">
+          <DropdownMenu/>
+          </li>
+            
+            {/* <Dropdown isVisible={isShow} /> */}
 
-          <li onMouseEnter={hide} className="d-inline-block ml-8">
+          <li  className="d-inline-block ml-8">
             <Link href="/blog" className="list-item">Blog</Link>
           </li>
 
-          <li onMouseEnter={hide} className="d-inline-block ml-8">
+          <li  className="d-inline-block ml-8">
             <Link href="/about" className="list-item">
               About Us
             </Link>
