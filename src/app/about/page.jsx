@@ -147,80 +147,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="col-lg-12 testimonials-div">
-          <div className="advantage-div advantage-content col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 container p-50">
-            <h2>The Electrum advantage</h2>
-            <div className="d-flex justify-between">
-              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-                <div>
-                  <Image src={Advantage1} className="d-inline" alt="advantage-image"/>
-                </div>
-                <h3 className="mt-4 mb-3">Technical Experts</h3>
-                <p>
-                  Our certified team of EV experts have extensive experience in
-                  meeting the unique needs of each customer.
-                </p>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-                <div>
-                  <Image src={Advantage2} className="d-inline" alt="advantage-image"/>
-                </div>
-                <h3 className="mt-4 mb-3">Cost Recovery & ROI</h3>
-                <p>
-                  We offer numerous cost recovery options through billing,
-                  energy management, carbon offsets, and grid curtailment.
-                </p>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-                <div>
-                  <Image src={Advantage3} className="d-inline" alt="advantage-image"/>
-                </div>
-                <h3 className="mt-4 mb-3">Support driven</h3>
-                <p>
-                  At Electrum, we strive for service excellence and customer
-                  satisfaction, with every client, every time.
-                </p>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
-                <div>
-                  <Image src={Advantage4} className="d-inline" alt="advantage-image"/>
-                </div>
-                <h3 className="mt-4 mb-3">Proven track record</h3>
-                <p>
-                  We have built EV infrastructure for some of the largest sites
-                  and brands in the world.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <div className="about-bottom-banner">
-          <div className="about-bg"></div>
-          <div className="bottom-banner-text">
-            <h3>Our green future, now</h3>
-            <p>
-              In British Columbia, our electricity is hydro-powered and 98%
-              clean. That’s an incredible advantage for our EV future. With
-              federal and provincial incentives and rebates, there is no better
-              time to invest in EV infrastructure today. Here at Electrum, we
-              take great pride in assisting you on your journey to become 100%
-              EV ready.
-            </p>
-            <div className="about-bottom-links">
-              <Link href="">
-                BC’s EV charger rebate program
-                <span className="ml-8">&gt;</span>
-              </Link>
-              <Link href="">
-                Canada’s ZEV infrastructure program{" "}
-                <span className="ml-8">&gt;</span>
-              </Link>
-              <Link href="">
-                Incentives - Plug In BC <span className="ml-8">&gt;</span>
-              </Link>
-            </div>
-          </div>
-        </div> */}
+      
+  
 
         <div className="bottom-cta">
           <div className="bottom-overlay"></div>

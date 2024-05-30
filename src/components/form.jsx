@@ -180,7 +180,7 @@ const Form = () => {
               name="_csrf"
               value="MJRxcFsq-IEKuVnCqO4Wckb0SstDqhHzbIpE"
             /> */}
-            <div className="captcha ">
+            <div className="captcha">
             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={setCaptcha} required/>
             </div>
             <div className="form-group flex-group">

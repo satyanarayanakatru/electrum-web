@@ -108,35 +108,35 @@ export default function Home() {
 
 
 
-    <section class="insights">
+    <section className="insights">
         <h2>Insights into smart energy</h2>
-        <div class="features">
-            <div class="feature">
+        <div className="features">
+            <div className="feature">
             <Image src={SmartImage} width={130} alt="smartimage"/>
                 <h3>KEY ANALYTICS</h3>
                 <p>Big data at your fingertips. Make swift business decisions backed up by real statistics.</p>
             </div>
-            <div class="feature">
+            <div className="feature">
             <Image src={SmartImage2} width={130} alt="smartimage"/>
                 <h3>MONITOR & CONTROL</h3>
                 <p>Monitor charging statuses live. Troubleshoot and control any charger in your system remotely.</p>
             </div>
-            <div class="feature">
+            <div className="feature">
             <Image src={SmartImage3} width={130} alt="smartimage"/>
                 <h3>CUSTOM PRICING</h3>
                 <p>Set your own charging rates with flexible options like flat fee, price per minute, and price per kWh.</p>
             </div>
-            <div class="feature">
+            <div className="feature">
             <Image src={SmartImage4} width={130} alt="smartimage"/>
                 <h3>AUTOMATIC BILLING</h3>
                 <p>Automatically receive payments on time every billing cycle. No need to chase down credit cards.</p>
             </div>
-            <div class="feature">
+            <div className="feature">
             <Image src={SmartImage5} width={130} alt="smartimage"/>
                 <h3>DYNAMIC POWER</h3>
                 <p>Our smart system manages the power consumption of your entire site to optimize performance and cost.</p>
             </div>
-            <div class="feature">
+            <div className="feature">
             <Image src={SmartImage6} width={130} alt="smartimage"/>
                 <h3>EASY QR ACTIVATION</h3>
                 <p>Allow customers the option to quickly charge as guest or create an account for future convenience.</p>

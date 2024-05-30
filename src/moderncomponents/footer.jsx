@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../public/images/logo.png";
 import Logo2 from "../../public/images/electrum-logo3.png";
 import Image from "next/image";
 import Link from "next/link";
