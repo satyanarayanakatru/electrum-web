@@ -5,7 +5,6 @@ function CarbonCredit() {
   return (
     <div className="carbon-blog">
       <div className="blog-bg-img">
-        <h3>BLOG</h3>
         <h2> How Does Carbon Credit Aggregation Work?</h2>
       </div>
       <main>
@@ -114,7 +113,7 @@ function CarbonCredit() {
           <section>
             <h5 className="section-heading">Conclusion</h5>
             <p className="section-para">
-              In today's eco-conscious world, the role of a Carbon Credit
+              In Today's eco-conscious world, the role of a Carbon Credit
               Aggregator is increasingly crucial. Electrum Charging Solutions is
               dedicated to providing top-tier carbon credits that support vital
               reduction projects globally. By partnering with us, clients

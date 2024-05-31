@@ -2,10 +2,8 @@ import React from "react";
 import Image from "next/image";
 import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
-import SomeOfOurProjects from "../../components/someofourprojects";
 import EndToEnd from "../../components/endtoend";
 import GetInTouch from "../../components/getintouch";
-import "./page.css";
 import SingleProject from "./single-project";
 
 export default function SingleFamilyResidential() {

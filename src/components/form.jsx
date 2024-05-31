@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import "./form.css";
 import Link from "next/link";
@@ -6,13 +6,48 @@ import CustomerSupport from "./customersupport";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Form = () => {
-  const [captcha, setCaptcha] = useState ();
-  const onSubmit = (e) => {
-    console.log(captcha);
-    if (captcha) {
-      console.log('Recaptcha verified!');
+  const [captcha, setCaptcha] = useState(null);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    address: "",
+    city: "",
+    province: "",
+    postal: "",
+    interest: "",
+    leadsource: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const onSubmit = async (e) => {
+    debugger;
+    e.preventDefault();
+    if (!captcha) {
+      console.log('Recaptcha not verified!');
+      return;
     }
-  }
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const result = await res.json();
+      console.log(result);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <div>
       <div className="electrum-contact">
@@ -43,6 +78,8 @@ const Form = () => {
                   className="form-control"
                   id="firstName"
                   name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -55,6 +92,8 @@ const Form = () => {
                   className="form-control"
                   id="lastName"
                   name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -69,6 +108,8 @@ const Form = () => {
                   className="form-control"
                   id="email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -81,6 +122,8 @@ const Form = () => {
                   className="form-control"
                   id="phone"
                   name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -93,6 +136,8 @@ const Form = () => {
                   className="form-control"
                   id="address"
                   name="address"
+                  value={formData.address}
+                  onChange={handleChange}
                 />
               </div>
               <div className="col-sm-6 col-xs-12">
@@ -104,6 +149,8 @@ const Form = () => {
                   className="form-control"
                   id="city"
                   name="city"
+                  value={formData.city}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -111,7 +158,7 @@ const Form = () => {
             <div className="form-group">
               <div className="col-sm-6 col-xs-12">
                 <label className="col-sm-12">Province</label>
-                <select className="select" id="province" name="province">
+                <select className="select" id="province" name="province" value={formData.province} onChange={handleChange}>
                   <option>British Columbia</option>
                   <option>Alberta</option>
                   <option>Saskatchewan</option>
@@ -134,16 +181,15 @@ const Form = () => {
                   className="form-control"
                   id="postal"
                   name="postal"
+                  value={formData.postal}
+                  onChange={handleChange}
                 />
               </div>
             </div>
             <div className="form-group">
               <label className="col-sm-12">Interest in EV Charging</label>
               <div className="col-sm-12">
-                <select className="select" name="interest">
-                  <option value="single">
-                    Single-Family Residential Building
-                  </option>
+                <select className="select" name="interest" value={formData.interest} onChange={handleChange}>
                   <option value="multi">Multi-Unit Residential Building</option>
                   <option value="workplace">Workplace</option>
                   <option value="public">Public</option>
@@ -154,7 +200,7 @@ const Form = () => {
             <div className="form-group">
               <label className="col-sm-12">How did you hear about us?</label>
               <div className="col-sm-12">
-                <select className="select" name="leadsource">
+                <select className="select" name="leadsource" value={formData.leadsource} onChange={handleChange}>
                   <option value="social">Social media</option>
                   <option value="friend">From a friend</option>
                   <option value="website">On your website</option>
@@ -172,20 +218,17 @@ const Form = () => {
                   rows="8"
                   id="message"
                   name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                 ></textarea>
               </div>
             </div>
-            {/* <input
-              type="hidden"
-              name="_csrf"
-              value="MJRxcFsq-IEKuVnCqO4Wckb0SstDqhHzbIpE"
-            /> */}
             <div className="captcha">
-            <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={setCaptcha} required/>
+              <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={setCaptcha} required />
             </div>
             <div className="form-group flex-group">
               <div>
-                <button id="send" className="btn btn-primary">
+                <button id="send" className="btn btn-primary" type="submit">
                   Submit
                 </button>
               </div>
@@ -193,15 +236,13 @@ const Form = () => {
           </form>
         </div>
       </div>
-      <CustomerSupport/>
-
+      <CustomerSupport />
       <div className="bottom-cta">
         <div className="bottom-overlay"></div>
         <div className="bottom-cta-text">
           <h2>Embrace our EV future.</h2>
           <Link href="/contact" className="home-cta-btn">
-            {" "}
-            Contact Us{" "}
+            Contact Us
           </Link>
         </div>
       </div>
