@@ -189,85 +189,7 @@ body {
   margin-top: 0 !important;
 }
 
-/* Responsive dropdown pages */
 
-/* @media screen and (max-width: 1200px) {
-  .page-info-icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 50vh;
-  }
-  .page-info-icons .icon-div {
-    text-align: center;
-    padding: 15px;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  .featured-img-div {
-    width: 669px;
-    height: 375px;
-    bottom: -187.5px;
-  }
-  .page-banner-text {
-    top: 100px;
-  }
-  .page-banner-text .banner-title {
-    width: 100%;
-  }
-  .page-banner-text .banner-text {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page-info-icons {
-    display: block;
-    margin-bottom: 40%;
-  }
-  .page-info-icons .icon-div {
-    display: block;
-    gap: 15px;
-    max-width: 100%;
-    width: 100%;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-  .page-info-icons .icon-div .page-icon-info-div {
-    height: auto;
-  }
-
-  .page-banner-text {
-    top: 90px;
-  }
-  .page-banner.electrum-banner {
-    min-height: 550px;
-  }
-  .banner-overlay {
-    min-height: 550px;
-  }
-  .featured-img-div {
-    width: 100%;
-  }
-  .page-banner-text .banner-text {
-    width: 60%;
-  }
-}
-@media screen and (max-width: 500px) {
-  .page-banner-text {
-    top: 75px;
-  }
-  .page-banner.electrum-banner {
-    min-height: 500px;
-  }
-  .banner-overlay {
-    min-height: 500px;
-  }
-  .page-banner-text .banner-text {
-    width: 90%;
-  }
-}
- */
 
 /* Responsive Dropdown Pages */
 
@@ -320,7 +242,7 @@ body {
     width: 96%;
   }
   .car-single, .car-multi, .car-workplace, .car-public, .car-fleet {
-    top: 96%;
+    top: 90%;
     left: 0;
     width: 100%;
     margin-bottom: 90%;
@@ -332,15 +254,29 @@ body {
   .page-info-icons .icon-div{
     margin: 0 auto;
   }
-  .multi-project-inner-content{
+  .multi-project-inner-content,.public-project-inner-content{
     display: block !important;
     margin: 0 auto;
+    margin: 0 20px !important;
   }
-  .multi-left-content{
+  .multi-left-content,.public-left-content{
     width: 100% !important;
     margin-right: 37px;
   }
   .bottom-cta{
     max-width: 100% !important;
+  }
+  .public-image{
+    margin-top: 20px;
+  }
+  .car-public{
+    top: 80%;
+  }
+  .services-info-main-content{
+    display: block !important;
+    margin-top: 9rem !important;
+  }
+  .services-info-inner-content{
+    margin-bottom: 20px;
   }
 }

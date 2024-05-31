@@ -143,7 +143,7 @@ footer{
         margin-left: 0;
         width: 100%;
     }
-    .footer-signup button, .footer-address button {
+    .footer-contact-btn, .footer-address button {
         margin: 10px auto;
     }
     .footer-signup,.footer-address{
