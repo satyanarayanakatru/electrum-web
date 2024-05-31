@@ -1,7 +1,7 @@
 .process-div {
   position: relative;
   width: 100%;
-  min-height: 600px;
+  min-height: 500px;
   background-image: url(../../public/images/page-geometry1.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,15 +73,15 @@
   font-weight: 700;
   font-size: 16px;
 }
-.process-arrow{
+.process-arrow {
   /* position: absolute;
     top: 20%;
     left: 20% */
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1199px) {
   .process-div {
-    min-height: 950px;
+    min-height: 490px;
   }
 
   .process-div .process-card-div .card-container .card-flex-row {
@@ -170,5 +170,53 @@
   .process-arrow,
   .process-bottom-arrow {
     display: none;
+  }
+} */
+
+@media screen and (max-width: 1199px) {
+  .process-div {
+    min-height: 490px;
+  }
+  .process-div .process-card-div .card-container {
+    gap: 16px;
+  }
+  .process-div .process-card-div .card-container .process-card {
+    margin-top: 12%;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .card-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .process-div {
+    min-height: 705px !important;
+  }
+  .process-arrow,
+  .process-bottom-arrow-div {
+    display: none;
+  }
+  .process-div .process-card-div h2 {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-banner-text .banner-title h1 {
+    font-size: 42px;
+}
+
+  .card-container{
+    display: block !important;
+  }
+  .process-div{
+    height: 100rem !important;
+  }
+  .process-img-div,.process-info{
+    margin: 0 auto;
+  }
+  .process-div .process-card-div .card-container .process-card .process-info p {
+    font-size: 18px;
   }
 }

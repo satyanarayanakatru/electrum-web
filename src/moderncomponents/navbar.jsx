@@ -3,18 +3,24 @@ import React from "react";
 import Image from "next/image";
 import "./navbar.css";
 import Logo from "../../public/images/electrum-logo3.png";
-import FormModal from "./contactModal";
 import NavItems from "./navItems";
 
 export default function Navbar() {
-  const search = (e) => {
-    e.preventDefault();
+  function myFunction(x, y) {
+    var x = document.getElementById("nav_bar");
+    var y = document.getElementById("hamburger");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    y.classList.toggle("change");
   }
 
   return (
     <div>
       <header>
-        <nav>
+        <div className="header-content">
           <div className="logo">
             <div>
               <a href="">
@@ -24,16 +30,23 @@ export default function Navbar() {
 
             <div>
               <a href="">
-                <Image src={Logo} width={100} className="logo2" alt="logo"/>
+                <Image src={Logo} width={100} className="logo2" alt="logo" />
               </a>
             </div>
           </div>
-          <div>
-            <NavItems />
+          <div className="ham_menu" id="hamburger" onClick={myFunction}>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
           </div>
-          
-          <FormModal />
-        </nav>
+          <div id="nav_bar">
+            <div className="navbar">
+              <nav>
+                <NavItems />
+              </nav>
+            </div>
+          </div>
+        </div>
       </header>
     </div>
   );

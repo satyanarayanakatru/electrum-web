@@ -105,7 +105,7 @@
   background-position-x: center;
   width: 100%;
   z-index: 1;
-  top: -19%;
+  top: -18%;
   height: 90px;
 }
 .electrum-industry-cards {
@@ -394,16 +394,7 @@
   align-items: center;
   position: relative;
 }
-.bottom-cta .bottom-overlay {
-  left: 0;
-  top: 0;
-  background-image: url(../../../public/images/single-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  width: 100%;
-  height: 635px;
-}
+
 .bottom-cta .bottom-cta-text {
   text-align: center;
   margin: 0;
@@ -421,7 +412,7 @@
   margin-bottom: 45px;
 }
 
-.col-lg-3 {
+.advantage-info {
   width: 22%;
 }
 
@@ -462,154 +453,14 @@
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 1450px) {
-  .electrum-industry-cards .card-container .industry-card.title-card h2 {
-    font-size: 42px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .electrum-industry-cards {
-    min-height: 1450px;
-    background-size: cover;
-  }
-  .electrum-industry-cards .card-container {
-    margin-top: 0;
-    width: 80%;
-  }
-  .electrum-industry-cards
-    .card-container
-    .industry-card.title-card
-    .inner-card {
-    text-align: left;
-  }
-
-  .testimonials-div .advantage-div {
-    margin-top: 10vh;
-  }
-  .testimonials-div .testimonial-cards .testimonial-slider {
-    transform: translateX(-334.5px);
-  }
-  .testimonials-div .testimonial-cards .testimonial-slider .testimonial-card {
-    width: 669px;
-  }
-  .testimonials-div .testimonial-logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 75%;
-    margin: 0 auto;
-  }
-  .testimonials-div .testimonial-logos img {
-    display: block;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 980px) {
-  .electrum-industry-cards {
-    min-height: 1200px;
-  }
-  .electrum-industry-cards .card-container .inner-card-container {
-    display: block !important;
-  }
-  .card-inner-content,
-  .smart-inner-content {
-    display: block !important;
-  }
-  .insights-div {
-    min-height: 1000px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .electrum-stats {
-    display: none;
-  }
-  .electrum-industry-cards {
-    margin-top: -20vh;
-    min-height: 2650px;
-  }
-  .electrum-industry-cards .card-container .industry-card.title-card {
-    height: auto;
-    margin-bottom: 15px;
-    margin-top: -30px;
-  }
-  .electrum-industry-cards
-    .card-container
-    .industry-card.title-card
-    .inner-card {
-    background: 0 0;
-    border-radius: none;
-    height: auto;
-    border: none;
-    color: #394a62;
-    text-align: center;
-    padding: 30px;
-    margin-top: 30px;
-    border-radius: 0;
-    box-shadow: none;
-  }
-  .electrum-industry-cards
-    .card-container
-    .industry-card.title-card
-    .inner-card
-    svg {
-    display: block;
-    margin: 0 auto;
-  }
-  .insights-div {
-    min-height: 1250px;
-  }
-  .insights-div .insight-feature {
-    display: flex;
-    gap: 30px;
-    min-height: 150px;
-  }
-  .insights-div .insight-feature div {
-    text-align: left;
-    margin-top: 2px;
-  }
-  .insights-div .insight-feature div h3 {
-    margin-top: 0;
-  }
-  .testimonials-div .testimonial-cards {
-    min-height: 650px;
-    margin-top: 75px;
-  }
-  .testimonials-div .testimonial-cards .testimonial-slider {
-    transform: translateX(-187.5px);
-  }
-  .testimonials-div .testimonial-cards .testimonial-slider .testimonial-card {
-    width: 375px;
-    height: 590px;
-    display: block;
-  }
-  .testimonials-div .testimonial-logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75%;
-    margin: 0 auto;
-  }
-  .testimonials-div .testimonial-logos img {
-    display: block;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 600px) {
-  .electrum-home .home-banner-text div {
-    width: 80%;
-  }
-}
-
-
-
 .insights {
   background-image: url(../../../public/images/bulb.jpg); /* Dark blue for bottom section */
   padding: 20px;
   color: #ffffff; /* White text */
   text-align: center;
 }
-.insights h2{
-  font-size: 42px
+.insights h2 {
+  font-size: 42px;
 }
 .features {
   display: flex;
@@ -630,14 +481,100 @@
   height: 100px;
   margin: 0 auto;
   margin-bottom: 10px;
-
 }
 
 .feature h3 {
   margin-bottom: 10px;
   font-size: 20px;
-    font-weight: bolder
+  font-weight: bolder;
 }
-.feature p{
-  font-size: 16px
+.feature p {
+  font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+  .industry-card-bg-image {
+    top: -17%;
+  }
+
+  .feature {
+    min-width: 120px;
+  }
+  .bottom-cta {
+    height: 500px !important;
+  }
+  .testimonials-div .advantage-div .advantage-info h3{
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .testimonials-div .advantage-div .advantage-info h3 {
+    font-size: 14px;
+  }
+  .testimonials-div .advantage-div .advantage-info p {
+    font-size: 15px;
+  }
+ 
+  .industry-cards img {
+    margin: 0 auto;
+    width: 391px;
+  }
+  .industry-cards-content h3{
+    font-size: 16px;
+  }
+  .industry-cards-content p {
+    font-size: 15px;
+  }
+  .industry-cards-content a{
+    font-size: 15px;
+  }
+  .features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .industry-card-bg-image {
+    top: -3.5% !important;
+    max-width: 100%;
+  }
+  .industry-cards img{
+    width: 156px !important;
+    max-width: 100% !important;
+  }
+  .industry-card-inner-content{
+    display: block !important;
+  }
+  .industry-cards h2 {
+    font-size: 40px;
+  }
+  .industry-cards-content{
+    padding-bottom: 20px;
+  }
+  .features{
+    display: block;
+  }
+  .insights h2 {
+    font-size: 40px;
+}
+  .feature{
+    padding-bottom: 20px;
+  }
+  .electrum-advantage-content{
+    display: block !important;
+  }
+  .advantage-info{
+    width: 100%;
+  }
+  /* .slider-container {
+    padding: 0 25px;
+  }
+  .slider-image{
+    margin: 0 10px;
+  }
+  */
 }

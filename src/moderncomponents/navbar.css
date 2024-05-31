@@ -4,7 +4,7 @@ header{
   width: 100%;
 }
 
-nav{
+.header-content{
     background-color: #394B62;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ nav{
 .nav-bar-list ul{
     list-style: none;
 }
-.nav-bar-list ul li,.sol-btn{
+.nav-bar-list ul li{
     display: inline-block;
     font-size: 18px;
     line-height: 1.3em;
@@ -55,7 +55,7 @@ nav{
 .logo{
   display: flex;
   align-items: center;
-  margin-right: 49%;
+  margin-right: 30%;
 }
 .logo2{
   width: 200px;
@@ -63,16 +63,38 @@ nav{
 .list-item:hover{
   color: #ffd166;
 }
+.talk{
+    text-transform: uppercase;
+    background-color: #ffd166;
+    color: #fff;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.talk:hover{
+    background-color: #33526f;
+}
 
 @media screen and (max-width: 1199px) {
-  header {
-    padding-bottom: 60px;
+  
+
+  .header-content,.logo{
+    display: block;
+
+  }
+  .logo{
+    margin-right: 0;
+    display: inline-block;
   }
   #nav_bar {
     display: none;
     margin-top: 41px;
     text-align: center;
     margin-bottom: 40px;
+   
   }
   .ham_menu {
     display: block;
@@ -83,17 +105,11 @@ nav{
     margin: 0;
   }
 
-  nav button {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
+
   .navbar {
     display: block;
   }
-  .arrow {
-    display: block;
-  }
+
   .drop-content {
     left: 50%;
     top: 50%;
@@ -105,7 +121,7 @@ nav{
   .bar3 {
     width: 35px;
     height: 4px;
-    background-color: #333;
+    background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -124,25 +140,26 @@ nav{
   .change .bar3 {
     transform: translate(0, -8px) rotate(45deg);
   }
+  .nav-bar-list ul li{
+    display: block !important;
+  }
+  .nav-bar-list ul li{
+    padding: 5px 0;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .talk{
+    max-width: 20%;
+    margin-top: 10px !important;
+  }
+  .dropdown-content{
+    left: -54% !important;
+  }
 }
 
-@media screen and (max-width: 767px) {
-  .container {
-    width: 96%;
-  }
-
-  .banner_content h1 {
-    font-size: 29px;
-  }
-  .banner_content p {
-    font-size: 18px;
-  }
-
-  .page_banner {
-    height: 400px;
-  }
-  .navbar_content {
-    display: block;
+@media screen and (max-width:767px) {
+  .talk {
+    max-width: 50%;
   }
 }
 

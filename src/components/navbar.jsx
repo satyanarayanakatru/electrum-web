@@ -7,16 +7,7 @@ import Dropdown from "./dropdown";
 import './navbar.css';
 
 const Navbar = () => {
-  function myFunction(x,y) {
-    var x = document.getElementById("nav_bar");
-    var y = document.getElementById("hamburger");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";   
-    }
-    y.classList.toggle("change");
-}
+ 
 
   const [isVisible, setIsVisible] = useState(false);
   const toggleVisibility = () => {

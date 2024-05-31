@@ -36,7 +36,7 @@ export default function Home() {
           <div className="industry-card-bg-image"></div>
           <div className="industry-cards">
             <h2>Industries we electrify</h2>
-            <div className="d-flex justify-between">
+            <div className="industry-card-inner-content d-flex justify-between">
               <div className="industry-cards-content">
                 <Image src={Single} className="mb-3" width={150} height={150} alt="single-image"/>
                 <h3>Single Residential</h3>
@@ -143,96 +143,10 @@ export default function Home() {
             </div>
         </div>
     </section>
-
-
-
-
-
-        {/* <div className="insights-div col-lg-12">
-          <div className="col-lg-6 col-lg-offset-3 smart-energy-container">
-            <h2 className="pt-10">Insights into smart energy</h2>
-            <div className="col-lg-12">
-              <div className="d-flex justify-between smart-inner-content">
-                <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
-                  <div className="smart-energy-content">
-                    <Image src={SmartImage} width={130} />
-                    <h3>Key analytics</h3>
-                    <p>
-                      Big data at your fingertips. Make swift business decisions
-                      backed up by real statistics.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
-                  <div className="smart-energy-content">
-                    <Image src={SmartImage2} width={120} />
-                    <h3 className="smart-energy-content-heading">
-                      Monitor & control
-                    </h3>
-                    <p>
-                      Monitor charging statuses live. Troubleshoot and control
-                      any charger in your system remotely.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
-                  <div className="smart-energy-content">
-                    <Image
-                      src={SmartImage3}
-                      className="mb-4 mt-2"
-                      width={130}
-                    />
-                    <h3>Custom pricing</h3>
-                    <p>
-                      Set your own charging rates with flexible options like
-                      flat fee, price per minute, and price per kWh.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-between smart-inner-content">
-                <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
-                  <div className="smart-energy-content">
-                    <Image
-                      src={SmartImage4}
-                      className="mb-5 mt-2"
-                      width={130}
-                    />
-                    <h3>Automatic billing</h3>
-                    <p>
-                      Automatically receive payments on time every billing
-                      cycle. No need to chase down credit cards.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
-                  <div className="smart-energy-content">
-                    <Image src={SmartImage5} width={130} />
-                    <h3>Dynamic power</h3>
-                    <p>
-                      Our smart system manages the power consumption of your
-                      entire site to optimize performance and cost.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 insight-feature">
-                  <div className="smart-energy-content">
-                    <Image src={SmartImage6} width={130} />
-                    <h3>Easy QR activation</h3>
-                    <p>
-                      Allow customers the option to quickly charge as guest or
-                      create an account for future convenience.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="col-lg-12 testimonials-div">
           <div className="advantage-div advantage-content col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 container p-50">
             <h2>The Electrum advantage</h2>
-            <div className="d-flex justify-between">
+            <div className="electrum-advantage-content d-flex justify-between">
               <div className="col-lg-3 col-md-6 col-sm-6 advantage-info">
                 <div>
                   <Image src={Advantage1} className="d-inline" alt="advantage-image"/>

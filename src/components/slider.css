@@ -8,3 +8,20 @@
 .slick-prev:before, .slick-next:before{
     display: none;
 }
+.slider-image{
+    margin: 0 20px;
+}
+
+@media screen and (max-width:979px) {
+    /* .slider-image img{
+        padding: 0 80px;
+    } */
+    
+}
+@media screen and (max-width:768px) {
+
+
+    .slider-image img{
+        width: 237px !important;
+    }
+}

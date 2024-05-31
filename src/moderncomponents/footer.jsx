@@ -32,7 +32,7 @@ export default function Footer() {
               Sign up for our newsletter to read our unique perspective on the
               EV industry.
             </p>
-            <label>
+            {/* <label>
               Corporate Email <span>*</span>
             </label> <br />
             <input type="email" id="email"/> <br />
@@ -40,8 +40,8 @@ export default function Footer() {
             <span>
               I agree to the <a href="">privacy policy</a>
             </span>&nbsp;
-            <span className="asterisk">*</span>
-            <button type="submit">submit</button>
+            <span className="asterisk">*</span> */}
+            <Link href="/contact" type="submit" className="footer-contact-btn">Contact Us</Link>
           </div>
           <div className="footer-address">
             <p>Electrum Charging Solutions Inc,</p>
@@ -69,3 +69,4 @@ export default function Footer() {
     </footer>
   );
 }
+

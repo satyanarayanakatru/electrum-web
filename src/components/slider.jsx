@@ -21,6 +21,14 @@ function AutoPlay() {
     speed: 2000,
     autoplaySpeed: true,
     cssEase: "linear",
+    responsive: [
+      {
+          breakpoint: 768, // Mobile breakpoint
+          settings: {
+              slidesToShow: 1 // Show 1 slide on mobile
+          }
+      }
+  ]
   };
   return (
     <div className="slider-container">

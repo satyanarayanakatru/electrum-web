@@ -14,7 +14,6 @@ body {
 
 /* Dropdown All pages CSS */
 
-
 .page-banner.electrum-banner {
   position: relative;
   background-image: url(../../public/images/blue-bg.jpg);
@@ -25,7 +24,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 .featured-img-div {
   background-size: cover;
@@ -43,9 +41,9 @@ body {
 .car-fleet {
   background-image: url(../../public/images/car-single.jpg);
   width: 80%;
-  height: 800px;
+  height: 640px;
   position: absolute;
-  top: 64%;
+  top: 75%;
   left: 10%;
 }
 .car-multi {
@@ -187,13 +185,13 @@ body {
   margin-top: 20px;
   color: #394a62;
 }
-.page-info-main-content{
+.page-info-main-content {
   margin-top: 0 !important;
 }
 
 /* Responsive dropdown pages */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .page-info-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -269,4 +267,80 @@ body {
     width: 90%;
   }
 }
+ */
 
+/* Responsive Dropdown Pages */
+
+@media screen and (max-width: 1199px) {
+  .page-banner-text .banner-title h1 {
+    font-size: 48px;
+  }
+  .car-single,
+  .car-multi,
+  .car-workplace,
+  .car-public,
+  .car-fleet {
+    height: 543px;
+    top: 77%;
+  }
+  .page-banner-text .banner-text {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width:979px) {
+  .bottom-cta {
+    height: 365px !important;
+  }
+  .page-banner-text .banner-text p {
+    font-size: 22px;
+  }
+  .page-banner-text .banner-text {
+    width: 53%;
+}
+  .car-single, .car-multi, .car-workplace, .car-public, .car-fleet {
+    height: 440px;
+  }
+  .page-info-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .page-info-icons .icon-div .page-icon-info-div {
+    height: 150px;
+}
+
+}
+
+
+@media screen and (max-width:767px) {
+  .page-banner-text .banner-title {
+    width: 100%;
+  }
+  .page-banner-text .banner-text{
+    width: 96%;
+  }
+  .car-single, .car-multi, .car-workplace, .car-public, .car-fleet {
+    top: 96%;
+    left: 0;
+    width: 100%;
+    margin-bottom: 90%;
+  }
+  .page-info-icons{
+    display: block;
+    margin-top: 26rem;
+  }
+  .page-info-icons .icon-div{
+    margin: 0 auto;
+  }
+  .multi-project-inner-content{
+    display: block !important;
+    margin: 0 auto;
+  }
+  .multi-left-content{
+    width: 100% !important;
+    margin-right: 37px;
+  }
+  .bottom-cta{
+    max-width: 100% !important;
+  }
+}
