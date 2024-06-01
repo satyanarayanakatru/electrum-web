@@ -17,9 +17,8 @@ import ElectrumBanner from "../../../public/images/ElectrumImage.png";
 
 export default function About() {
   return (
-    <div>
-      <div className="electrum-about">
-        {/* <div className="electrum-banner page-banner">
+    <div className="electrum-about">
+      {/* <div className="electrum-banner page-banner">
           <div className="banner-overlay">
             <Image src={ElectrumBanner}/>
           </div>
@@ -35,12 +34,11 @@ export default function About() {
             </p>
           </div>
         </div> */}
-
-        <div className="quotes-info">
+      <div className="quotes-info">
+        <div className="container">
           <h1 className="mission-heading">Mission Statement</h1>
-
           <div className="info-div">
-            <Image src={Quote} alt="quote-image"/>
+            <Image src={Quote} alt="quote-image" />
             <div className="info">
               <p>
                 We empower our customers by providing solutions that allow for
@@ -51,6 +49,8 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container">
         <div className="our-story">
           <div className="our-story-container">
             <div className="story-info">
@@ -70,10 +70,11 @@ export default function About() {
                 city of Surrey, Vancouver, North Vancouver, and Burnaby.
               </p>
             </div>
-            <div className="story-imgs">
-              <Image src={About1} className="story-inner-img" alt="about-image"/>
-              <Image src={About2} className="story-inner-img" alt="about-image"/>
-            </div>
+          </div>
+
+          <div className="story-imgs">
+            <Image src={About1} className="story-inner-img" alt="about-image" />
+            <Image src={About2} className="story-inner-img" alt="about-image" />
           </div>
         </div>
 
@@ -146,19 +147,15 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div>
 
-      
-  
-
-        <div className="bottom-cta">
-          <div className="bottom-overlay"></div>
-          <div className="bottom-cta-text">
-            <h2>Embrace our EV future.</h2>
-            <Link href="/contact" className="home-cta-btn">
-              {" "}
-              Contact Us{" "}
-            </Link>
-          </div>
+      <div className="bottom-cta">
+        <div className="bottom-cta-text">
+          <h2>Embrace our EV future.</h2>
+          <Link href="/contact" className="home-cta-btn">
+            {" "}
+            Contact Us{" "}
+          </Link>
         </div>
       </div>
     </div>

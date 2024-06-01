@@ -6,8 +6,8 @@ import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import MultiProject from "./multiprojects";
-import './multiprojects.css';
-import '../globals.css';
+import "./multiprojects.css";
+import "../globals.css";
 
 export default function MultiUnitResidential() {
   return (
@@ -102,7 +102,7 @@ export default function MultiUnitResidential() {
         </div>
       </div>
       <EndToEnd />
-      <MultiProject/>
+      <MultiProject />
       <GetInTouch />
     </div>
   );

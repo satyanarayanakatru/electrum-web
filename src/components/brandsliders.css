@@ -1,0 +1,24 @@
+.slider-container {
+  padding: 0 30px;
+  width: 100%;
+  background-color: rgba(173, 216, 230, 0.8);
+  /* background-color: rgba(211, 211, 211, 0.8); */
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+.slider-image {
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 979px) {
+  /* .slider-image img{
+        padding: 0 80px;
+    } */
+}
+@media screen and (max-width: 768px) {
+  .slider-image img {
+    width: 237px !important;
+  }
+}

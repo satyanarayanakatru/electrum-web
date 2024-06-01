@@ -33,10 +33,10 @@ function SingleProject() {
           <Image src={SingleProjectImage} className="single-image"/>
         </div>
       </div> */}
-          <h1 className="m-3 single-heading">yet to update <span className="text-danger">*</span></h1>
-
+      <h1 className="m-3 single-heading">
+        yet to update <span className="text-danger">*</span>
+      </h1>
     </div>
-  
   );
 }
 

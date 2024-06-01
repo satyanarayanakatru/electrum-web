@@ -12,20 +12,27 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-inner-content">
           <div>
-          <div className="logo">
-            <div>
-              <a href="">
-                {/* <Image src={Logo} width={38} height={100} className="e-logo"/> */}
-              </a>
-            </div>
+            <div className="logo">
+              <div>
+                <a href="">
+                  {/* <Image src={Logo} width={38} height={100} className="e-logo"/> */}
+                </a>
+              </div>
 
-            <div>
-              <a href="">
-                <Image src={Logo2} width={100} className="logo2 footerlogo" alt="footer-logo" />
-              </a>
+              <div>
+                <a href="">
+                  <Image
+                    src={Logo2}
+                    width={100}
+                    className="logo2 footerlogo"
+                    alt="footer-logo"
+                  />
+                </a>
+              </div>
             </div>
-          </div>
-            <h2 className="footer-heading">EV Charging and Energy Management</h2>
+            <h2 className="footer-heading">
+              EV Charging and Energy Management
+            </h2>
           </div>
           <div className="footer-signup">
             <p>
@@ -41,7 +48,9 @@ export default function Footer() {
               I agree to the <a href="">privacy policy</a>
             </span>&nbsp;
             <span className="asterisk">*</span> */}
-            <Link href="/contact" type="submit" className="footer-contact-btn">Contact Us</Link>
+            <Link href="/contact" type="submit" className="footer-contact-btn">
+              Contact Us
+            </Link>
           </div>
           <div className="footer-address">
             <p>Electrum Charging Solutions Inc,</p>
@@ -52,8 +61,12 @@ export default function Footer() {
               Email: <a href="">support@electrumcharging.com</a>
             </p>
             <div className="social-icons">
-              <Link href="https://x.com/electrumchrge?s=11"><FaTwitter className="d-inline-block m-4 social-icons-icon"/></Link>
-              <Link href="https://www.linkedin.com/company/electrum-charging-solutions/"><FaLinkedinIn className="d-inline-block social-icons-icon"/></Link>
+              <Link href="https://x.com/electrumchrge?s=11">
+                <FaTwitter className="d-inline-block m-4 social-icons-icon" />
+              </Link>
+              <Link href="https://www.linkedin.com/company/electrum-charging-solutions/">
+                <FaLinkedinIn className="d-inline-block social-icons-icon" />
+              </Link>
             </div>
             <button>We are hiring</button>
           </div>
@@ -61,12 +74,11 @@ export default function Footer() {
         <div className="copy-rights">
           <p>
             <a href="">Privacy Policy</a>{" "}
-            <a href="">Website Terms & Conditions</a> | Copyright © 2024 Electrum Charging Solutions
-            Inc, All rights reserved.
+            <a href="">Website Terms & Conditions</a> | Copyright © 2024
+            Electrum Charging Solutions Inc, All rights reserved.
           </p>
         </div>
       </div>
     </footer>
   );
 }
-

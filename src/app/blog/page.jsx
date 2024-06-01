@@ -6,7 +6,6 @@ import "../blog/ev-charging-energy-blog/page";
 import CarbonCreditImage from "../../../public/images/carbon-credit-blog.jpg";
 import "./page.css";
 
-
 function Blog(props) {
   const data = [
     {
@@ -14,8 +13,6 @@ function Blog(props) {
       title: "BLOG",
       heading: "How Does Carbon Credit Aggregation Work?",
     },
-   
-   
   ];
   return (
     <div>
@@ -24,15 +21,21 @@ function Blog(props) {
           <div className="blog-content">
             <div className="container">
               <div className="blog-card">
-              <div className="blog-card-image">
-                <Link href="/blog/ev-charging-energy-blog">
-                  <Image src={items.image} alt="blog-image" className="blog-image"/>
-                </Link>
-              </div>
-              <div className="blog-info">
-                <h6>{items.title}</h6>
-                <Link href="/blog/ev-charging-energy-blog">{items.heading}</Link>
-              </div>
+                <div className="blog-card-image">
+                  <Link href="/blog/ev-charging-energy-blog">
+                    <Image
+                      src={items.image}
+                      alt="blog-image"
+                      className="blog-image"
+                    />
+                  </Link>
+                </div>
+                <div className="blog-info">
+                  <h6>{items.title}</h6>
+                  <Link href="/blog/ev-charging-energy-blog">
+                    {items.heading}
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

@@ -73,11 +73,7 @@
   font-weight: 700;
   font-size: 16px;
 }
-.process-arrow {
-  /* position: absolute;
-    top: 20%;
-    left: 20% */
-}
+
 
 /* @media screen and (max-width: 1199px) {
   .process-div {
@@ -205,15 +201,16 @@
 @media screen and (max-width: 767px) {
   .page-banner-text .banner-title h1 {
     font-size: 42px;
-}
+  }
 
-  .card-container{
+  .card-container {
     display: block !important;
   }
-  .process-div{
+  .process-div {
     height: 100rem !important;
   }
-  .process-img-div,.process-info{
+  .process-img-div,
+  .process-info {
     margin: 0 auto;
   }
   .process-div .process-card-div .card-container .process-card .process-info p {

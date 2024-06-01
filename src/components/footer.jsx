@@ -3,8 +3,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
-import './footer.css'
-
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -34,10 +33,10 @@ const Footer = () => {
         <div className="footer_inner_content">
           <h6>ELECTRUM</h6>
           <div className="social_icons">
-            <FaFacebookSquare size={25} className="ml-8 icons"/>
-            <FaTwitterSquare size={25} className="ml-8 icons"/>
-            <FaInstagramSquare size={25} className="ml-8 icons"/>
-            <FaYoutubeSquare size={25} className="ml-8 icons"/>
+            <FaFacebookSquare size={25} className="ml-8 icons" />
+            <FaTwitterSquare size={25} className="ml-8 icons" />
+            <FaInstagramSquare size={25} className="ml-8 icons" />
+            <FaYoutubeSquare size={25} className="ml-8 icons" />
           </div>
           <p>
             © 2024 Electrum Charging <br />
@@ -47,6 +46,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

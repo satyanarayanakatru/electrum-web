@@ -4,7 +4,6 @@ import FleetProject from "../../../public/images/fleet-project.png";
 import WorkPlaceProjectImage from "../../../public/images/workplace-project.png";
 import WorkPlaceProjectImage2 from "../../../public/images/single-project.png";
 import "./fleetprojects.css";
-// import './page.css'
 
 function FleetProjects() {
   return (

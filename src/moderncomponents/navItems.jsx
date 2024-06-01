@@ -15,37 +15,37 @@ export default function navItems(props) {
   // };
 
   return (
-      <div className="nav-bar-list">
-        <ul>
-          <li className="d-inline-block ml-8">
-            <Link href="/" className="list-item">
-              Home
-            </Link>
-          </li>
+    <div className="nav-bar-list">
+      <ul>
+        <li className="d-inline-block ml-8">
+          <Link href="/" className="list-item">
+            Home
+          </Link>
+        </li>
 
-          <li className="ml-8 list-item">
-            <DropdownMenu />
-          </li>
+        <li className="ml-8 list-item">
+          <DropdownMenu />
+        </li>
 
-          {/* <Dropdown isVisible={isShow} /> */}
+        {/* <Dropdown isVisible={isShow} /> */}
 
-          <li className="d-inline-block ml-8">
-            <Link href="/blog" className="list-item">
-              Blog
-            </Link>
-          </li>
+        <li className="d-inline-block ml-8">
+          <Link href="/blog" className="list-item">
+            Blog
+          </Link>
+        </li>
 
-          <li className="d-inline-block ml-8">
-            <Link href="/about" className="list-item">
-              About Us
-            </Link>
-          </li>
-          <li className="d-inline-block ml-8 talk">
-            <Link href="/contact" className="list-item ">
-              Talk to us
-            </Link>
-          </li>
-        </ul>
-      </div>
+        <li className="d-inline-block ml-8">
+          <Link href="/about" className="list-item">
+            About Us
+          </Link>
+        </li>
+        <li className="d-inline-block ml-8 talk">
+          <Link href="/contact" className="list-item ">
+            Talk to us
+          </Link>
+        </li>
+      </ul>
+    </div>
   );
 }

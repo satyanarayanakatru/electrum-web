@@ -25,12 +25,20 @@ function WorkplaceProject() {
           </p>
         </div>
         <div>
-          <Image src={WorkPlaceProjectImage2} className="workplace-image" alt="workproject-image"/>
+          <Image
+            src={WorkPlaceProjectImage2}
+            className="workplace-image"
+            alt="workproject-image"
+          />
         </div>
       </div>
       <div className="workplace-project-inner-content">
         <div className="mr-5">
-          <Image src={WorkPlaceProjectImage} className="workplace-image" alt="workproject-image"/>
+          <Image
+            src={WorkPlaceProjectImage}
+            className="workplace-image"
+            alt="workproject-image"
+          />
         </div>
         <div className="workplace-left-content ml-5">
           <ul className="ml-5">
@@ -44,7 +52,6 @@ function WorkplaceProject() {
               a charge is complete through text/email alerts, and notify parking
               management if an EV had not vacated after a charge was completed
             </li>
-            
           </ul>
         </div>
       </div>

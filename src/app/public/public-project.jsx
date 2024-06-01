@@ -12,7 +12,7 @@ function PublicProject() {
       <div className="public-project-inner-content">
         <div className="public-left-content">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Customer Name: </b> 
+            <b className="project-inner-heading">Customer Name: </b>
             Surrey Elite Auto Spa
           </h6>
           <p className="mb-3">
@@ -28,12 +28,20 @@ function PublicProject() {
           </h5>
         </div>
         <div>
-          <Image src={PublicProjectImage} className="public-image" alt="public-image"/>
+          <Image
+            src={PublicProjectImage}
+            className="public-image"
+            alt="public-image"
+          />
         </div>
       </div>
       <div className="public-project-inner-content">
         <div>
-          <Image src={WorkPlaceProjectImage2} className="public-image" alt="public-image"/>
+          <Image
+            src={WorkPlaceProjectImage2}
+            className="public-image"
+            alt="public-image"
+          />
         </div>
         <div className="public-left-content ml-5">
           <h6 className="mb-3">
@@ -63,11 +71,14 @@ function PublicProject() {
               a charge is complete through text/email alerts, and notify parking
               management if an EV had not vacated after a charge was completed
             </li>
-            
           </ul>
         </div>
         <div className="mr-5">
-          <Image src={WorkPlaceProjectImage} className="public-image" alt="public-image"/>
+          <Image
+            src={WorkPlaceProjectImage}
+            className="public-image"
+            alt="public-image"
+          />
         </div>
       </div>
     </div>

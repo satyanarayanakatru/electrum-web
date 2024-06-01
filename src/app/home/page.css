@@ -533,11 +533,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .bottom-cta {
+    height: 365px !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .industry-card-bg-image {
-    top: -3.5% !important;
+    top: -4.5% !important;
     max-width: 100%;
   }
   .industry-cards img {
@@ -571,7 +574,8 @@
   .industry-cards-content p {
     font-size: 18px;
   }
-  .industry-cards-content h3,.testimonials-div .advantage-div .advantage-info h3 {
+  .industry-cards-content h3,
+  .testimonials-div .advantage-div .advantage-info h3 {
     font-size: 20px;
   }
   .industry-cards-content a {
@@ -584,4 +588,5 @@
     margin: 0 10px;
   }
   */
+  
 }

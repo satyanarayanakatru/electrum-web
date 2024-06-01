@@ -4,20 +4,25 @@ import { FaAngleDown } from "react-icons/fa";
 
 function NavItems(props) {
   return (
-    <div >
+    <div>
       <li className="d-inline-block ml-8">
         <Link href="/" className="hover:text-cyan-500">
           Home
         </Link>
       </li>
-      <button onMouseOver={props.onMouseOver} className="hover:text-cyan-500  ml-8">
+      <button
+        onMouseOver={props.onMouseOver}
+        className="hover:text-cyan-500  ml-8"
+      >
         Solutions
         <FaAngleDown className="d-inline-block arrow" />
       </button>
-      
 
-      <button onMouseOver={props.onMouseOver} className="hover:text-cyan-500 d-inline-block ml-8">
-          Charging Stations
+      <button
+        onMouseOver={props.onMouseOver}
+        className="hover:text-cyan-500 d-inline-block ml-8"
+      >
+        Charging Stations
       </button>
 
       <li className="d-inline-block ml-8">

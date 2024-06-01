@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import "./form.css";
 import Link from "next/link";
-import CustomerSupport from "./customersupport";
+import CustomerSupport from "../../../components/customersupport";
 import ReCAPTCHA from "react-google-recaptcha";
 
-const Form = () => {
+const ContactForm = () => {
   const [captcha, setCaptcha] = useState(null);
   const [formData, setFormData] = useState({
     firstName: "",
@@ -27,17 +27,16 @@ const Form = () => {
   };
 
   const onSubmit = async (e) => {
-    debugger;
     e.preventDefault();
     if (!captcha) {
-      console.log('Recaptcha not verified!');
+      console.log("Recaptcha not verified!");
       return;
     }
     try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
+      const res = await fetch("/api/contact", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
@@ -67,7 +66,12 @@ const Form = () => {
           </div>
         </div>
         <div className="contact-form-container">
-          <form id="contact-form" className="form-horizontal" method="post" onSubmit={onSubmit}>
+          <form
+            id="contact-form"
+            className="form-horizontal"
+            method="post"
+            onSubmit={onSubmit}
+          >
             <div className="form-group">
               <div className="col-sm-6 col-xs-12">
                 <label className="col-sm-12">
@@ -158,7 +162,13 @@ const Form = () => {
             <div className="form-group">
               <div className="col-sm-6 col-xs-12">
                 <label className="col-sm-12">Province</label>
-                <select className="select" id="province" name="province" value={formData.province} onChange={handleChange}>
+                <select
+                  className="select"
+                  id="province"
+                  name="province"
+                  value={formData.province}
+                  onChange={handleChange}
+                >
                   <option>British Columbia</option>
                   <option>Alberta</option>
                   <option>Saskatchewan</option>
@@ -189,7 +199,12 @@ const Form = () => {
             <div className="form-group">
               <label className="col-sm-12">Interest in EV Charging</label>
               <div className="col-sm-12">
-                <select className="select" name="interest" value={formData.interest} onChange={handleChange}>
+                <select
+                  className="select"
+                  name="interest"
+                  value={formData.interest}
+                  onChange={handleChange}
+                >
                   <option value="multi">Multi-Unit Residential Building</option>
                   <option value="workplace">Workplace</option>
                   <option value="public">Public</option>
@@ -200,7 +215,12 @@ const Form = () => {
             <div className="form-group">
               <label className="col-sm-12">How did you hear about us?</label>
               <div className="col-sm-12">
-                <select className="select" name="leadsource" value={formData.leadsource} onChange={handleChange}>
+                <select
+                  className="select"
+                  name="leadsource"
+                  value={formData.leadsource}
+                  onChange={handleChange}
+                >
                   <option value="social">Social media</option>
                   <option value="friend">From a friend</option>
                   <option value="website">On your website</option>
@@ -224,9 +244,14 @@ const Form = () => {
               </div>
             </div>
             <div className="captcha">
-              <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={setCaptcha} required />
+              <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                onChange={setCaptcha}
+                required
+                className="captcha-icon"
+              />
             </div>
-            <div className="form-group flex-group">
+            <div className="form-group flex-group submit-btn">
               <div>
                 <button id="send" className="btn btn-primary" type="submit">
                   Submit
@@ -238,7 +263,6 @@ const Form = () => {
       </div>
       <CustomerSupport />
       <div className="bottom-cta">
-        <div className="bottom-overlay"></div>
         <div className="bottom-cta-text">
           <h2>Embrace our EV future.</h2>
           <Link href="/contact" className="home-cta-btn">
@@ -250,4 +274,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default ContactForm;

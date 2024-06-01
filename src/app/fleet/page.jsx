@@ -10,7 +10,6 @@ import GetInTouch from "../../components/getintouch";
 import FleetProjects from "./fleetprojects";
 import "../globals.css";
 
-
 // eslint-disable-next-line react/display-name
 export default function () {
   return (
@@ -31,22 +30,22 @@ export default function () {
         </div>
         <div className="featured-img-div car-fleet"></div>
       </div>
-      <div className="services-info">
+      <div className="fleet-services-info">
         <h2>Services</h2>
-        <div className="services-info-main-content">
-            <div className="services-info-inner-content">
-              <h4>Car Sharing</h4>
-              <p>Yet to Update *</p>
-            </div>
-            <div className="services-info-inner-content">
-              <h4>Transportation</h4>
-              <p>Yet to Update *</p>
-            </div>
-            <div className="services-info-inner-content">
-              <h4>Logistics</h4>
-              <p>Yet to Update *</p>
-            </div>
+        <div className="fleet-services-info-main-content">
+          <div className="fleet-services-info-inner-content">
+            <h4>Car Sharing</h4>
+            <p>Yet to Update *</p>
           </div>
+          <div className="fleet-services-info-inner-content">
+            <h4>Transportation</h4>
+            <p>Yet to Update *</p>
+          </div>
+          <div className="fleet-services-info-inner-content">
+            <h4>Logistics</h4>
+            <p>Yet to Update *</p>
+          </div>
+        </div>
       </div>
       <div className="page-info-icons page-info-main-content">
         <div className="icon-div">
@@ -119,7 +118,7 @@ export default function () {
         </div>
       </div>
       <EndToEnd />
-      <FleetProjects/>
+      <FleetProjects />
       <GetInTouch />
     </div>
   );

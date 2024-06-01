@@ -65,10 +65,10 @@
     font-size: 24px;
     margin-bottom: 10px;
   }
-  .slider-content p{
+  .slider-content p {
     font-size: 18px;
   }
-  .carousel-caption{
+  .carousel-caption {
     width: 80% !important;
     left: 0% !important;
   }
@@ -78,6 +78,4 @@
   .img-slide {
     height: 500px;
   }
-  
-
 }

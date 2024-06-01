@@ -4,11 +4,9 @@ import Image from "next/image";
 import NavItems from "./navItems";
 import Logo from "../../public/images/logo.png";
 import Dropdown from "./dropdown";
-import './navbar.css';
+import "./navbar.css";
 
 const Navbar = () => {
- 
-
   const [isVisible, setIsVisible] = useState(false);
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
@@ -44,6 +42,6 @@ const Navbar = () => {
       </header>
     </>
   );
-}
+};
 
 export default Navbar;

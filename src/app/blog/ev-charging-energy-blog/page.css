@@ -1,55 +1,61 @@
-.carbon-blog{
-    background-color: #fff;
+.carbon-blog {
+  background-color: #fff;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.blog-bg-img{
-    background-image: url(../../../../public/images/blog-bg-image.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    padding: 100px 50px 50px 50px;
-    color: #fff;
+.blog-bg-img {
+  background-image: url(../../../../public/images/blog-bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding: 100px 50px 50px 50px;
+  color: #fff;
 }
-.blog-bg-img h3{
-    font-size: 2rem;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #fff;
-    margin-bottom: 30px;
+.blog-bg-img h3 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 30px;
 }
-.blog-bg-img h2{
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.1em;
-    margin-top: 30px;
+.blog-bg-img h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin-top: 30px;
+}
+.blog-bg-img span {
+  width: 100%;
+}
+main {
+  padding: 50px 0;
+}
+section {
+  margin-bottom: 30px;
+}
+.section-main-heading {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-heading {
+  font-size: 24px;
+  color: #000028;
+  margin-bottom: 10px;
+}
+.section-para {
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #4b4f58;
+  margin-bottom: 10px;
+}
 
-}
-.blog-bg-img span{
-    width: 100%;
-}
-main{
-    padding: 50px 0;
-}
-section{
-    margin-bottom: 30px;
-}
-.section-main-heading{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.section-heading{
-    font-size: 24px;
-    color: #000028;
-    margin-bottom: 10px;
-}
-.section-para{
-    font-size: 18px;
-    line-height: 1.4em;
-    color: #4B4F58;
-    margin-bottom: 10px;
+/* Responsive */
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
 }

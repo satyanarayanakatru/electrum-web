@@ -49,11 +49,10 @@ header {
   color: #333;
   text-decoration: none;
 }
-.drop-content .home-left,.drop-content .home-right{
+.drop-content .home-left,
+.drop-content .home-right {
   width: 50%;
 }
-
-
 
 @media screen and (max-width: 1199px) {
   header {

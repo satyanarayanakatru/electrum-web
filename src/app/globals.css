@@ -189,7 +189,35 @@ body {
   margin-top: 0 !important;
 }
 
-
+.public-services-info,
+.fleet-services-info {
+  margin-top: 30rem;
+  text-align: center !important;
+  padding: 50px 0;
+}
+.public-services-info h2,
+.fleet-services-info h2 {
+  color: #394a62;
+  font-weight: 700;
+  font-size: 40px;
+}
+.public-services-info-main-content,
+.fleet-services-info-main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+.public-services-info-inner-content h4,
+.fleet-services-info-inner-content {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.public-services-info-inner-content p,
+.fleet-services-info-inner-content p {
+  font-size: 20px;
+}
 
 /* Responsive Dropdown Pages */
 
@@ -210,7 +238,7 @@ body {
   }
 }
 
-@media screen and (max-width:979px) {
+@media screen and (max-width: 979px) {
   .bottom-cta {
     height: 365px !important;
   }
@@ -219,64 +247,89 @@ body {
   }
   .page-banner-text .banner-text {
     width: 53%;
-}
-  .car-single, .car-multi, .car-workplace, .car-public, .car-fleet {
+  }
+  .car-single,
+  .car-multi,
+  .car-workplace,
+  .car-public,
+  .car-fleet {
     height: 440px;
   }
-  .page-info-icons{
+  .page-info-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .page-info-icons .icon-div .page-icon-info-div {
     height: 150px;
+  }
+  .public-services-info,
+  .fleet-services-info {
+    margin-top: 20rem;
+  }
 }
-
-}
-
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .page-banner-text .banner-title {
     width: 100%;
   }
-  .page-banner-text .banner-text{
+  .page-banner-text .banner-text {
     width: 96%;
   }
-  .car-single, .car-multi, .car-workplace, .car-public, .car-fleet {
+  .car-single,
+  .car-multi,
+  .car-workplace,
+  .car-public,
+  .car-fleet {
     top: 90%;
     left: 0;
     width: 100%;
     margin-bottom: 90%;
   }
-  .page-info-icons{
+  .page-info-icons {
     display: block;
     margin-top: 26rem;
   }
-  .page-info-icons .icon-div{
+  .page-info-icons .icon-div {
     margin: 0 auto;
   }
-  .multi-project-inner-content,.public-project-inner-content{
+  .multi-project-inner-content,
+  .public-project-inner-content,
+  .workplace-project-inner-content,
+  .fleet-project-inner-content {
     display: block !important;
     margin: 0 auto;
     margin: 0 20px !important;
   }
-  .multi-left-content,.public-left-content{
+  .multi-left-content,
+  .public-left-content,
+  .workplace-left-content,
+  .fleet-left-content {
     width: 100% !important;
     margin-right: 37px;
+    margin: 0 15px;
   }
-  .bottom-cta{
+  .bottom-cta {
     max-width: 100% !important;
   }
-  .public-image{
+  .public-image {
     margin-top: 20px;
   }
-  .car-public{
+  .car-public {
     top: 80%;
   }
-  .services-info-main-content{
+
+  .public-services-info-main-content,
+  .fleet-services-info-main-content {
     display: block !important;
-    margin-top: 9rem !important;
   }
-  .services-info-inner-content{
+  .services-info-inner-content {
+    margin-bottom: 20px;
+  }
+  .public-services-info,
+  .fleet-services-info {
+    margin-top: 25rem;
+  }
+  .public-services-info-inner-content,
+  .fleet-services-info-inner-content {
     margin-bottom: 20px;
   }
 }

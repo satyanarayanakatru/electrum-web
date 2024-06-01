@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Dropdown = (props) => {
   return (
     <div className="drop-content">
@@ -17,20 +16,31 @@ const Dropdown = (props) => {
             <div className="home-modal-right">
               <h4>SECTORS</h4>
               <ul>
-                <li><a href="">Utilities</a></li>
-                <li><a href="">Oil and Gas</a></li>
-                <li><a href="">Automotive</a></li>
-                <li><a href="">Charging Point Operators</a> </li>
-                <li><a href="">Electric Mobility Service Providers</a></li>
-                <li><a href="">Electric Vehicles Service Providers</a></li>
+                <li>
+                  <a href="">Utilities</a>
+                </li>
+                <li>
+                  <a href="">Oil and Gas</a>
+                </li>
+                <li>
+                  <a href="">Automotive</a>
+                </li>
+                <li>
+                  <a href="">Charging Point Operators</a>{" "}
+                </li>
+                <li>
+                  <a href="">Electric Mobility Service Providers</a>
+                </li>
+                <li>
+                  <a href="">Electric Vehicles Service Providers</a>
+                </li>
               </ul>
             </div>
           </div>
         </ul>
       ) : null}
-      
     </div>
   );
-}
+};
 
 export default Dropdown;

@@ -22,9 +22,9 @@ import Advantage1 from "../../../public/images/electrum-advantage-1.svg";
 import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
 import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
-import AutoPlay from "../../components/slider";
 import BannerSlider from "./BannerSlider";
 import Planning from '../../../public/images/planning1.jpg';
+import BrandSliders from "../../components/brandsliders";
 
 export default function Home() {
   return (
@@ -36,15 +36,15 @@ export default function Home() {
           <div className="industry-card-bg-image"></div>
           <div className="industry-cards">
             <h2>Industries we electrify</h2>
-            <div className="industry-card-inner-content d-flex justify-between">
-              <div className="industry-cards-content">
+            <div className="industry-card-inner-content d-flex justify-center">
+              {/* <div className="industry-cards-content">
                 <Image src={Single} className="mb-3" width={150} height={150} alt="single-image"/>
                 <h3>Single Residential</h3>
                 <p>Single-family detached and semi-detached houses.</p>
                 <Link href="/singlefamilyresidential">
                   Learn more &nbsp; &gt;
                 </Link>
-              </div>
+              </div> */}
 
               <div className="industry-cards-content">
                 <Image src={Multi} className="mb-3" width={150} height={150} alt="multi-image"/>
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <AutoPlay />
+        <BrandSliders/>
 
         {/* <div className="col-lg-12 hidden-sm hidden-xs hidden-md">
           <div className="col-lg-12">

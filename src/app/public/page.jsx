@@ -6,9 +6,8 @@ import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
 import PublicProject from "./public-project";
-import './page.css'
-import '../globals.css';
-
+import "./page.css";
+import "../globals.css";
 
 export default function Public() {
   return (
@@ -30,22 +29,22 @@ export default function Public() {
         </div>
         <div className="featured-img-div car-public"></div>
       </div>
-      <div className="services-info">
+      <div className="public-services-info">
         <h2>Services</h2>
-        <div className="services-info-main-content">
-            <div className="services-info-inner-content">
-              <h4>Commercial</h4>
-              <p>Yet to Update *</p>
-            </div>
-            <div className="services-info-inner-content">
-              <h4>Shopping-Center</h4>
-              <p>Yet to Update *</p>
-            </div>
-            <div className="services-info-inner-content">
-              <h4>Arena</h4>
-              <p>Yet to Update *</p>
-            </div>
+        <div className="public-services-info-main-content">
+          <div className="public-services-info-inner-content">
+            <h4>Commercial</h4>
+            <p>Yet to Update *</p>
           </div>
+          <div className="public-services-info-inner-content">
+            <h4>Shopping-Center</h4>
+            <p>Yet to Update *</p>
+          </div>
+          <div className="public-services-info-inner-content">
+            <h4>Arena</h4>
+            <p>Yet to Update *</p>
+          </div>
+        </div>
       </div>
       <div className="page-info-icons page-info-main-content">
         <div className="icon-div">
@@ -125,7 +124,7 @@ export default function Public() {
         </div>
       </div>
       <EndToEnd />
-      <PublicProject/>
+      <PublicProject />
       <GetInTouch />
     </div>
   );
