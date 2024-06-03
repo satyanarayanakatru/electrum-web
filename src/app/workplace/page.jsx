@@ -12,7 +12,6 @@ export default function WorkPlace() {
   return (
     <div>
       <div className="electrum-banner page-banner">
-        <div className="banner-overlay"></div>
         <div className="page-banner-text">
           <div className="banner-title">
             <h1>Workplace</h1>

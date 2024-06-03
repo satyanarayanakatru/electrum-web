@@ -15,7 +15,6 @@ export default function () {
   return (
     <div>
       <div className="electrum-banner page-banner">
-        <div className="banner-overlay"></div>
         <div className="page-banner-text">
           <div className="banner-title">
             <h1>Fleet</h1>

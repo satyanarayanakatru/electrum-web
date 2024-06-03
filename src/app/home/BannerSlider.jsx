@@ -10,11 +10,11 @@ import "./BannerSlider.css";
 
 function BannerSlider() {
   const settings = {
-    infinite: true,
-    slidesToShow: 2,
-    autoplay: true,
+    infinite: "true",
+    slidestoshow: 2,
+    autoPlay: true,
     speed: 1000,
-    autoplaySpeed: 1000,
+    autoplayspeed: 1000,
   };
 
   return (
@@ -31,13 +31,6 @@ function BannerSlider() {
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
-        <Image src={Image2} text="Second slide" className='img-slide'/>
-        <Carousel.Caption className='slider-content caption'>
-        <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
-          <p>Leading the Way in EV Charging and Energy Optimization</p>
-        </Carousel.Caption>
-      </Carousel.Item> */}
       <Carousel.Item>
         <Image
           src={Image3}
@@ -62,13 +55,6 @@ function BannerSlider() {
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
-        <Image src={Image5} text="Second slide" className='img-slide'/>
-        <Carousel.Caption className='slider-content caption'>
-        <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
-          <p>Leading the Way in EV Charging and Energy Optimization</p>
-        </Carousel.Caption>
-      </Carousel.Item> */}
     </Carousel>
   );
 }

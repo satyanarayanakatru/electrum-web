@@ -20,14 +20,14 @@ export default function Footer() {
               </div>
 
               <div>
-                <a href="">
+                <Link href="/">
                   <Image
                     src={Logo2}
                     width={100}
                     className="logo2 footerlogo"
                     alt="footer-logo"
                   />
-                </a>
+                </Link>
               </div>
             </div>
             <h2 className="footer-heading">
@@ -39,26 +39,24 @@ export default function Footer() {
               Sign up for our newsletter to read our unique perspective on the
               EV industry.
             </p>
-            {/* <label>
-              Corporate Email <span>*</span>
+            <label>
+               Email Address <span>*</span>
             </label> <br />
             <input type="email" id="email"/> <br />
             <input type="checkbox" name="" id="checkbox" />{" "}
             <span>
               I agree to the <a href="">privacy policy</a>
             </span>&nbsp;
-            <span className="asterisk">*</span> */}
-            <Link href="/contact" type="submit" className="footer-contact-btn">
-              Contact Us
-            </Link>
+            <span className="asterisk">*</span>
+            <button type="submit">Submit</button>
           </div>
           <div className="footer-address">
             <p>Electrum Charging Solutions Inc,</p>
             {/* <p>Global: +972-73-2239850</p> */}
-            <p>Address: 104-17741 65A Ave, Surrey, BC V3S 1Z8 </p>
-            <p>Canada: +1 866 898 3873</p>
+            <p>Address: <span>104-17741 65A Ave, Surrey, BC V3S 1Z8</span>  </p>
+            <p>Canada: <span>+1 866 898 3873</span> </p>
             <p>
-              Email: <a href="">support@electrumcharging.com</a>
+              Email: <Link href="/contact"><span>support@electrumcharging.com</span></Link>
             </p>
             <div className="social-icons">
               <Link href="https://x.com/electrumchrge?s=11">

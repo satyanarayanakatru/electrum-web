@@ -3,6 +3,7 @@ import Image from "next/image";
 import MultiProjectImage from "../../../public/images/multi-project.png";
 import WorkPlaceProjectImage from "../../../public/images/workplace-project.png";
 import WorkPlaceProjectImage2 from "../../../public/images/single-project.png";
+import SomeOfOurProjects from "@/components/someofourprojects";
 function MultiProject() {
   return (
     <div className="multi-project">
@@ -56,6 +57,7 @@ function MultiProject() {
           </h5>
         </div>
       </div>
+      {/* <SomeOfOurProjects/> */}
     </div>
   );
 }

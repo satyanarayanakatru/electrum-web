@@ -33,6 +33,7 @@ function BrandSliders() {
   };
   return (
     <div className="slider-container">
+      <h2 className="brand-heading">Our Partners</h2>
       <Slider {...settings}>
         <div className="slider-image">
           <Image src={Logo1} alt="logo" />

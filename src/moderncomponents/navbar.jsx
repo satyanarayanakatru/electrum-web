@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import "./navbar.css";
 import Logo from "../../public/images/electrum-logo3.png";
 import NavItems from "./navItems";
@@ -29,9 +30,9 @@ export default function Navbar() {
             </div>
 
             <div>
-              <a href="">
+              <Link href="/">
                 <Image src={Logo} width={100} className="logo2" alt="logo" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="ham_menu" id="hamburger" onClick={myFunction}>

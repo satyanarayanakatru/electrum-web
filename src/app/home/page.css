@@ -1,4 +1,4 @@
-.home-cta-btn {
+/* .home-cta-btn {
   border-radius: 6px;
   text-transform: uppercase;
   font-size: 16px;
@@ -69,8 +69,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-}
-.electrum-home .home-banner-text {
+} */
+/* .electrum-home .home-banner-text {
   z-index: 2;
   position: absolute;
   top: 25%;
@@ -84,8 +84,8 @@
   color: #33526f;
 
   /* color: #000; */
-}
-.electrum-home .home-banner-text h1 {
+
+/* .electrum-home .home-banner-text h1 {
   margin-bottom: 75px;
   text-align: center;
 }
@@ -229,104 +229,10 @@
 }
 .card-link a {
   text-decoration: none;
-}
-/* .planning-info-inner-content {
-  background-image: url(../../../public/images/planning.png);
-  width: 100%;
-  height: 800px;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-} */
-.planning-info {
-  /* width: 90%;
-  position: absolute;
-  bottom: 4%;
-  left: 9%; */
-  text-align: center;
-  color: black;
-  font-family: sans-serif;
-  padding: 50px 0;
-  background: #e9f5f6;
-}
-.planning-info h2 {
-  font-size: 44px;
-  font-weight: bolder;
-}
-.planning-info h5 {
-  font-size: 33px;
-  font-weight: bolder;
-  margin: 15px 0;
-  text-transform: uppercase;
-}
-.planning-info p {
-  font-size: 26px;
-  font-weight: bolder;
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
-}
-.planning-info-right-content {
-  background-image: url(../../../public/images/single-banner.jpg);
-  width: 50%;
-  height: 800px;
-}
+}  */
 
-.insights-div {
-  background-image: url(../../../public/images/bulb.jpg);
-  width: 100%;
-  padding: 0;
-  position: relative;
-  text-align: center;
-  min-height: 600px;
-  padding: 50px 0;
-}
-.insights-div h2 {
-  font-weight: 700;
-  color: #fff;
-  font-size: 50px;
-  margin-bottom: 60px;
-}
-.insights-div .insight-feature {
-  text-align: center;
-  min-height: 250px;
-  color: #fff;
-}
-.insights-div .insight-feature svg {
-  overflow: visible;
-}
-.insights-div .insight-feature h3 {
-  margin-top: 20px;
-  font-size: 22px;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-.smart-energy-container,
-.process-info-container {
-  width: 60%;
-  margin: 0 auto;
-}
-.process-info-container {
-  margin-left: 10%;
-}
-.smart-energy-content {
-  margin-right: 10px;
-}
-.smart-energy-content img {
-  margin: 0 auto;
-}
-.smart-energy-content h3 {
-  margin-bottom: 10px !important;
-}
-.smart-image {
-  margin-top: -10px !important;
-}
 
-.insights-div .insight-feature p {
-  font-weight: 700;
-  font-size: 20px;
-}
+
 .testimonials-div {
   width: 100%;
   padding-left: 0;
@@ -334,14 +240,6 @@
   background: #fff;
   position: relative;
 }
-/* .testimonials-div .poly-top {
-  position: absolute;
-  top: -56%;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  height: auto;
-} */
 .testimonials-div .advantage-div {
   margin-top: 4%;
   z-index: 1;
@@ -353,7 +251,7 @@
 }
 
 .testimonials-div .advantage-div h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #394a62;
   margin-bottom: 30px;
@@ -379,15 +277,7 @@
   width: 80%;
   margin: 0 auto;
 }
-.electrum-industry-cards
-  .card-container
-  .industry-card
-  .inner-card
-  .card-info
-  p {
-  font-weight: 300;
-  margin-top: 15px;
-}
+
 .bottom-cta {
   display: flex;
   justify-content: center;
@@ -449,12 +339,9 @@
   font-size: 17px;
   font-weight: 700;
 }
-.smart-inner-content {
-  padding-bottom: 30px;
-}
 
 .insights {
-  background-image: url(../../../public/images/bulb.jpg); /* Dark blue for bottom section */
+  background-color: #394a62;
   padding: 20px;
   color: #ffffff; /* White text */
   text-align: center;
@@ -478,7 +365,7 @@
 
 .feature img {
   width: 100px;
-  height: 100px;
+  height: 92px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
@@ -491,6 +378,8 @@
 .feature p {
   font-size: 16px;
 }
+
+/* Responsive */
 
 @media screen and (max-width: 1199px) {
   .industry-card-bg-image {
