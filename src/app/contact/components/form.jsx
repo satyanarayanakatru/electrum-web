@@ -243,11 +243,23 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="captcha">
+              {/* <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                onChange={setCaptcha}
+                required
+                className="captcha-icon"
+              />
               <ReCAPTCHA
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                 onChange={setCaptcha}
                 required
                 className="captcha-icon"
+              /> */}
+              <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                onChange={setCaptcha}
+                className="captcha-icon"
+                required
               />
             </div>
             <div className="form-group flex-group submit-btn">

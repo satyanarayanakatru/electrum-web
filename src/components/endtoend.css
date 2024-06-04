@@ -1,8 +1,8 @@
 .process-div {
   position: relative;
   width: 100%;
-  min-height: 500px;
-  background-image: url(../../public/images/page-geometry1.svg);
+  min-height: 730px;
+  background-image: url(../../public/images/about-page-geometry.png) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;

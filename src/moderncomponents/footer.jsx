@@ -1,5 +1,5 @@
 import React from "react";
-import Logo2 from "../../public/images/electrum-logo3.png";
+import Logo from "../../public/Electrum_White.png";
 import Image from "next/image";
 import Link from "next/link";
 import "./footer.css";
@@ -11,7 +11,7 @@ export default function Footer() {
     <footer>
       <div className="footer-content">
         <div className="footer-inner-content">
-          <div>
+          <div className="footer-logo-content">
             <div className="logo">
               <div>
                 <a href="">
@@ -22,7 +22,7 @@ export default function Footer() {
               <div>
                 <Link href="/">
                   <Image
-                    src={Logo2}
+                    src={Logo}
                     width={100}
                     className="logo2 footerlogo"
                     alt="footer-logo"

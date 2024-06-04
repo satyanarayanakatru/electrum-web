@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Image from "next/image";
 import Image1 from "../../../public/images/elctrumbanner2.jpg";
 import Image2 from "../../../public/images/electrumbanner3.webp";
+import HomeBanner from "../../../public/Home-Page-Banner.jpg"
 import Image3 from "../../../public/images/car-five.jpg";
 import Image4 from "../../../public/images/car-two.jpg";
 import Image5 from "../../../public/images/car-four.jpg";
@@ -21,7 +22,7 @@ function BannerSlider() {
     <Carousel {...settings} className="carousel-banner">
       <Carousel.Item>
         <Image
-          src={Image2}
+          src={HomeBanner}
           text="First slide"
           className="img-slide"
           alt="slide-image"
@@ -31,7 +32,7 @@ function BannerSlider() {
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Image
           src={Image3}
           text="Third slide"
@@ -54,7 +55,7 @@ function BannerSlider() {
           <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

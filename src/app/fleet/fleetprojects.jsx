@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import FleetProject from "../../../public/images/fleet-project.png";
+import FleetProject from "../../../public/images/fleet-project2.jpeg";
 import WorkPlaceProjectImage from "../../../public/images/workplace-project.png";
 import WorkPlaceProjectImage2 from "../../../public/images/single-project.png";
 import "./fleetprojects.css";

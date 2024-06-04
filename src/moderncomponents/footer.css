@@ -90,6 +90,9 @@ footer {
   font-size: 19px;
   margin-top: 25px;
 }
+.footer-logo-content{
+  width: 42%;
+}
 .footerlogo {
   width: 370px !important;
   margin-left: 0;

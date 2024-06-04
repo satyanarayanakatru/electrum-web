@@ -1,0 +1,31 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.evcharging{
+    padding: 100px 0;
+}
+.evcharging ul{
+    list-style: disc;
+}
+.evcharging h4,.evcharging h2{
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+.evcharging p,.evcharging ul li{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+.evcharging ul{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.evcharging ul li{
+    margin-bottom: 0;
+}
+.evcharging p strong{
+    font-size: 20px;
+    font-weight: bold;
+}

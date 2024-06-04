@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import MultiProjectImage from "../../../public/images/multi-project.png";
+import KingLanding from "../../../public/Kings_Landing.jpg";
+import KingLanding2 from "../../../public/Kings_Landing2.jpg";
 import WorkPlaceProjectImage from "../../../public/images/workplace-project.png";
 import WorkPlaceProjectImage2 from "../../../public/images/single-project.png";
 import SomeOfOurProjects from "@/components/someofourprojects";
@@ -27,17 +29,12 @@ function MultiProject() {
           </h5>
         </div>
         <div>
-          <Image
-            src={MultiProjectImage}
-            className="multi-image"
-            alt="multi-image"
-          />
+          <Image src={KingLanding} className="multi-image" alt="multi-image" />
         </div>
       </div>
       <div className="multi-project-inner-content">
-        <div>
-          <h2>Image</h2>
-          <h2>yet to update</h2>
+        <div className="mr-5">
+          <Image src={KingLanding2} className="multi-image" alt="multi-image" />
         </div>
         <div className="multi-left-content">
           <h6 className="mb-3">

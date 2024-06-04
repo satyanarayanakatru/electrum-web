@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
+import SE5 from "../../../public/images/SE-5.png";
+import SE2 from "../../../public/images/SE-2.png";
+import SE4 from "../../../public/images/SE-4.png";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
 import GetInTouch from "../../components/getintouch";
@@ -15,7 +18,7 @@ export default function MultiUnitResidential() {
       <div className="electrum-banner page-banner">
         <div className="page-banner-text">
           <div className="banner-title">
-            <h1>Multiple-Unit Residential Buildings</h1>
+            <h1>Multi-Unit Residential Buildings</h1>
           </div>
           <div className="banner-text">
             <p>
@@ -32,9 +35,9 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
-              width={100}
-              height={100}
+              src={SE5}
+              width={150}
+              height={150}
               className="page-icon"
             />
           </div>
@@ -50,8 +53,8 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest2}
-              width={100}
+              src={pagePublicTest1}
+              width={80}
               height={100}
               className="page-icon"
             />
@@ -68,7 +71,7 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
+              src={SE2}
               width={100}
               height={100}
               className="page-icon"
@@ -77,8 +80,7 @@ export default function MultiUnitResidential() {
           <div className="page-icon-info-div">
             <h3>EV READY PLAN</h3>
             <p>
-              Professionally drafted EV Ready Plan tailored to your building.
-              Benefit from BC rebates.
+            Professionally drafted and tailored to your building. Save up to 75%, while rebates available.
             </p>
           </div>
         </div>
@@ -86,7 +88,7 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest2}
+              src={SE4}
               width={100}
               height={100}
               className="page-icon"
@@ -95,8 +97,7 @@ export default function MultiUnitResidential() {
           <div className="page-icon-info-div">
             <h3>COST RECOVERY</h3>
             <p>
-              Take advantage of government incentive programs. Set your own
-              resident usage fees.
+            Automated billing enables cost recovery. Current Government incentives can help offset project expenses. 
             </p>
           </div>
         </div>

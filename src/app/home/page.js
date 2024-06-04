@@ -17,6 +17,7 @@ import SmartImage3 from "../../../public/images/SE-3.png";
 import SmartImage4 from "../../../public/images/SE-4.png";
 import SmartImage5 from "../../../public/images/SE-5.png";
 import SmartImage6 from "../../../public/images/SE-6.png";
+import QRCode from "../../../public/QR_Code_Activation.png";
 import BluePolyReverse from "../../../public/images/blue-poly-reverse.png";
 import Advantage1 from "../../../public/images/electrum-advantage-1.svg";
 import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
@@ -122,7 +123,7 @@ export default function Home() {
               <p>Optimize site power consumption for cost savings.</p>
             </div>
             <div className="feature">
-              <Image src={SmartImage6} width={130} alt="smartimage" />
+              <Image src={QRCode} width={130} alt="smartimage" />
               <h3>EASY QR ACTIVATION</h3>
               <p>Quick and convenient charging for guests and members.</p>
             </div>
