@@ -9,7 +9,7 @@
 }
 .blog-image {
   width: 410px;
-    height: 332px;
+  height: 332px;
   display: block;
   transition: transform 1s ease-out;
 }
@@ -24,7 +24,7 @@
 .blog-content {
   padding: 100px 0;
   /* background-image: url(../../../public/images/blue-bg.jpg); */
-  background-color: #f3f3f2;
+  background-color: #e9f5f6;
   padding-left: 36px;
 }
 .blog-info {
@@ -45,7 +45,7 @@
 .blog-info a:hover {
   color: #2dd3fa;
 }
-.blogs{
+.blogs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
