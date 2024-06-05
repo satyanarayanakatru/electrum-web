@@ -42,18 +42,14 @@ function Blog(props) {
       heading: " Sustainability and Innovation",
       link: "/blog/sustainability-and-innovation",
     },
-    {
-      image: Evcharging,
-      title: "BLOG",
-      heading: " EV Charging 101",
-      link: "/blog/evcharging101",
-    },
+    
+
   ];
   return (
     <div className="blogs">
-      {data.map((items) => {
-        return (
-          <div className="blog-content">
+      <div className="blog-content">
+        {data.map((items) => {
+          return (
             <div className="blog-card">
               <div className="blog-card-image">
                 <Link href={items.link}>
@@ -66,14 +62,12 @@ function Blog(props) {
               </div>
               <div className="blog-info">
                 <h6>{items.title}</h6>
-                <Link href={items.link}>
-                  {items.heading}
-                </Link>
+                <Link href={items.link}>{items.heading}</Link>
               </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
     // <div className="blog-content">
     //   <div className="container">

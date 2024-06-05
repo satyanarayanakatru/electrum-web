@@ -47,16 +47,16 @@ body {
   left: 10%;
 }
 .car-multi {
-  background-image: url(../../public/images/car-multi.jpg);
+  background-image: url(../../public/multi-banner.jpg);
 }
 .car-public {
-  background-image: url(../../public/images/car-public.jpg);
+  background-image: url(../../public/public-banner.jpg);
 }
 .car-workplace {
   background-image: url(../../public/Workplace.jpg);
 }
 .car-fleet {
-  background-image: url(../../public/images/car-fleet.jpg);
+  background-image: url(../../public/fleet-banner.jpg);
 }
 
 .page-banner-text {

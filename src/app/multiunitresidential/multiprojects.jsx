@@ -36,7 +36,7 @@ function MultiProject() {
         <div className="mr-5">
           <Image src={KingLanding2} className="multi-image" alt="multi-image" />
         </div>
-        <div className="multi-left-content">
+        <div className="multi-left-content ml-5">
           <h6 className="mb-3">
             <b className="project-inner-heading">Developer:</b> The City of
             Lougheed, Burnaby BC, Canada

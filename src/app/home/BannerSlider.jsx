@@ -2,7 +2,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import Image from "next/image";
 import Image1 from "../../../public/images/elctrumbanner2.jpg";
-import Image2 from "../../../public/images/electrumbanner3.webp";
+import HomeBanner2 from "../../../public/home-banner2.jpeg";
 import HomeBanner from "../../../public/Home-Page-Banner.jpg"
 import Image3 from "../../../public/images/car-five.jpg";
 import Image4 from "../../../public/images/car-two.jpg";
@@ -32,9 +32,9 @@ function BannerSlider() {
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
+       <Carousel.Item>
         <Image
-          src={Image3}
+          src={HomeBanner2}
           text="Third slide"
           className="img-slide"
           alt="slide-image"
@@ -44,6 +44,7 @@ function BannerSlider() {
           <p>Leading the Way in EV Charging and Energy Optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
+      {/*
       <Carousel.Item>
         <Image
           src={Image4}

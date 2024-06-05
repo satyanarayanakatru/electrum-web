@@ -4,8 +4,9 @@
 }
 .blog-card {
   background-color: #fff;
-  width: 87%;
+  width: 83%;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .blog-image {
   width: 410px;
@@ -26,6 +27,8 @@
   /* background-image: url(../../../public/images/blue-bg.jpg); */
   background-color: #e9f5f6;
   padding-left: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .blog-info {
   padding: 30px 10px;
@@ -44,11 +47,6 @@
 }
 .blog-info a:hover {
   color: #2dd3fa;
-}
-.blogs {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
 }
 
 /* Responsive */
