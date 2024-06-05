@@ -49,6 +49,7 @@ const ContactForm = () => {
       setFormData({...initFormData});
       console.error(error);
     }
+    alert("Form Submit Successfully")
   };
 
   return (
@@ -247,18 +248,6 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="captcha">
-              {/* <ReCAPTCHA
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                onChange={setCaptcha}
-                required
-                className="captcha-icon"
-              />
-              <ReCAPTCHA
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                onChange={setCaptcha}
-                required
-                className="captcha-icon"
-              /> */}
               <ReCAPTCHA
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                 onChange={setCaptcha}
@@ -268,7 +257,7 @@ const ContactForm = () => {
             </div>
             <div className="form-group flex-group submit-btn">
               <div>
-                <button id="send" className="btn btn-primary" type="submit">
+                <button id="send" className="btn btn-primary" type="submit" >
                   Submit
                 </button>
               </div>

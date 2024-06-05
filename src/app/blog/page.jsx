@@ -12,33 +12,29 @@ import "./page.css";
 
 function Blog(props) {
   const data = [
-    {
-      image: CarbonCreditImage,
-      title: "BLOG",
-      heading: "How Does Carbon Credit Aggregation Work?",
-      link: "/blog/carbon-credit-aggregation",
-    },
+    // {
+    //   image: CarbonCreditImage,
+    //   title: "BLOG",
+    //   heading: "How Does Carbon Credit Aggregation Work?",
+    //   link: "/blog/carbon-credit-aggregation",
+    // },
     {
       image: Incentives,
-      title: "BLOG",
       heading: "Government Rebates and Incentives",
       link: "/blog/government-incentives",
     },
     {
       image: Casestudy,
-      title: "BLOG",
       heading: " Case Studies and Success Stories",
       link: "/blog/case-studies-and-success-stories",
     },
     {
       image: Evcharging,
-      title: "BLOG",
       heading: " EV Charging 101",
       link: "/blog/evcharging101",
     },
     {
       image: Sustainabilty,
-      title: "BLOG",
       heading: " Sustainability and Innovation",
       link: "/blog/sustainability-and-innovation",
     },
@@ -61,7 +57,6 @@ function Blog(props) {
                 </Link>
               </div>
               <div className="blog-info">
-                <h6>{items.title}</h6>
                 <Link href={items.link}>{items.heading}</Link>
               </div>
             </div>
