@@ -48,9 +48,9 @@ function Blog(props) {
   return (
     <div className="blogs">
       <div className="blog-content">
-        {data.map((items) => {
+        {data.map((items, index) => {
           return (
-            <div className="blog-card">
+            <div key={index} className="blog-card">
               <div className="blog-card-image">
                 <Link href={items.link}>
                   <Image

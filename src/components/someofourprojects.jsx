@@ -27,9 +27,9 @@ const SomeOfOurProjects = () => {
     <div>
       <h2 className="project-heading">Some Of Our Projects</h2>
 
-      {projects.map((items) => {
+      {projects.map((items, index) => {
         return (
-          <div className="multi-project">
+          <div key={index} className="multi-project">
             <div className="multi-project-inner-content">
               <div className="multi-left-content">
                 <h6 className="mb-3" key={items.id}>

@@ -21,7 +21,7 @@ function CasestudyBlog() {
         </div>
         <div>
           <h4>
-            Case Studies and Success Stories: Electrum's Impact on EV Charging
+            Case Studies and Success Stories: Electrum&apos;s Impact on EV Charging
             Infrastructure
           </h4>
           <p>
@@ -53,7 +53,7 @@ function CasestudyBlog() {
           </p>
           <h5>Peterbilt Pacific Inc.</h5>
           <p>
-            Electrum's installations at Peterbilt Pacific Inc. include 3 120kW
+            Electrum&apos;s installations at Peterbilt Pacific Inc. include 3 120kW
             Delta DCFCs at their Surrey, Delta, and Nanaimo sites. These
             high-power chargers support the fast turnaround required by
             commercial fleets, illustrating our capacity to handle large-scale

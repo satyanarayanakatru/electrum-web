@@ -38,7 +38,7 @@ function Evcharging() {
             <strong>What is EV Charging?</strong> EV charging is the process of
             replenishing the battery of an electric vehicle by connecting it to
             a power source. Similar to refueling a gasoline vehicle, EV charging
-            is essential for maintaining the vehicle's functionality and
+            is essential for maintaining the vehicle&apos;s functionality and
             ensuring it has enough range for daily use.
           </p>
           <h4>Types of EV Chargers</h4>
@@ -211,7 +211,7 @@ function Evcharging() {
           <p>
             Understanding the basics of EV charging, the types of chargers
             available, and the installation processes is crucial for making
-            informed decisions about EV infrastructure. Whether you're a
+            informed decisions about EV infrastructure. Whether you&apos;re a
             homeowner, property manager, or fleet operator, following best
             practices and leveraging available resources can help ensure a
             smooth and efficient transition to electric vehicle charging.
