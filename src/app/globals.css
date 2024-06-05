@@ -147,7 +147,7 @@ body {
 .page-info-icons {
   display: flex;
   gap: 15px;
-  width: 80%;
+  width: 95%;
   background: #fff;
   justify-content: center;
   align-items: center;
@@ -158,7 +158,6 @@ body {
 .page-info-icons .icon-div {
   text-align: center;
   padding: 15px;
-  max-width: 299px;
 }
 .page-info-icons .icon-div .page-icon-div {
   display: flex;
@@ -185,9 +184,7 @@ body {
   margin-top: 20px;
   color: #394a62;
 }
-.page-info-main-content {
-  margin-top: 0 !important;
-}
+
 
 .public-services-info,
 .fleet-services-info {

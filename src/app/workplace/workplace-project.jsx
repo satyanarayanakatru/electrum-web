@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import WorkPlaceProjectImage from "../../../public/images/workplace-project.png";
 import WorkPlaceProjectImage2 from "../../../public/images/single-project.png";
-
 import "./workplace-project.css";
+import MoreProjects from "@/moderncomponents/moreProjects";
 
 function WorkplaceProject() {
   return (
@@ -13,14 +13,15 @@ function WorkplaceProject() {
         <div className="workplace-left-content">
           <h6 className="mb-3">
             <b className="project-inner-heading">Company Name:</b> Richmond
-            Hospital, Richmond BC, Canada
+            Hospital,
           </h6>
           <p className="mb-3">
-            <b className="project-inner-heading">Location:</b> Richmond{" "}
+            <b className="project-inner-heading">Location:</b> Richmond BC,
+            Canada{" "}
           </p>
           <p>
             <b className="project-inner-heading">
-              Chargers:<span className="chargers"> 30 (Shared)</span>
+              Chargers:<span className="chargers"> 40 (Public) Chargers</span>
             </b>
           </p>
         </div>
@@ -41,20 +42,20 @@ function WorkplaceProject() {
           />
         </div>
         <div className="workplace-left-content ml-5">
-          <ul className="ml-5">
+          <ul className="ml-5 font-light">
             <li>
-              Successfully deployed and deployed 40 Level II chargers and 2 DCFC
-              charger that are connected and managed by Electrum’s network
-              platform.
+              Successfully installed 40 Level II chargers and 2 DCFC chargers,
+              all managed through Electrum’s network platform.
             </li>
             <li>
-              Customized software, enabling management to notify customers when
-              a charge is complete through text/email alerts, and notify parking
-              management if an EV had not vacated after a charge was completed
+              Our customized software notifies customers via text/email when
+              charging is complete and alerts parking management if an EV
+              remains parked post-charge.
             </li>
           </ul>
         </div>
       </div>
+      <MoreProjects/>
     </div>
   );
 }

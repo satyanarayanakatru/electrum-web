@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
+import MapLocation from "../../../public/map-location.jpg";
+import Recycle from "../../../public/recycle.jpg";
+import CoinStack from "../../../public/coin-stack.jpg";
+import BuildingStar from "../../../public/building-star.jpg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
 import SomeOfOurProjects from "../../components/someofourprojects";
@@ -28,28 +31,12 @@ export default function Public() {
         </div>
         <div className="featured-img-div car-public"></div>
       </div>
-      <div className="public-services-info">
-        <h2>Services</h2>
-        <div className="public-services-info-main-content">
-          <div className="public-services-info-inner-content">
-            <h4>Commercial</h4>
-            <p>Yet to Update *</p>
-          </div>
-          <div className="public-services-info-inner-content">
-            <h4>Shopping-Center</h4>
-            <p>Yet to Update *</p>
-          </div>
-          <div className="public-services-info-inner-content">
-            <h4>Arena</h4>
-            <p>Yet to Update *</p>
-          </div>
-        </div>
-      </div>
+
       <div className="page-info-icons page-info-main-content">
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
+              src={MapLocation}
               width={100}
               height={100}
               className="page-icon"
@@ -57,10 +44,11 @@ export default function Public() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>INCREASE VALUE</h3>
+            <h3>Attract Eco-Tourists</h3>
             <p>
-              Having EV charging increases the value of your building and
-              attracts tenants.
+              Draw in environmentally-conscious travelers looking for convenient
+              charging options, boosting local tourism and supporting green
+              travel.
             </p>
           </div>
         </div>
@@ -68,7 +56,7 @@ export default function Public() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest2}
+              src={BuildingStar}
               width={100}
               height={100}
               className="page-icon"
@@ -76,10 +64,10 @@ export default function Public() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>ATTRACT CUSTOMERS</h3>
+            <h3>Enhance Property Appeal</h3>
             <p>
-              Being able to top off while shopping or dining is a key perk to
-              attract customers.
+              Modernize your property with green infrastructure, making it more
+              attractive to tenants and visitors.
             </p>
           </div>
         </div>
@@ -87,7 +75,7 @@ export default function Public() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
+              src={Recycle}
               width={100}
               height={100}
               className="page-icon"
@@ -95,10 +83,10 @@ export default function Public() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>QUICK INSTALLATION</h3>
+            <h3>Support Sustainability</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
+              Contribute to environmental goals by promoting the use of electric
+              vehicles and reducing carbon emissions.
             </p>
           </div>
         </div>
@@ -106,7 +94,7 @@ export default function Public() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest2}
+              src={CoinStack}
               width={100}
               height={100}
               className="page-icon"
@@ -114,10 +102,10 @@ export default function Public() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>LOREM IPSUM</h3>
+            <h3>Generate Revenue</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
+              Create a new income stream through charging fees, encouraging
+              longer stays, and generating carbon credits.
             </p>
           </div>
         </div>

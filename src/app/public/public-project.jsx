@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import PublicProjectImage from "../../../public/images/public-project.png";
+import PublicProjectImage from "../../../public/public-project.png";
+import PublicProjectImage2 from "../../../public/public-project2.jpg";
 import WorkPlaceProjectImage from "../../../public/images/workplace-project.png";
 import WorkPlaceProjectImage2 from "../../../public/images/single-project.png";
 import "./public-project.css";
+import MoreProjects from "@/moderncomponents/moreProjects";
 
 function PublicProject() {
   return (
@@ -27,6 +29,16 @@ function PublicProject() {
             yet to update <span className="text-danger">*</span>
           </h5>
         </div>
+        <div className="public-project-image">
+          <Image
+            src={PublicProjectImage2}
+            className="public-image"
+            alt="public-image"
+            
+          />
+        </div>
+      </div>
+      <div className="public-project-inner-content">
         <div>
           <Image
             src={PublicProjectImage}
@@ -34,31 +46,20 @@ function PublicProject() {
             alt="public-image"
           />
         </div>
-      </div>
-      <div className="public-project-inner-content">
-        <div>
-          <Image
-            src={WorkPlaceProjectImage2}
-            className="public-image"
-            alt="public-image"
-          />
-        </div>
         <div className="public-left-content ml-5">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Company Name:</b> Richmond
-            Hospital, Richmond BC, Canada
+            Landmark Properties (Foster Martin), White Rock, BC
           </h6>
-          <p className="mb-3">
-            <b className="project-inner-heading">Location:</b> Richmond{" "}
-          </p>
-          <p>
-            <b className="project-inner-heading">
-              Chargers: <span className="chargers">4 (Public)</span>
-            </b>
+          <p className="font-light">
+            At Landmark Properties, Foster Martin, Electrum installed 10 QR
+            code-activated public Level 2 chargers in a commercial parkade and
+            provided RFID fob access for regular residential use. This hybrid
+            model offers flexibility for both public and resident charging
+            needs.
           </p>
         </div>
       </div>
-      <div className="public-project-inner-content">
+      {/* <div className="public-project-inner-content">
         <div className="public-left-content ml-5">
           <ul>
             <li>
@@ -80,7 +81,8 @@ function PublicProject() {
             alt="public-image"
           />
         </div>
-      </div>
+      </div> */}
+      <MoreProjects />
     </div>
   );
 }

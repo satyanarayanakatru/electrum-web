@@ -27,8 +27,8 @@
   list-style-type: square;
   margin-top: 20px;
 }
-.fleet-image {
-  width: 750px;
+.fleet-image,.fleet-project3 img{
+  width: 700px;
 }
 .fleet-left-content,
 .fleet-inner-heading {

@@ -1,0 +1,13 @@
+.more-projects {
+  text-align: center;
+  margin: 20px 0;
+}
+.more-projects a {
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+  background-color: #ffd166;
+}
+.more-projects a:hover {
+  background-color: #394b62;
+}

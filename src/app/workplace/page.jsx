@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Globe from "../../../public/globe-tick.jpg";
+import Dollar from "../../../public/dollar.jpg";
+import Like from "../../../public/like.jpg";
+import Magnet from "../../../public/magnet-2.jpg";
 import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
 import EndToEnd from "../../components/endtoend";
@@ -18,10 +22,10 @@ export default function WorkPlace() {
           </div>
           <div className="banner-text">
             <p>
-              We conduct through evaluations of your workplace to determine the
-              optimal locations for EV chargers. Our team handles everything
-              from design to installation, ensuring a seamless setup of charging
-              stations.
+              We work with you to determine the optimal charging solutions for
+              your workplace. Our team handles everything, from design to
+              installation and beyond, ensuring seamless setup and operation of
+              your charging stations.
             </p>
           </div>
         </div>
@@ -31,7 +35,7 @@ export default function WorkPlace() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
+              src={Magnet}
               width={100}
               height={100}
               className="page-icon"
@@ -39,10 +43,10 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>INCREASE VALUE</h3>
+            <h3>Attract Talent</h3>
             <p>
-              Having EV charging increases the value of your building and
-              attracts tenants.
+              Draw in eco-conscious employees with sustainable workplace
+              amenities.
             </p>
           </div>
         </div>
@@ -50,7 +54,7 @@ export default function WorkPlace() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest2}
+              src={Dollar}
               width={100}
               height={100}
               className="page-icon"
@@ -58,10 +62,9 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>RETAIN TALENT</h3>
+            <h3>Increase Property Value</h3>
             <p>
-              Being able to top off at work can be a key perk to attract and
-              retain employees.
+              Enhance your property's value with modern, green infrastructure.
             </p>
           </div>
         </div>
@@ -69,7 +72,7 @@ export default function WorkPlace() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
+              src={Like}
               width={100}
               height={100}
               className="page-icon"
@@ -77,10 +80,10 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>LOREM IPSUM</h3>
+            <h3>Boost Employee Satisfaction</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
+              Provide convenient charging options, enhancing employee
+              satisfaction and retention.
             </p>
           </div>
         </div>
@@ -88,7 +91,7 @@ export default function WorkPlace() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest2}
+              src={Globe}
               width={100}
               height={100}
               className="page-icon"
@@ -96,10 +99,10 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>LOREM IPSUM</h3>
+            <h3>Support Sustainability Goals</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
+              Contribute to your company's environmental initiatives and carbon
+              reduction targets.
             </p>
           </div>
         </div>

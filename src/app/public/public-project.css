@@ -32,7 +32,11 @@
   font-weight: 700;
 }
 .public-image {
-  width: 750px;
+  width: 600px;
+}
+.public-project-image img{
+  width: 600px;
+  height: 324px;
 }
 .public-left-content,
 .public-inner-heading,
