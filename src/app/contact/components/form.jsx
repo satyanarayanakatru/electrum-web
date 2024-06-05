@@ -5,21 +5,23 @@ import Link from "next/link";
 import CustomerSupport from "../../../components/customersupport";
 import ReCAPTCHA from "react-google-recaptcha";
 
+const initFormData = {
+  firstName: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  address: "",
+  city: "",
+  province: "",
+  postal: "",
+  interest: "",
+  leadsource: "",
+  message: "",
+};
+
 const ContactForm = () => {
   const [captcha, setCaptcha] = useState(null);
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    address: "",
-    city: "",
-    province: "",
-    postal: "",
-    interest: "",
-    leadsource: "",
-    message: "",
-  });
+  const [formData, setFormData] = useState(initFormData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -41,8 +43,10 @@ const ContactForm = () => {
         body: JSON.stringify(formData),
       });
       const result = await res.json();
+      setFormData({...initFormData});
       console.log(result);
     } catch (error) {
+      setFormData({...initFormData});
       console.error(error);
     }
   };
