@@ -156,7 +156,7 @@ export default function About() {
                 </li>
                 <li>
                   Has immense knowledge in the EV industry,both hardware and
-                  software, overseas Electrum's growth{" "}
+                  software, overseas Electrum&apos;s growth{" "}
                 </li>
               </ul>
             </div>
@@ -171,7 +171,7 @@ export default function About() {
                 <li>
                   Through prior experience, Chris has developed many
                   relationships across various industries allowing him to tap
-                  into those networks to develop Electrum's strategic
+                  into those networks to develop Electrum&apos;s strategic
                   partnerships
                 </li>
                 <li>

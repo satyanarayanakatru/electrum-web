@@ -64,7 +64,7 @@ export default function WorkPlace() {
           <div className="page-icon-info-div">
             <h3>Increase Property Value</h3>
             <p>
-              Enhance your property's value with modern, green infrastructure.
+              Enhance your property&apos;s value with modern, green infrastructure.
             </p>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function WorkPlace() {
           <div className="page-icon-info-div">
             <h3>Support Sustainability Goals</h3>
             <p>
-              Contribute to your company's environmental initiatives and carbon
+              Contribute to your company&apos;s environmental initiatives and carbon
               reduction targets.
             </p>
           </div>

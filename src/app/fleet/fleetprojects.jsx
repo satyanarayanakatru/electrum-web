@@ -72,7 +72,7 @@ function FleetProjects() {
               <li>
                 <b className="font-bold">Comprehensive Charging Infrastructure:</b> Installed a 120kW
                 DC fast charger and ten Level II chargers to support Frito Lay
-                Canada's fleet electrification.
+                Canada&apos;s fleet electrification.
               </li>
               <li>
                 <b className="font-bold">High-Power DC Fast Charging:</b> Enables quick recharges,
