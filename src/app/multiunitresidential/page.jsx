@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 import pagePublicTest1 from "../../../public/images/page-public-test1.svg";
 import pagePublicTest2 from "../../../public/images/page-public-test2.svg";
+import MultiIcon1 from "../../../public/multi-icon1.jpg";
+import MultiIcon2 from "../../../public/multi-icon2.jpg";
+import MultiIcon3 from "../../../public/multi-icon3.jpg";
+import MultiIcon4 from "../../../public/multi-icon4.svg";
 import SE5 from "../../../public/images/SE-5.png";
 import SE2 from "../../../public/images/SE-2.png";
 import SE4 from "../../../public/images/SE-4.png";
@@ -35,7 +39,7 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={SE5}
+              src={MultiIcon1}
               width={150}
               height={150}
               className="page-icon"
@@ -53,7 +57,7 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={pagePublicTest1}
+              src={MultiIcon2}
               width={80}
               height={100}
               className="page-icon"
@@ -71,7 +75,7 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={SE2}
+              src={MultiIcon3}
               width={100}
               height={100}
               className="page-icon"
@@ -88,7 +92,7 @@ export default function MultiUnitResidential() {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={SE4}
+              src={MultiIcon4}
               width={100}
               height={100}
               className="page-icon"

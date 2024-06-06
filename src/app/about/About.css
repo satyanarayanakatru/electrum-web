@@ -49,6 +49,9 @@
 .leadership-section {
   padding: 50px 0;
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
 }
 .leadership-section h2 {
   font-size: 40px;
@@ -57,15 +60,46 @@
   margin-bottom: 30px;
 }
 .leadership-main-content {
-  display: flex;
-  justify-content: space-around;
+  width: 100%;
+}
+.leadership-inner-content{
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+.leadership-image img{
+  margin: 0 auto;
+  margin-right: 10%;
+  width: 181px;
 }
 .leadership-inner-content h4 {
   font-size: 30px;
+  margin: 20px 0;
+  color: #ffd166;
+  font-weight: 700;
+  text-align: left;
 }
-.leadership-inner-content p {
+.leadership-inner-content ul{
+  list-style-type: square;
+  text-align: left;
+}
+.leadership-inner-content ul li {
   font-size: 20px;
 }
+.leadership-content{
+  margin-left: 20%;
+}
+.fix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.dan-trudel{
+  background-color: #e9f5f6;
+} 
+.chris-lee-image img{
+  margin-top: 30%;
+}
+
 
 /* Responsive */
 

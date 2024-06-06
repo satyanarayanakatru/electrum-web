@@ -5,8 +5,10 @@
 .more-projects a {
   padding: 10px;
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   background-color: #ffd166;
+  font-weight: 700;
+  
 }
 .more-projects a:hover {
   background-color: #394b62;

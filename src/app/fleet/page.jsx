@@ -5,6 +5,10 @@ import DollarDownArrow from "../../../public/dollar-downarrow.jpg";
 import Speedometer from "../../../public/speedometer.jpg";
 import LeafDollar from "../../../public/leaf-dollar.jpg";
 import Globe from "../../../public/globe.jpg";
+import FleetIcon1 from "../../../public/fleet-icon1.jpg";
+import FleetIcon2 from "../../../public/fleet-icon2.jpg";
+import FleetIcon3 from "../../../public/fleet-icon3.jpg";
+import FleetIcon4 from "../../../public/fleet-icon4.jpg";
 import pageTest1 from "../../../public/images/page-test1.svg";
 import pageTest2 from "../../../public/images/page-test2.svg";
 import pageTest3 from "../../../public/images/page-test3.svg";
@@ -37,7 +41,7 @@ export default function () {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={DollarDownArrow}
+              src={FleetIcon1}
               width={100}
               height={100}
               className="page-icon"
@@ -55,7 +59,7 @@ export default function () {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={Speedometer}
+              src={FleetIcon2}
               width={100}
               height={100}
               className="page-icon"
@@ -73,7 +77,7 @@ export default function () {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={LeafDollar}
+              src={FleetIcon3}
               width={100}
               height={100}
               className="page-icon"
@@ -91,7 +95,7 @@ export default function () {
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
-              src={Globe}
+              src={FleetIcon4}
               width={100}
               height={100}
               className="page-icon"

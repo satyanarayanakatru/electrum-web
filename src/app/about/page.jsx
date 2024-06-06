@@ -5,6 +5,8 @@ import "./About.css";
 import About1 from "../../../public/images/about1.png";
 import About2 from "../../../public/images/about2.png";
 import Quote from "../../../public/images/quote.png";
+import ChrisLee from "../../../public/chris-lee.png";
+import DanTrudel from "../../../public/dan-trudel.png";
 import AboutIcon1 from "../../../public/images/about-icon1.svg";
 import AboutIcon2 from "../../../public/images/about-icon2.svg";
 import AboutIcon3 from "../../../public/images/about-icon3.svg";
@@ -77,7 +79,6 @@ export default function About() {
             <Image src={About2} className="story-inner-img" alt="about-image" />
           </div>
         </div>
-
         {/* <div className="about-icons">
           <div className="icons-title">
             <h2>The Electrum Advantage</h2>
@@ -133,17 +134,58 @@ export default function About() {
             </div>
           </div>
         </div> */}
-
-        <div className="leadership-section">
-          <h2>LeaderShip</h2>
-          <div className="leadership-main-content">
-            <div className="leadership-inner-content">
-              <h4>Dan Trudel</h4>
-              <p>yet to update *</p>
+      </div>
+      <div className="leadership-section">
+        <h2>LeaderShip</h2>
+        <div className="leadership-main-content">
+          <div className="leadership-inner-content dan-trudel">
+            <div className="leadership-image float-left">
+              <Image src={DanTrudel} className="" />
             </div>
-            <div className="leadership-inner-content">
-              <h4>Chris Lee</h4>
-              <p>yet to update *</p>
+            <div className="leadership-content">
+              <h4>Dan Trudel, CEO/Founder</h4>
+              <ul>
+                <li>
+                  Founded Electrum in 2015 and diversified its product offerings
+                  in 2020 by building out a development team for power
+                  management capabilities.
+                </li>
+                <li>
+                  Prior to founding Electrum, Dan was involved in the design and
+                  launch of one of the first Level II chargers at Leviton.
+                </li>
+                <li>
+                  Has immense knowledge in the EV industry,both hardware and
+                  software, overseas Electrum's growth{" "}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="leadership-inner-content">
+            <div className="leadership-image chris-lee-image float-left">
+              <Image src={ChrisLee} />
+            </div>
+            <div className="leadership-content chris-lee-content">
+              <h4>Chris Lee, President</h4>
+              <ul>
+                <li>
+                  Through prior experience, Chris has developed many
+                  relationships across various industries allowing him to tap
+                  into those networks to develop Electrum's strategic
+                  partnerships
+                </li>
+                <li>
+                  An experienced corporate finance professional with
+                  international business experience in transactions across the
+                  technology, travel and hospitality,mining, and manufacturing
+                  industries, where he oversaw financial and strategic direction
+                </li>
+                <li>
+                  Previously was a CFO at a mobile games advertising
+                  platform,where he oversaw the strategic direction, fund
+                  raising, and business development of the company.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
