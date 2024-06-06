@@ -62,11 +62,11 @@
 .leadership-main-content {
   width: 100%;
 }
-.leadership-inner-content{
+.leadership-inner-content {
   margin: 0 auto;
   padding: 50px 100px;
 }
-.leadership-image img{
+.leadership-image img {
   margin: 0 auto;
   margin-right: 10%;
   width: 181px;
@@ -78,34 +78,39 @@
   font-weight: 700;
   text-align: left;
 }
-.leadership-inner-content ul{
+.leadership-inner-content ul {
   list-style-type: square;
   text-align: left;
 }
 .leadership-inner-content ul li {
   font-size: 20px;
 }
-.leadership-content{
+.leadership-content {
   margin-left: 20%;
 }
-.fix::after{
+.fix::after {
   content: "";
   clear: both;
   display: block;
 }
-.dan-trudel{
+.dan-trudel {
   background-color: #e9f5f6;
-} 
-.chris-lee-image img{
+}
+.chris-lee-image img {
   margin-top: 30%;
 }
-
 
 /* Responsive */
 
 @media screen and (max-width: 1199px) {
   .bottom-cta {
     height: 500px !important;
+  }
+  .leadership-image img {
+    margin-top: 50%;
+  }
+  .leadership-content {
+    margin-left: 33%;
   }
 }
 
@@ -122,10 +127,13 @@
   .info p {
     font-size: 29px;
   }
+  .leadership-content {
+    margin-left: 36%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
-  
   .container {
     width: 96%;
   }
@@ -148,5 +156,23 @@
   }
   .mission-heading {
     font-size: 40px;
+  }
+  .leadership-image {
+    float: none;
+  }
+  .leadership-inner-content {
+    padding: 20px 10px;
+  }
+  .leadership-image img {
+    margin-right: 0;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .leadership-content {
+    margin-left: 5%;
+    text-align: center;
+  }
+  .leadership-inner-content h4 {
+    text-align: center;
   }
 }

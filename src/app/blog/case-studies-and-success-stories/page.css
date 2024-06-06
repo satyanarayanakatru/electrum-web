@@ -1,34 +1,45 @@
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.casestudies{
-    padding: 100px 0;
+.casestudies {
+  padding: 100px 0;
 }
-.casestudies ul{
-    list-style: disc;
+.casestudies ul {
+  list-style: disc;
 }
-.casestudies h2,.casestudies h5,.casestudies h4{
-    font-size: 24px;
-    margin: 20px 0;
-    font-weight: 700;
+.casestudies h2,
+.casestudies h5,
+.casestudies h4 {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: 700;
 }
-.casestudies h4{
-    font-size: 20px;
+.casestudies h4 {
+  font-size: 20px;
 }
-.casestudies p,.casestudies ul li{
-    font-size: 18px;
-    margin: 10px 0;
-    font-weight: lighter;
+.casestudies p,
+.casestudies ul li {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: lighter;
 }
-.casestudies ul{
-    margin-top: 10px;
-    margin-left: 50px;
+.casestudies ul {
+  margin-top: 10px;
+  margin-left: 50px;
 }
-.casestudies ul li{
-    margin-bottom: 0;
+.casestudies ul li {
+  margin-bottom: 0;
 }
-.casestudies ul li strong{
-    font-size: 20px;
-    font-weight: bold;
+.casestudies ul li strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96% !important;
+  }
 }

@@ -1,27 +1,35 @@
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.incentives{
-    padding: 100px 0;
+.incentives {
+  padding: 100px 0;
 }
-.incentives ul{
-    list-style: disc;
+.incentives ul {
+  list-style: disc;
 }
-.incentives h4,.incentives h2{
-    font-size: 24px;
-    margin: 10px 0;
-    font-weight: 700;
+.incentives h4,
+.incentives h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: 700;
 }
-.incentives p,.incentives ul li{
-    font-size: 18px;
-    margin: 10px 0;
-    font-weight: lighter;
+.incentives p,
+.incentives ul li {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: lighter;
 }
-.incentives ul li{
-    margin-bottom: 0;
+.incentives ul li {
+  margin-bottom: 0;
 }
-.incentives p strong{
-    font-size: 20px;
-    font-weight: bold ;
+.incentives p strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96% !important;
+  }
 }

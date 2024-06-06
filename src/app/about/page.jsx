@@ -138,7 +138,7 @@ export default function About() {
       <div className="leadership-section">
         <h2>LeaderShip</h2>
         <div className="leadership-main-content">
-          <div className="leadership-inner-content dan-trudel">
+          <div className="leadership-inner-content dan-trudel fix">
             <div className="leadership-image float-left">
               <Image src={DanTrudel} className="" />
             </div>
@@ -161,7 +161,7 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <div className="leadership-inner-content">
+          <div className="leadership-inner-content fix">
             <div className="leadership-image chris-lee-image float-left">
               <Image src={ChrisLee} />
             </div>

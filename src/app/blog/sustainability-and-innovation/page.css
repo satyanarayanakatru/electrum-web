@@ -1,40 +1,51 @@
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-.sustainability{
-    padding: 100px 0;
+.sustainability {
+  padding: 100px 0;
 }
-.sustainability ul{
-    list-style: disc;
+.sustainability ul {
+  list-style: disc;
 }
-.sustainability h2,.sustainability h5,.sustainability h4{
-    font-size: 24px;
-    margin: 20px 0;
-    font-weight: 700;
+.sustainability h2,
+.sustainability h5,
+.sustainability h4 {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: 700;
 }
-.sustainability h2{
-    font-size: 28px;
+.sustainability h2 {
+  font-size: 28px;
 }
-.sustainability h4{
-    font-size: 20px;
+.sustainability h4 {
+  font-size: 20px;
 }
-.sustainability h5{
-    font-size: 18px;
+.sustainability h5 {
+  font-size: 18px;
 }
-.sustainability p,.sustainability ul li{
-    font-size: 18px;
-    margin: 10px 0;
-    font-weight: lighter;
+.sustainability p,
+.sustainability ul li {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: lighter;
 }
-.sustainability ul{
-    margin-top: 10px;
-    margin-left: 50px;
+.sustainability ul {
+  margin-top: 10px;
+  margin-left: 50px;
 }
-.sustainability ul li{
-    margin-bottom: 0;
+.sustainability ul li {
+  margin-bottom: 0;
 }
-.sustainability p strong{
-    font-size: 20px;
-    font-weight: bold;
+.sustainability p strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96% !important;
+  }
 }
