@@ -136,7 +136,7 @@ export default function About() {
         </div> */}
       </div>
       <div className="leadership-section">
-        <h2>LeaderShip</h2>
+        <h2>Leadership</h2>
         <div className="leadership-main-content">
           <div className="leadership-inner-content dan-trudel fix">
             <div className="leadership-image float-left">

@@ -41,10 +41,10 @@
   margin-bottom: 15px;
 }
 .story-imgs {
-  display: flex;
+  display: block;
 }
 .story-inner-img {
-  width: 390px;
+  width: 100%;
 }
 .leadership-section {
   padding: 50px 0;
@@ -117,9 +117,6 @@
 @media screen and (max-width: 979px) {
   .bottom-cta {
     height: 365px !important;
-  }
-  .story-inner-img {
-    width: 375px;
   }
   .mission-heading {
     font-size: 52px;

@@ -17,9 +17,9 @@ function BrandSliders() {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 4,
     autoplay: true,
-    speed: 2000,
+    speed: 4000,
     autoplaySpeed: true,
     cssEase: "linear",
     responsive: [

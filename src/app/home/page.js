@@ -122,11 +122,11 @@ export default function Home() {
               <h3>DYNAMIC POWER</h3>
               <p>Optimize site power consumption for cost savings.</p>
             </div>
-            <div className="feature">
+            {/* <div className="feature">
               <Image src={QRCode} width={130} alt="smartimage" />
               <h3>EASY QR ACTIVATION</h3>
               <p>Quick and convenient charging for guests and members.</p>
-            </div>
+            </div> */}
           </div>
         </section>
         <div className="col-lg-12 testimonials-div">
