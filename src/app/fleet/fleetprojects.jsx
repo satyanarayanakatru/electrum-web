@@ -20,7 +20,7 @@ function FleetProjects() {
             <b className="project-inner-heading">Location:</b> Surrey
           </p>
           <p>
-            <b className="project-inner-heading">Chargers:</b>
+            <b className="project-inner-heading">Chargers:</b> <span className="chargers text-dark">2 Chargers</span>
           </p>
           <ul className="font-light">
             <li>

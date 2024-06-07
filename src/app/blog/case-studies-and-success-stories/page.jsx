@@ -1,26 +1,15 @@
 import React from "react";
+import Link from "next/link";
 import "./page.css";
 
 function CasestudyBlog() {
   return (
     <div className="casestudies">
+       <div className="casestudies-blog-image">
+       </div>
       <div className="container">
         <div>
-          <h2> Case Studies and Success Stories</h2>
-          <ul>
-            <li>
-              Highlight successful installations and implementations of EV
-              charging solutions in various settings.
-            </li>
-            <li>
-              Share insights and testimonials from property developers,
-              commercial property managers, schools, hospitals, and fleet
-              operators.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4>
+          <h4 className="casestudies-heading">
             Case Studies and Success Stories: Electrum&apos;s Impact on EV Charging
             Infrastructure
           </h4>
@@ -113,14 +102,14 @@ function CasestudyBlog() {
           </p>
         </div>
         <div>
-          <h4>Insights Gained from Recent Electrum Projects</h4>
+          <h5>Insights Gained from Recent Electrum Projects</h5>
           <p>
             The successful implementation of EV charging solutions in various
             settings has provided valuable insights for both Electrum and our
             customers. Here are some key takeaways from our highlighted
             projects:
           </p>
-          <h4>Richmond Memorial Hospital, BC</h4>
+          <h4 className="casestudies-heading">Richmond Memorial Hospital, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -148,7 +137,7 @@ function CasestudyBlog() {
               efficiency is paramount.
             </li>
           </ul>
-          <h4>City of Lougheed, Coquitlam, BC</h4>
+          <h4 className="casestudies-heading">City of Lougheed, Coquitlam, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -175,7 +164,7 @@ function CasestudyBlog() {
               experience.
             </li>
           </ul>
-          <h4>Peterbilt Pacific Inc.</h4>
+          <h4 className="casestudies-heading">Peterbilt Pacific Inc.</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -203,7 +192,7 @@ function CasestudyBlog() {
             </li>
           </ul>
 
-          <h4>Fiorella by Polygon, Richmond, BC</h4>
+          <h4 className="casestudies-heading">Fiorella by Polygon, Richmond, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -235,7 +224,7 @@ function CasestudyBlog() {
           </ul>
         </div>
         <div>
-          <h4>Landmark Properties, White Rock, BC</h4>
+          <h4 className="casestudies-heading">Landmark Properties, White Rock, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -264,7 +253,7 @@ function CasestudyBlog() {
           </ul>
         </div>
         <div>
-          <h4>The Beverley, White Rock, BC</h4>
+          <h4 className="casestudies-heading">The Beverley, White Rock, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -293,7 +282,7 @@ function CasestudyBlog() {
           </ul>
         </div>
         <div>
-          <h4>Kings Landing, Vancouver, BC</h4>
+          <h4 className="casestudies-heading">Kings Landing, Vancouver, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -322,7 +311,7 @@ function CasestudyBlog() {
           </ul>
         </div>
         <div>
-          <h4>The Social, Vancouver, BC</h4>
+          <h4 className="casestudies-heading">The Social, Vancouver, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -351,7 +340,7 @@ function CasestudyBlog() {
           </ul>
         </div>
         <div>
-          <h4>Lumiere and Panorama Gardens, Vancouver, BC</h4>
+          <h4 className="casestudies-heading">Lumiere and Panorama Gardens, Vancouver, BC</h4>
           <h5>Customer Insights:</h5>
           <ul>
             <li>
@@ -380,7 +369,7 @@ function CasestudyBlog() {
           </ul>
         </div>
         <div>
-          <h4>Conclusion</h4>
+          <h4 className="casestudies-heading">Conclusion</h4>
           <p>
             The insights gained from these projects have reinforced Electrum’s
             commitment to providing innovative, reliable, and user-friendly EV
@@ -395,6 +384,11 @@ function CasestudyBlog() {
             your EV charging needs, contact us today. Together, we can create a
             cleaner, greener tomorrow.
           </p>
+        </div>
+      </div>
+      <div className="container">
+        <div className="highlightsprojectslink">
+          <Link href="/highlightsofourprojects">Highlights of our Projects</Link>
         </div>
       </div>
     </div>

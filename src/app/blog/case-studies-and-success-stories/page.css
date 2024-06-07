@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .casestudies {
-  padding: 100px 0;
+  padding: 79px 0;
 }
 .casestudies ul {
   list-style: disc;
@@ -35,6 +35,34 @@
   font-size: 20px;
   font-weight: bold;
 }
+.casestudies-heading{
+  background-color: #e9f5f6;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 26px !important;
+  margin: 20px 0 !important;
+}
+.casestudies-blog-image{
+  background-image: url(../../../../public/casestudies-blog.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.highlightsprojectslink{
+  text-align: center;
+  margin-top: 3rem;
+}
+.highlightsprojectslink a{
+  font-size: 18px;
+  color: #fff;
+  background-color: #ffd166;
+  padding: 10px;
+}
+.highlightsprojectslink a:hover{
+  background-color: #394b62;
+}
+
 
 /* Responsive */
 

@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .sustainability {
-  padding: 100px 0;
+  padding: 79px 0;
 }
 .sustainability ul {
   list-style: disc;
@@ -19,7 +19,7 @@
   font-size: 28px;
 }
 .sustainability h4 {
-  font-size: 20px;
+  font-size: 22px;
 }
 .sustainability h5 {
   font-size: 18px;
@@ -40,6 +40,21 @@
 .sustainability p strong {
   font-size: 20px;
   font-weight: bold;
+}
+
+.sustainability-heading{
+  background-color: #e9f5f6;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 26px !important;
+  margin: 20px 0 !important;
+}
+.sustainability-blog-image{
+  background-image: url(../../../../public/sustainability-blog.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Responsive */

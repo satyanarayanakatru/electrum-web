@@ -25,9 +25,7 @@ function PublicProject() {
               Chargers: <span className="chargers">4 ports 120KWH</span>
             </b>
           </p>
-          <h5 className="m-3">
-            yet to update <span className="text-danger">*</span>
-          </h5>
+         
         </div>
         <div className="public-project-image">
           <Image

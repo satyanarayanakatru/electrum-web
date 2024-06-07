@@ -4,22 +4,13 @@ import "./page.css";
 function Evcharging() {
   return (
     <div className="evcharging">
+      <div className="evcharging-blog-image"></div>
       <div className="container">
         <div>
-          <h2> EV Charging 101</h2>
-          <ul>
-            <li>
-              Offer educational content about the basics of EV charging, types
-              of chargers, installation processes, and best practices.
-            </li>
-            <li>
-              Provide tips for different audiences, such as MURBs, commercial
-              properties, and fleets.
-            </li>
-          </ul>
-          <h4>
-            Blog Article: EV Charging 101: Everything You Need to Know About
-            Electric Vehicle Charging
+          <h4>Blog Article:</h4>
+          <h4 className="evcharging-heading">
+            EV Charging 101: Everything You Need to Know About Electric Vehicle
+            Charging
           </h4>
           <p>
             As electric vehicles (EVs) become increasingly popular,
@@ -33,7 +24,7 @@ function Evcharging() {
           </p>
         </div>
         <div>
-          <h4>Understanding EV Charging</h4>
+          <h4 className="evcharging-heading">Understanding EV Charging</h4>
           <p>
             <strong>What is EV Charging?</strong> EV charging is the process of
             replenishing the battery of an electric vehicle by connecting it to
@@ -41,9 +32,9 @@ function Evcharging() {
             is essential for maintaining the vehicle&apos;s functionality and
             ensuring it has enough range for daily use.
           </p>
-          <h4>Types of EV Chargers</h4>
-          <p>
-            1. <strong>Level 1 Chargers</strong>
+          <h4 className="evcharging-heading">Types of EV Chargers</h4>
+          <h5>1.Level 1 Chargers</h5>
+          <div>
             <ul>
               <li>
                 <strong>Description:</strong> Level 1 chargers use a standard
@@ -58,9 +49,9 @@ function Evcharging() {
                 overnight charging.
               </li>
             </ul>
-          </p>
-          <p>
-            2. <strong>Level 2 Chargers</strong>
+          </div>
+          <h5> 2. Level 2 Chargers</h5>
+          <div>
             <ul>
               <li>
                 <strong>Description:</strong> Level 2 chargers require a
@@ -75,9 +66,9 @@ function Evcharging() {
                 charging stations.
               </li>
             </ul>
-          </p>
-          <p>
-            3. <strong>DC Fast Chargers</strong>
+          </div>
+          <div>
+          <h5> 3. DC Fast Chargers</h5>
             <ul>
               <li>
                 <strong>Description:</strong> DC fast chargers use direct
@@ -92,10 +83,10 @@ function Evcharging() {
                 and fleet operations needing quick turnaround.
               </li>
             </ul>
-          </p>
+          </div>
         </div>
         <div>
-          <h4>Installation Processes</h4>
+          <h4 className="evcharging-heading">Installation Processes</h4>
           <h4>Home Installation</h4>
           <ul>
             <li>
@@ -158,7 +149,7 @@ function Evcharging() {
           </ul>
         </div>
         <div>
-          <h4>Best Practices</h4>
+          <h4 className="evcharging-heading">Best Practices</h4>
           <h4>For MURBs</h4>
           <ul>
             <li>
@@ -207,7 +198,7 @@ function Evcharging() {
           </ul>
         </div>
         <div>
-          <h4>Conclusion</h4>
+          <h4 className="evcharging-heading">Conclusion</h4>
           <p>
             Understanding the basics of EV charging, the types of chargers
             available, and the installation processes is crucial for making

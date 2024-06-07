@@ -4,24 +4,15 @@ import './page.css'
 function SustainabilityBlog() {
   return (
     <div className="sustainability">
+      <div className="sustainability-blog-image">
+
+      </div>
       <div className="container">
         <div>
-          <h2>Sustainability and Innovation</h2>
-          <ul>
-            <li>
-              Discuss the broader impact of EV charging on sustainability and
-              carbon reduction.
-            </li>
-            <li>
-              Cover the latest innovations in EV technology, charging solutions,
-              and renewable energy integration.
-            </li>
-          </ul>
-        </div>
-        <div>
           <h4>
-            Blog Post: Sustainability and Innovation in EV Charging Solutions
+            Blog Article: 
           </h4>
+          <h4 className="sustainability-heading">Sustainability and Innovation in EV Charging Solutions</h4>
           <p>
             At Electrum Charging Solutions, we are committed to driving the
             future of sustainable transportation through cutting-edge EV
@@ -33,7 +24,7 @@ function SustainabilityBlog() {
             discuss the latest innovations in EV technology, charging solutions,
             and renewable energy integration.
           </p>
-          <h5>
+          <h5 className="sustainability-heading">
             The Impact of EV Charging on Sustainability and Carbon Reduction
           </h5>
           <p>
@@ -65,7 +56,7 @@ function SustainabilityBlog() {
           </p>
         </div>
         <div>
-          <h5>Innovations in EV Technology and Charging Solutions</h5>
+          <h5 className="sustainability-heading">Innovations in EV Technology and Charging Solutions</h5>
           <p>
             <strong>Faster Charging Technologies</strong> One of the most
             significant advancements in EV technology is the development of
@@ -108,7 +99,7 @@ function SustainabilityBlog() {
           </p>
         </div>
         <div>
-          <h5>Renewable Energy Integration</h5>
+          <h5 className="sustainability-heading">Renewable Energy Integration</h5>
           <p>
             <strong>Solar-Powered Charging Stations </strong> Integrating solar
             panels with EV charging stations is an effective way to harness
@@ -138,7 +129,7 @@ function SustainabilityBlog() {
           </p>
         </div>
         <div>
-          <h4>Conclusion</h4>
+          <h4 className="sustainability-heading">Conclusion</h4>
           <p>
             At Electrum Charging Solutions, our dedication to sustainability and
             innovation drives everything we do. From reducing carbon emissions

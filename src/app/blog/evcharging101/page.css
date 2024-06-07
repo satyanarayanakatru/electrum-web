@@ -3,13 +3,13 @@
     margin: 0 auto;
 }
 .evcharging{
-    padding: 100px 0;
+    padding: 79px 0;
 }
 .evcharging ul{
     list-style: disc;
 }
 .evcharging h4,.evcharging h2{
-    font-size: 24px;
+    font-size: 22px;
     margin: 20px 0;
     font-weight: 700;
 }
@@ -18,6 +18,11 @@
     margin: 10px 0;
     font-weight: lighter;
 }
+.evcharging h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
 .evcharging ul{
     margin-top: 10px;
     margin-left: 50px;
@@ -25,10 +30,24 @@
 .evcharging ul li{
     margin-bottom: 0;
 }
-.evcharging p strong{
+.evcharging strong{
     font-size: 20px;
     font-weight: bold;
 }
+.evcharging-heading{
+    background-color: #e9f5f6;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 28px !important;
+    margin: 20px 0 !important;
+  }
+  .evcharging-blog-image{
+    background-image: url(../../../../public/evcharging-blog.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
 
 /* Responsive */
