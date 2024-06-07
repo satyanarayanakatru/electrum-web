@@ -25,14 +25,20 @@ function PublicProject() {
               Chargers: <span className="chargers">4 ports 120KWH</span>
             </b>
           </p>
-         
+          <p className="font-light mt-3">
+            Electrum installed two state-of-the-art Level 3 charging stations,
+            each featuring two ports, resulting in a total of four charging
+            ports available for customers. These chargers are QR code-activated,
+            providing a seamless and user-friendly experience for EV owners.
+            Customers can now recharge their electric vehicles at impressive
+            speeds, gaining 3 to 20 miles of range per minute.
+          </p>
         </div>
         <div className="public-project-image">
           <Image
             src={PublicProjectImage2}
             className="public-image"
             alt="public-image"
-            
           />
         </div>
       </div>
