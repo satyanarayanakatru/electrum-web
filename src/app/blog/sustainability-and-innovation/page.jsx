@@ -9,10 +9,8 @@ function SustainabilityBlog() {
       </div>
       <div className="container">
         <div>
-          <h4>
-            Blog Article: 
-          </h4>
-          <h4 className="sustainability-heading">Sustainability and Innovation in EV Charging Solutions</h4>
+          
+          <h4 className="sustainability-heading main-heading">Sustainability and Innovation in EV Charging Solutions</h4>
           <p>
             At Electrum Charging Solutions, we are committed to driving the
             future of sustainable transportation through cutting-edge EV

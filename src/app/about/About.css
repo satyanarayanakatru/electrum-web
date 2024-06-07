@@ -54,7 +54,7 @@
   background-color: #fff;
 }
 .leadership-section h2 {
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 700;
   color: #394a62;
   margin-bottom: 30px;
@@ -98,6 +98,9 @@
 }
 .chris-lee-image img {
   margin-top: 30%;
+}
+.about-banner{
+  padding-top: 79px;
 }
 
 /* Responsive */

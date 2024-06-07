@@ -9,7 +9,7 @@
   padding: 20px 0;
 }
 .project-heading {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #394a62;
   text-align: center;
@@ -26,6 +26,10 @@
 .multi-left-content ul li {
   list-style-type: square;
   margin-top: 20px;
+}
+.multi-left-content h6{
+  font-size: 26px;
+  text-decoration: underline;
 }
 .chargers {
   color: #212529;

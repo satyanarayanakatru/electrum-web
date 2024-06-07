@@ -8,8 +8,7 @@ function Incentives() {
     <div className="incentives">
       <div className="incentives-blog-image"></div>
       <div className="container">
-        <strong className="article">Blog Article:</strong>
-        <h4 className="incentives-heading">
+        <h4 className="incentives-heading main-heading">
           Unlocking Canadian Federal and Provincial Rebates and Incentives for
           EV Charging Installations
         </h4>
@@ -50,7 +49,7 @@ function Incentives() {
         </p>
         <h4 className="incentives-heading">Provincial Incentives</h4>
         <h4>British Columbia</h4>
-        <h4>CleanBC Go Electric EV Charger Rebate Program</h4>
+        <h5>CleanBC Go Electric EV Charger Rebate Program</h5>
         <p>
           The CleanBC Go Electric program offers rebates for the purchase and
           installation of Level 2 EV chargers in homes, workplaces, and
@@ -70,7 +69,7 @@ function Incentives() {
           through the BC Hydro or FortisBC websites.
         </p>
         <h4>Alberta</h4>
-        <h4>Electric Vehicle Charging Program (EVCP)</h4>
+        <h5>Electric Vehicle Charging Program (EVCP)</h5>
         <p>
           The EVCP provides funding to support the deployment of EV charging
           stations across Alberta.
@@ -89,7 +88,7 @@ function Incentives() {
           available on the Energy Efficiency Alberta website.
         </p>
         <h4>Ontario</h4>
-        <h4>Electric Vehicle Charging Incentive Program (EVCIP)</h4>
+        <h5>Electric Vehicle Charging Incentive Program (EVCIP)</h5>
         <p>
           Ontario offers rebates for the installation of EV charging stations in
           residential, commercial, and industrial settings.
@@ -107,7 +106,7 @@ function Incentives() {
           the Ontario Ministry of Transportation website.
         </p>
         <h4>Quebec</h4>
-        <h4>Roulez vert Program</h4>
+        <h5>Roulez vert Program</h5>
         <p>
           Quebec’s Roulez vert program provides substantial rebates for the
           installation of EV charging stations at homes, workplaces, and
@@ -127,7 +126,7 @@ function Incentives() {
           Ministry of Environment and the Fight Against Climate Change website.
         </p>
         <h4>Nova Scotia</h4>
-        <h4>Electric Vehicle Home Charging Rebate Program</h4>
+        <h5>Electric Vehicle Home Charging Rebate Program</h5>
         <p>
           Nova Scotia offers rebates for the installation of home EV chargers to
           encourage the adoption of electric vehicles.

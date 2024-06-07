@@ -18,6 +18,10 @@
 .casestudies h4 {
   font-size: 20px;
 }
+.casestudies h5{
+  text-decoration: underline;
+  font-size: 26px;
+}
 .casestudies p,
 .casestudies ul li {
   font-size: 18px;
@@ -39,7 +43,7 @@
   background-color: #e9f5f6;
   text-align: center;
   padding: 10px 0;
-  font-size: 26px !important;
+  font-size: 30px !important;
   margin: 20px 0 !important;
 }
 .casestudies-blog-image{
@@ -61,6 +65,15 @@
 }
 .highlightsprojectslink a:hover{
   background-color: #394b62;
+}
+.main-heading {
+  text-align: left;
+  font-family: "GT America", "Yahoo Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #232a31;
+  font-size: 38px !important;
+  font-style: normal;
+  font-weight: 900;
 }
 
 

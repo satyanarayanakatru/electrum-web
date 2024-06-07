@@ -13,7 +13,8 @@ function FleetProjects() {
       <div className="fleet-project-inner-content">
         <div className="fleet-left-content">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Company Name:</b> Pacific Coach
+            {/* <b className="project-inner-heading">Company Name:</b> */}
+             Pacific Coach
             Lines/ Air Canada
           </h6>
           <p className="mb-3">
@@ -53,7 +54,8 @@ function FleetProjects() {
         </div>
         <div className="fleet-left-content ml-5">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Company Name:</b> Frito Lay
+            {/* <b className="project-inner-heading">Company Name:</b>  */}
+            Frito Lay
             Canada
           </h6>
           <p className="mb-3">

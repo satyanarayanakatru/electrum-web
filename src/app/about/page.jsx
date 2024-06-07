@@ -15,17 +15,15 @@ import Advantage1 from "../../../public/images/electrum-advantage-1.svg";
 import Advantage2 from "../../../public/images/electrum-advantage-2.svg";
 import Advantage3 from "../../../public/images/electrum-advantage-3.svg";
 import Advantage4 from "../../../public/images/electrum-advantage-4.svg";
-import ElectrumBanner from "../../../public/images/ElectrumImage.png";
+import ElectrumBanner from "../../../public/about-banner.jpg";
 
 export default function About() {
   return (
     <div className="electrum-about">
-      {/* <div className="electrum-banner page-banner">
-          <div className="banner-overlay">
+      <div className="electrum-banner about-banner">
             <Image src={ElectrumBanner}/>
-          </div>
         </div>
-        <div className="about-banner-text">
+        {/* <div className="about-banner-text">
           <div className="banner-title">
             <h1>About us</h1>
           </div>
@@ -74,10 +72,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="story-imgs">
-            <Image src={About1} className="story-inner-img" alt="about-image" />
-            <Image src={About2} className="story-inner-img" alt="about-image" />
-          </div>
+          
         </div>
         {/* <div className="about-icons">
           <div className="icons-title">

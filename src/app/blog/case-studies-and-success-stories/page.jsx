@@ -9,7 +9,7 @@ function CasestudyBlog() {
        </div>
       <div className="container">
         <div>
-          <h4 className="casestudies-heading">
+          <h4 className="casestudies-heading main-heading">
             Case Studies and Success Stories: Electrum&apos;s Impact on EV Charging
             Infrastructure
           </h4>
@@ -102,7 +102,7 @@ function CasestudyBlog() {
           </p>
         </div>
         <div>
-          <h5>Insights Gained from Recent Electrum Projects</h5>
+          <h4 className="casestudies-heading">Insights Gained from Recent Electrum Projects</h4>
           <p>
             The successful implementation of EV charging solutions in various
             settings has provided valuable insights for both Electrum and our

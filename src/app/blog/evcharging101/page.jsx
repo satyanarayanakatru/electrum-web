@@ -7,8 +7,7 @@ function Evcharging() {
       <div className="evcharging-blog-image"></div>
       <div className="container">
         <div>
-          <h4>Blog Article:</h4>
-          <h4 className="evcharging-heading">
+          <h4 className="evcharging-heading main-heading">
             EV Charging 101: Everything You Need to Know About Electric Vehicle
             Charging
           </h4>
@@ -33,7 +32,7 @@ function Evcharging() {
             ensuring it has enough range for daily use.
           </p>
           <h4 className="evcharging-heading">Types of EV Chargers</h4>
-          <h5>1.Level 1 Chargers</h5>
+          <h5>Level 1 Chargers</h5>
           <div>
             <ul>
               <li>
@@ -50,7 +49,7 @@ function Evcharging() {
               </li>
             </ul>
           </div>
-          <h5> 2. Level 2 Chargers</h5>
+          <h5>Level 2 Chargers</h5>
           <div>
             <ul>
               <li>
@@ -68,7 +67,7 @@ function Evcharging() {
             </ul>
           </div>
           <div>
-          <h5> 3. DC Fast Chargers</h5>
+          <h5> DC Fast Chargers</h5>
             <ul>
               <li>
                 <strong>Description:</strong> DC fast chargers use direct
@@ -87,7 +86,7 @@ function Evcharging() {
         </div>
         <div>
           <h4 className="evcharging-heading">Installation Processes</h4>
-          <h4>Home Installation</h4>
+          <h5>Home Installation</h5>
           <ul>
             <li>
               <strong>Assessment:</strong> Evaluate your electrical system to
@@ -109,7 +108,7 @@ function Evcharging() {
           </ul>
         </div>
         <div>
-          <h4>Commercial Installation</h4>
+          <h5>Commercial Installation</h5>
           <ul>
             <li>
               <strong>Site Assessment:</strong>Conduct a thorough site
@@ -130,7 +129,7 @@ function Evcharging() {
           </ul>
         </div>
         <div>
-          <h4>Fleet Installation</h4>
+          <h5>Fleet Installation</h5>
           <ul>
             <li>
               <strong>Load Management: </strong> Implement load management
@@ -150,7 +149,7 @@ function Evcharging() {
         </div>
         <div>
           <h4 className="evcharging-heading">Best Practices</h4>
-          <h4>For MURBs</h4>
+          <h5>For MURBs</h5>
           <ul>
             <li>
               <strong>Resident Engagement:</strong>Engage residents early in the
@@ -166,7 +165,7 @@ function Evcharging() {
               grow with increasing demand.
             </li>
           </ul>
-          <h4>For Commercial Properties</h4>
+          <h5>For Commercial Properties</h5>
           <ul>
             <li>
               <strong>User Accessibility:</strong> Ensure chargers are easily
@@ -181,7 +180,7 @@ function Evcharging() {
               plans to ensure chargers remain operational and safe.
             </li>
           </ul>
-          <h4>For Fleets</h4>
+          <h5>For Fleets</h5>
           <ul>
             <li>
               <strong>Route Planning:</strong>Integrate charging schedules with

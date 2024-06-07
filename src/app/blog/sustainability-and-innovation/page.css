@@ -38,23 +38,34 @@
   margin-bottom: 0;
 }
 .sustainability p strong {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
+  text-decoration: underline;
+  
 }
 
-.sustainability-heading{
+.sustainability-heading {
   background-color: #e9f5f6;
   text-align: center;
   padding: 10px 0;
-  font-size: 26px !important;
+  font-size: 30px !important;
   margin: 20px 0 !important;
 }
-.sustainability-blog-image{
+.sustainability-blog-image {
   background-image: url(../../../../public/sustainability-blog.jpg);
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.main-heading {
+  text-align: left;
+  font-family: "GT America", "Yahoo Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #232a31;
+  font-size: 38px !important;
+  font-style: normal;
+  font-weight: 900;
 }
 
 /* Responsive */

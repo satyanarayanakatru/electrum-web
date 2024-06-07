@@ -12,7 +12,8 @@ function WorkplaceProject() {
       <div className="workplace-project-inner-content">
         <div className="workplace-left-content">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Company Name:</b> Richmond
+            {/* <b className="project-inner-heading">Company Name:</b>  */}
+            Richmond
             Hospital,
           </h6>
           <p className="mb-3">

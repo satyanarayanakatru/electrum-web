@@ -14,7 +14,6 @@ function PublicProject() {
       <div className="public-project-inner-content">
         <div className="public-left-content">
           <h6 className="mb-3">
-            <b className="project-inner-heading">Customer Name: </b>
             Surrey Elite Auto Spa
           </h6>
           <p className="mb-3">

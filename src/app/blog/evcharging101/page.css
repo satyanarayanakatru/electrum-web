@@ -19,9 +19,10 @@
     font-weight: lighter;
 }
 .evcharging h5{
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
     margin: 20px 0;
+    text-decoration: underline;
 }
 .evcharging ul{
     margin-top: 10px;
@@ -38,7 +39,7 @@
     background-color: #e9f5f6;
     text-align: center;
     padding: 10px 0;
-    font-size: 28px !important;
+    font-size: 30px !important;
     margin: 20px 0 !important;
   }
   .evcharging-blog-image{
@@ -47,6 +48,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  .main-heading {
+    text-align: left;
+    font-family: "GT America", "Yahoo Sans", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    color: #232a31;
+    font-size: 38px !important;
+    font-style: normal;
+    font-weight: 900;
   }
 
 
