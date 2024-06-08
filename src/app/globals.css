@@ -374,6 +374,9 @@ body {
   .public-image {
     margin-top: 20px;
   }
+  .project-heading{
+    font-size: 40px !important;
+  }
 
   .public-services-info-main-content,
   .fleet-services-info-main-content {
