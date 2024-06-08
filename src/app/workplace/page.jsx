@@ -43,7 +43,7 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>Attract and Retain Talent</h3>
+            <h3 className="workplace-page-icon-heading">Attract and Retain Talent</h3>
             <p>
               Draw in eco-conscious employees with sustainable workplace
               amenities.
@@ -62,7 +62,7 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>Increase Property Value</h3>
+            <h3 className="workplace-page-icon-heading">Increase Property Value</h3>
             <p>
               Enhance your property&apos;s value with modern, green
               infrastructure.
@@ -81,7 +81,7 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>Boost Employee Satisfaction</h3>
+            <h3 className="workplace-page-icon-heading">Boost Employee Satisfaction</h3>
             <p>
               Provide convenient charging options, enhancing employee
               satisfaction and retention.
@@ -100,7 +100,7 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>Support Sustainability Goals</h3>
+            <h3 className="workplace-page-icon-heading">Support Sustainability Goals</h3>
             <p>
               Contribute to your company&apos;s environmental initiatives and
               carbon reduction targets.
