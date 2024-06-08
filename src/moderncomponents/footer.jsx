@@ -40,23 +40,32 @@ export default function Footer() {
               EV industry.
             </p>
             <label>
-               Email Address <span>*</span>
-            </label> <br />
-            <input type="email" id="email"/> <br />
+              Email Address <span>*</span>
+            </label>{" "}
+            <br />
+            <input type="email" id="email" /> <br />
             <input type="checkbox" name="" id="checkbox" />{" "}
             <span>
               I agree to the <a href="">privacy policy</a>
-            </span>&nbsp;
+            </span>
+            &nbsp;
             <span className="asterisk">*</span>
             <button type="submit">Submit</button>
           </div>
           <div className="footer-address">
             <p>Electrum Charging Solutions Inc,</p>
             {/* <p>Global: +972-73-2239850</p> */}
-            <p>Address: <span>104-17741 65A Ave, Surrey, BC V3S 1Z8</span>  </p>
-            <p>Canada: <span>+1 866 898 3873</span> </p>
             <p>
-              Email: <Link href="/contact"><span>support@electrumcharging.com</span></Link>
+              Address: <span>104-17741 65A Ave, Surrey, BC V3S 1Z8</span>{" "}
+            </p>
+            <p>
+              Canada: <span>+1 866 898 3873</span>{" "}
+            </p>
+            <p>
+              Email:{" "}
+              <Link href="/contact">
+                <span>contact@electrumcharging.com</span>
+              </Link>
             </p>
             <div className="social-icons">
               <Link href="https://x.com/electrumchrge?s=11">

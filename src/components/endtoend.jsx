@@ -14,14 +14,14 @@ const EndToEnd = () => {
     <div>
       <div className="process-div">
         <div className="process-card-div visible-lg hidden-md hidden-sm hidden-xs">
-          <h2>End-to-end processes</h2>
+          <h2>End-to-End Process</h2>
           <div className="card-container">
             <div className="process-card">
               <div className="process-img-div">
                 <Image src={Process} className="process-img" alt="process" />
               </div>
               <div className="process-info">
-                <p>1. Process & Design</p>
+                <p>1.Plan & Design</p>
               </div>
             </div>
 

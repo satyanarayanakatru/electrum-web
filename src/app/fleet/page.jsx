@@ -50,7 +50,7 @@ export default function () {
           <div className="page-icon-info-div">
             <h3>Reduced Operating Costs</h3>
             <p>
-              <b className="font-bold">Benefit:</b> Lower fuel and maintenance expenses compared to
+               Lower fuel and maintenance expenses compared to
               traditional vehicles.
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function () {
           <div className="page-icon-info-div">
             <h3>Increased Efficiency</h3>
             <p>
-              <b className="font-bold">Benefit:</b> Optimize route planning and reduce downtime with
+               Optimize route planning and reduce downtime with
               reliable, fast charging.
             </p>
           </div>
@@ -86,7 +86,7 @@ export default function () {
           <div className="page-icon-info-div">
             <h3>Generate Carbon Credits</h3>
             <p>
-              <b className="font-bold">Benefit:</b> Earn carbon credits by reducing emissions, which
+            Earn carbon credits by reducing emissions, which
               can be sold or used to offset other environmental impacts.
             </p>
           </div>
@@ -102,9 +102,9 @@ export default function () {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>Improved Environmental Impact</h3>
+            <h3>Environmental Impact</h3>
             <p>
-              <b className="font-bold">Benefit:</b> Reduce your fleet’s carbon footprint and support
+               Reduce your fleet’s carbon footprint and support
               sustainability goals.
             </p>
           </div>

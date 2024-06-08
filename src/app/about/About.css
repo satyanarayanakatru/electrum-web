@@ -22,6 +22,7 @@
   margin: 0 auto;
 }
 .info-div {
+  position: relative;
   text-align: center;
 }
 .story-info {
@@ -101,6 +102,11 @@
 }
 .about-banner{
   padding-top: 79px;
+}
+.quotation-mark{
+  position: absolute;
+  right: 0;
+  bottom: 32%;
 }
 
 /* Responsive */

@@ -21,9 +21,9 @@ export default function About() {
   return (
     <div className="electrum-about">
       <div className="electrum-banner about-banner">
-            <Image src={ElectrumBanner}/>
-        </div>
-        {/* <div className="about-banner-text">
+        <Image src={ElectrumBanner} />
+      </div>
+      {/* <div className="about-banner-text">
           <div className="banner-title">
             <h1>About us</h1>
           </div>
@@ -47,6 +47,7 @@ export default function About() {
                 electricity from ‘Generation-To-User’.
               </p>
             </div>
+            <Image src={Quote} alt="quote-image" className="quotation-mark" />
           </div>
         </div>
       </div>
@@ -54,7 +55,7 @@ export default function About() {
         <div className="our-story">
           <div className="our-story-container">
             <div className="story-info">
-              <h2>Our story</h2>
+              <h2>Our Story</h2>
               <p>
                 Incorporated in May of 2015, Electrum set out to position itself
                 as an electric mobility solutions company.
@@ -62,17 +63,17 @@ export default function About() {
               <p>
                 Over the years, Electrum has established many strong
                 partnerships such as Tesla, Porsche, Siemens, Nemetz, ABB and
-                Phi-Hong. By 2020, Electrum has crossed the milestone of
-                completing over 5,000 installations, earning trusted clients
-                such as the Fraser Valley Hospital Network (Richmond Hospital,
-                St. Paul’s Hospital, Vancouver General Hospital, etc). The
-                achievements have paved the way to civic installations for the
-                city of Surrey, Vancouver, North Vancouver, and Burnaby.
+                Phi-Hong. Electrum crossed the milestone of completing over
+                5,000 installations, earning trusted clients such as the Fraser
+                Valley Health Authority (Richmond Hospital, St. Paul’s Hospital,
+                Vancouver General Hospital, etc). The achievements have paved
+                the way to civic installations for the city of Surrey,
+                Vancouver, North Vancouver, and Burnaby. Electrum now has well
+                over 6,000 charging stations deployed to date while expanding
+                our client base.
               </p>
             </div>
           </div>
-
-          
         </div>
         {/* <div className="about-icons">
           <div className="icons-title">
@@ -142,16 +143,16 @@ export default function About() {
               <ul>
                 <li>
                   Founded Electrum in 2015 and diversified its product offerings
-                  in 2020 by building out a development team for power
-                  management capabilities.
+                  in 2020 by building out a software team to develop a cloud
+                  based network management platform.
                 </li>
                 <li>
                   Prior to founding Electrum, Dan was involved in the design and
                   launch of one of the first Level II chargers at Leviton.
                 </li>
                 <li>
-                  Has immense knowledge in the EV industry,both hardware and
-                  software, overseas Electrum&apos;s growth{" "}
+                  Dan has extensive knowledge in the EV industry, both hardware
+                  and software, enabling him to oversee Electrum's growth.
                 </li>
               </ul>
             </div>
@@ -165,19 +166,20 @@ export default function About() {
               <ul>
                 <li>
                   Through prior experience, Chris has developed many
-                  relationships across various industries allowing him to tap
-                  into those networks to develop Electrum&apos;s strategic
-                  partnerships
+                  relationships across various industries allowing him to
+                  leverage those networks to develop Electrum's strategic
+                  partnerships.
                 </li>
                 <li>
                   An experienced corporate finance professional with
                   international business experience in transactions across the
-                  technology, travel and hospitality,mining, and manufacturing
-                  industries, where he oversaw financial and strategic direction
+                  technology, travel and hospitality, mining, and manufacturing
+                  industries, where he oversaw financial and strategic
+                  direction.
                 </li>
                 <li>
-                  Previously was a CFO at a mobile games advertising
-                  platform,where he oversaw the strategic direction, fund
+                  Previously Chris was a CFO at a mobile games advertising
+                  platform, where he oversaw the strategic direction, fund
                   raising, and business development of the company.
                 </li>
               </ul>

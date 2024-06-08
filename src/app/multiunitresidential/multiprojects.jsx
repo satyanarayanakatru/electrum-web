@@ -14,7 +14,8 @@ function MultiProject() {
       <div className="multi-project-inner-content">
         <div className="multi-left-content">
           <h6 className="mb-3">
-            Kinglanding (4th is Kinglanding (retrofit) MURB)
+          Kings Landing, Vancouver BC, Canada
+          (MURB)
           </h6>
           <p className="font-light">
             At Kings Landing, Electrum undertook a comprehensive project to

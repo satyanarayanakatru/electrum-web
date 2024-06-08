@@ -251,7 +251,7 @@
 }
 
 .testimonials-div .advantage-div h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   color: #394a62;
   margin-bottom: 30px;
@@ -263,11 +263,11 @@
   text-transform: uppercase;
   color: #394a62;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
 }
 .testimonials-div .advantage-div .advantage-info p {
   color: #333;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .testimonial-logos {
@@ -276,6 +276,33 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+}
+.rebates-main-section{
+  background-color: #e9f5f6;
+  padding: 50px 0;
+  text-align: center;
+}
+.rebates-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.rebates-image{
+  width: 50%;
+}
+.rebates-image img{
+  width: 400px;
+}
+.rebates-main-section h2{
+  font-size: 45px;
+    padding: 30px 0;
+    font-weight: bolder;
+    color: #394a62;
+}
+.rebates-section p{
+  font-size: 26px;
+
 }
 
 .bottom-cta {
@@ -300,6 +327,7 @@
   color: #fff;
   font-weight: 700;
   margin-bottom: 45px;
+  text-transform: capitalize;
 }
 
 .advantage-info {
@@ -312,7 +340,7 @@
   padding-bottom: 50px;
 }
 .industry-cards h2 {
-  font-size: 50px;
+  font-size: 45px;
   padding: 30px 0;
   font-weight: bolder;
   color: #394a62;
@@ -347,7 +375,7 @@
   text-align: center;
 }
 .insights h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bolder
 }
 .features {

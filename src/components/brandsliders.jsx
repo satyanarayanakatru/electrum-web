@@ -10,6 +10,14 @@ import Logo3 from "../../public/images/logo3.png";
 import Logo4 from "../../public/images/logo4.png";
 import Logo5 from "../../public/images/logo5.png";
 import Logo6 from "../../public/images/logo6.png";
+import Polygon from "../../public/polygon-logo.png";
+import Aquilini from "../../public/Aquilini-logo.jpg";
+import Peterbilt from "../../public/Peterbilt-logo.png";
+import Pepsi from "../../public/Pepsi-logo.png";
+import Universal from "../../public/Universal-logo.png";
+import AirCanada from "../../public/AirCanada-logo.png";
+import Rancho from "../../public/Rancho-logo.jpg";
+import District from "../../public/District-logo.jpg";
 import "./brandsliders.css";
 
 
@@ -33,8 +41,8 @@ function BrandSliders() {
   };
   return (
     <div className="slider-container">
-      <h2 className="brand-heading">Our Partners</h2>
-      <Slider {...settings}>
+      <h2 className="brand-heading">Our Partners and Clients</h2>
+      <Slider {...settings} className="slider-main">
         <div className="slider-image">
           <Image src={Logo1} alt="logo" />
         </div>
@@ -52,6 +60,30 @@ function BrandSliders() {
         </div>
         <div className="slider-image">
           <Image src={Logo6} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={Polygon} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={Aquilini} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={Peterbilt} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={Pepsi} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={Universal} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={AirCanada} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={Rancho} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={District} alt="logo" />
         </div>
       </Slider>
     </div>

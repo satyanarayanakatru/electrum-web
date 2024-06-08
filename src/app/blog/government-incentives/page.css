@@ -54,6 +54,15 @@
   background-size: cover;
   background-position: center;
 }
+.main-heading {
+  text-align: left;
+  font-family: "GT America", "Yahoo Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #232a31;
+  font-size: 38px !important;
+  font-style: normal;
+  font-weight: 900;
+}
 
 
 

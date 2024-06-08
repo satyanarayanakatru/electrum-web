@@ -29,7 +29,7 @@ function BannerSlider() {
         />
         <Carousel.Caption className="slider-content">
           <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
-          <p>Leading the Way in EV Charging and Energy Optimization</p>
+          <p>Leading the way in ev charging and energy optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
        <Carousel.Item>
@@ -41,7 +41,7 @@ function BannerSlider() {
         />
         <Carousel.Caption className="slider-content caption">
           <h3>Cutting-Edge EV Charging and Energy Management Software</h3>
-          <p>Leading the Way in EV Charging and Energy Optimization</p>
+          <p>Leading the way in ev charging and energy optimization</p>
         </Carousel.Caption>
       </Carousel.Item>
       {/*

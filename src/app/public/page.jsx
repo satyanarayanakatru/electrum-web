@@ -23,16 +23,16 @@ export default function Public() {
           <div className="banner-text">
             <p>
               We design, deploy, and manage public charging stations to create
-              an accessible EV charging network. We work with local governments
-              and municipalities to support EV infrastructure deployment and
-              policy development.
+              an accessible EV charging network. We work with hotels, shopping
+              centers, car washes, gas stations, local governments and more to
+              support EV infrastructure deployment and policy development.
             </p>
           </div>
         </div>
         <div className="featured-img-div car-public"></div>
       </div>
 
-      <div className="page-info-icons page-info-main-content">
+      <div className="page-info-icons page-info-public-content">
         <div className="icon-div">
           <div className="page-icon-div">
             <Image
@@ -46,9 +46,9 @@ export default function Public() {
           <div className="page-icon-info-div">
             <h3>Attract Eco-Tourists</h3>
             <p>
-              Draw in environmentally-conscious travelers looking for convenient
-              charging options, boosting local tourism and supporting green
-              travel.
+              Cater to environmentally-conscious travelers looking for
+              convenient charging options, boosting local tourism and supporting
+              green travel.
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Public() {
           <div className="page-icon-info-div">
             <h3>Enhance Property Appeal</h3>
             <p>
-              Modernize your property with green infrastructure, making it more
+              Upgrade your property with green infrastructure, making it more
               attractive to tenants and visitors.
             </p>
           </div>

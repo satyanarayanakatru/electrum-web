@@ -37,6 +37,9 @@ const DropdownMenu = () => {
               <li>
                 <Link href="/fleet">Fleet</Link>
               </li>
+              <li>
+                <Link href="/technology">Technology</Link>
+              </li>
             </ul>
           </div>
          

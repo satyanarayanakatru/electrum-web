@@ -6,7 +6,7 @@ const GetInTouch = () => {
     <div>
       <div className="bottom-cta">
         <div className="bottom-cta-text">
-          <h2>Get in touch with our experts</h2>
+          <h2>Get In Touch With Our Team</h2>
           <a href="/contact" className="home-cta-btn">
             Contact Us
           </a>

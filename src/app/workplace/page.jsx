@@ -23,9 +23,9 @@ export default function WorkPlace() {
           <div className="banner-text">
             <p>
               We work with you to determine the optimal charging solutions for
-              your workplace. Our team handles everything, from design to
-              installation and beyond, ensuring seamless setup and operation of
-              your charging stations.
+              your workplace. Our team manages everything, from design to
+              installation and ongoing operation of the chargers, providing
+              turnkey solutions for charging infrastructure.
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function WorkPlace() {
             />
           </div>
           <div className="page-icon-info-div">
-            <h3>Attract Talent</h3>
+            <h3>Attract and Retain Talent</h3>
             <p>
               Draw in eco-conscious employees with sustainable workplace
               amenities.
@@ -64,7 +64,8 @@ export default function WorkPlace() {
           <div className="page-icon-info-div">
             <h3>Increase Property Value</h3>
             <p>
-              Enhance your property&apos;s value with modern, green infrastructure.
+              Enhance your property&apos;s value with modern, green
+              infrastructure.
             </p>
           </div>
         </div>
@@ -101,8 +102,8 @@ export default function WorkPlace() {
           <div className="page-icon-info-div">
             <h3>Support Sustainability Goals</h3>
             <p>
-              Contribute to your company&apos;s environmental initiatives and carbon
-              reduction targets.
+              Contribute to your company&apos;s environmental initiatives and
+              carbon reduction targets.
             </p>
           </div>
         </div>

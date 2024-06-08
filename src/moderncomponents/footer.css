@@ -95,7 +95,7 @@ footer {
 }
 .footerlogo {
   width: 370px !important;
-  margin-left: 0;
+  margin-left: -2%;
 }
 .footer-heading {
   font-size: 30px !important;

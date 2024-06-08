@@ -42,9 +42,9 @@
   height: 300px;
 }
 .carousel-caption {
-  width: 53%;
+  width: 54%;
   right: 0% !important;
-  top: 68%;
+  top: 57%;
     left: 41%;
 }
 
@@ -54,11 +54,13 @@
   .slider-content h3 {
     font-size: 43px;
   }
+  
 }
 @media screen and (max-width: 979px) {
   .slider-content h3 {
     font-size: 33px;
   }
+  
 }
 @media screen and (max-width: 767px) {
   .slider-content h3 {

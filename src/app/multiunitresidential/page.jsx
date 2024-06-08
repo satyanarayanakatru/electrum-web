@@ -83,7 +83,7 @@ export default function MultiUnitResidential() {
           </div>
           <div className="page-icon-info-div">
             <h3>EV READY PLAN</h3>
-            <p>
+            <p >
             Professionally drafted and tailored to your building. Save up to 75%, while rebates available.
             </p>
           </div>

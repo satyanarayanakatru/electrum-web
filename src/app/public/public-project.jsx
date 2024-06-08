@@ -13,11 +13,9 @@ function PublicProject() {
       <h2 className="project-heading">Some Of Our Projects</h2>
       <div className="public-project-inner-content">
         <div className="public-left-content">
-          <h6 className="mb-3">
-            Surrey Elite Auto Spa
-          </h6>
+          <h6 className="mb-3">Elite Auto Spa</h6>
           <p className="mb-3">
-            <b className="project-inner-heading">Location:</b> Surrey
+            <b className="project-inner-heading">Location:</b> Delta, BC, Canada
           </p>
           <p>
             <b className="project-inner-heading">
@@ -51,7 +49,7 @@ function PublicProject() {
         </div>
         <div className="public-left-content ml-5">
           <h6 className="mb-3">
-            Landmark Properties (Foster Martin), White Rock, BC
+            Landmark Properties (Foster Martin), White Rock, BC, Canada
           </h6>
           <p className="font-light">
             At Landmark Properties, Foster Martin, Electrum installed 10 QR

@@ -22,7 +22,7 @@ function WorkplaceProject() {
           </p>
           <p>
             <b className="project-inner-heading">
-              Chargers:<span className="chargers"> 40 (Public) Chargers</span>
+              Chargers:<span className="chargers"> 40 Workplace Chargers</span>
             </b>
           </p>
         </div>

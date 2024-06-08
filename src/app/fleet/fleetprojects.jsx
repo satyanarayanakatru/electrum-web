@@ -14,14 +14,14 @@ function FleetProjects() {
         <div className="fleet-left-content">
           <h6 className="mb-3">
             {/* <b className="project-inner-heading">Company Name:</b> */}
-             Pacific Coach
-            Lines/ Air Canada
+            Translink
           </h6>
           <p className="mb-3">
-            <b className="project-inner-heading">Location:</b> Surrey
+            <b className="project-inner-heading">Location:</b> Lower Mainland, BC, Canada
           </p>
           <p>
-            <b className="project-inner-heading">Chargers:</b> <span className="chargers text-dark">2 Chargers</span>
+            <b className="project-inner-heading">Chargers:</b>{" "}
+            <span className="chargers text-dark">2 Chargers</span>
           </p>
           <ul className="font-light">
             <li>
@@ -55,8 +55,7 @@ function FleetProjects() {
         <div className="fleet-left-content ml-5">
           <h6 className="mb-3">
             {/* <b className="project-inner-heading">Company Name:</b>  */}
-            Frito Lay
-            Canada
+            Frito Lay Canada
           </h6>
           <p className="mb-3">
             <b className="project-inner-heading">Location:</b> Surrey, BC,
@@ -72,27 +71,32 @@ function FleetProjects() {
             <b>Project Summary: </b>
             <ul>
               <li>
-                <b className="font-bold">Comprehensive Charging Infrastructure:</b> Installed a 120kW
-                DC fast charger and ten Level II chargers to support Frito Lay
-                Canada&apos;s fleet electrification.
+                <b className="font-bold">
+                  Comprehensive Charging Infrastructure:
+                </b>{" "}
+                Installed a 120kW DC fast charger and ten Level II chargers to
+                support Frito Lay Canada&apos;s fleet electrification.
               </li>
               <li>
-                <b className="font-bold">High-Power DC Fast Charging:</b> Enables quick recharges,
-                reducing downtime and keeping delivery schedules on track.
+                <b className="font-bold">High-Power DC Fast Charging:</b>{" "}
+                Enables quick recharges, reducing downtime and keeping delivery
+                schedules on track.
               </li>
               <li>
-                <b className="font-bold">Efficient Level II Charging:</b> Provides reliable overnight
-                charging, ensuring vehicles are ready for daily operations.
+                <b className="font-bold">Efficient Level II Charging:</b>{" "}
+                Provides reliable overnight charging, ensuring vehicles are
+                ready for daily operations.
               </li>
               <li>
-                <b className="font-bold">Sustainability Impact:</b> Helps Frito Lay Canada reduce
-                their carbon footprint and achieve their sustainability goals.
+                <b className="font-bold">Sustainability Impact:</b> Helps Frito
+                Lay Canada reduce their carbon footprint and achieve their
+                sustainability goals.
               </li>
             </ul>
           </div>
         </div>
       </div>
-      
+
       <MoreProjects />
     </div>
   );
