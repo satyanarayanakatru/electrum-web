@@ -86,6 +86,7 @@
 .features-overview-content b{
   font-size: 26px;
 }
+.technology-content h3,
 .network-operation-content h3,
 .platform-content h3,
 .charger-management-content h3 {
@@ -155,7 +156,7 @@
   }
   .network-operation-content h3,
   .platform-content h3,
-  .charger-management-content h3 {
+  .charger-management-content h3,.technology-content h3{
     font-size: 40px;
   }
 }
@@ -179,7 +180,7 @@
   }
   .network-operation-content h3,
   .platform-content h3,
-  .charger-management-content h3 {
+  .charger-management-content h3,.technology-content h3{
     font-size: 35px;
   }
   .custom-inner-content h5 {
@@ -224,7 +225,7 @@
   
   .network-operation-content h3,
   .platform-content h3,
-  .charger-management-content h3 {
+  .charger-management-content h3,.technology-content h3{
     font-size: 25px;
     margin-bottom: 20px;
   }

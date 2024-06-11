@@ -27,6 +27,7 @@ function Technology() {
   return (
     <div className="technology-content">
       <div className="container">
+        <h3>TECHNOLOGY</h3>
         <div className="technology-electrum-logo-content">
           <div className="electrum-technology-logo">
             <Image src={ElectrumTechnologyLogo} alt="electrum-logo" />
