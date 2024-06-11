@@ -286,12 +286,25 @@
   align-items: center;
   padding: 0 50px;
 }
-.rebates-image {
-  width: 50%;
+.rebates-content {
+  width: 30%;
+  border: 1px double #000;
+  padding: 30px 0;
 }
-.rebates-image img {
-  width: 400px;
+
+.rebates-right-content {
+  width: 69.5%;
 }
+.rebates-content h3 {
+  font-size: 60px;
+  font-family: auto;
+  color: black;
+  font-weight: bolder;
+}
+.rebates-content h3 span {
+  font-size: 35px;
+}
+
 .rebates-main-section h2 {
   font-size: 45px;
   padding: 30px 0;
@@ -299,7 +312,14 @@
   color: #394a62;
 }
 .rebates-section p {
-  font-size: 26px;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+.rebates-content p {
+  font-size: 18px;
+  color: #000;
+  font-weight: lighter;
 }
 
 .bottom-cta {
@@ -404,6 +424,18 @@
 .feature p {
   font-size: 16px;
 }
+.more-information {
+  padding: 10px;
+  color: #fff;
+  font-size: 17px;
+  background-color: #ffd166;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 30px;
+}
+.more-information:hover {
+  background-color: #394a62;
+}
 
 /* Responsive */
 
@@ -457,16 +489,7 @@
   .rebates-section {
     display: block;
   }
-  .rebates-image {
-    margin: 20px auto;
-  }
-  .rebates-image {
-    width: 100%;
-  }
-  .rebates-image img {
-    margin: 0 auto !important;
-    width: 100% !important;
-  }
+
   .rebates-main-section h2 {
     font-size: 40px;
   }

@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import "./page.css";
 import IncentiveBlog from "../../../../public/incentives-blog.jpg";
+import Link from "next/link";
 
 function Incentives() {
   return (
@@ -47,6 +48,14 @@ function Incentives() {
           website and follow the application guidelines. The process includes
           submitting a detailed project proposal and budget.
         </p>
+        <div className="incentives-link-content">
+        <Link
+          href="https://natural-resources.canada.ca/energy-efficiency/transportation-alternative-fuels/zero-emission-vehicle-infrastructure-program/21876"
+          className="incentives-link"
+        >
+          Federal Incentives
+        </Link>
+        </div>
         <h4 className="incentives-heading">Provincial Incentives</h4>
         <h4>British Columbia</h4>
         <h5>CleanBC Go Electric EV Charger Rebate Program</h5>
@@ -68,6 +77,20 @@ function Incentives() {
           <strong>How to Apply:</strong> Applications can be submitted online
           through the BC Hydro or FortisBC websites.
         </p>
+        <div className="incentives-link-content">
+        <Link
+          className="incentives-link"
+          href="https://electricvehicles.bchydro.com/incentives/charger-rebates"
+        >
+          BC Hydro
+        </Link>{" "}
+        <Link
+          className="incentives-link"
+          href="https://www.fortisbc.com/rebates/business/ev-charging-solutions-for-multi-unit-residential-buildings-and-workplaces"
+        >
+          BC Fortis
+        </Link>
+        </div>
         <h4>Alberta</h4>
         <h5>Electric Vehicle Charging Program (EVCP)</h5>
         <p>
@@ -87,6 +110,11 @@ function Incentives() {
           <strong>How to Apply:</strong> Details and application forms are
           available on the Energy Efficiency Alberta website.
         </p>
+        <div className="incentives-link-content">
+        <Link className="incentives-link" href="https://mccac.ca/programs/">
+          Alberta Incentives
+        </Link>
+        </div>
         <h4>Ontario</h4>
         <h5>Electric Vehicle Charging Incentive Program (EVCIP)</h5>
         <p>
@@ -105,6 +133,14 @@ function Incentives() {
           <strong>How to Apply:</strong> Applications can be submitted through
           the Ontario Ministry of Transportation website.
         </p>
+        <div className="incentives-link-content">
+        <Link
+          href="https://greeneconomy.ca/evchargerincentive/"
+          className="incentives-link"
+        >
+          Ontario Incentives
+        </Link>
+        </div>
         <h4>Quebec</h4>
         <h5>Roulez vert Program</h5>
         <p>
@@ -125,6 +161,11 @@ function Incentives() {
           <strong>How to Apply:</strong> Apply online through the Quebec
           Ministry of Environment and the Fight Against Climate Change website.
         </p>
+        <div className="incentives-link-content">
+        <Link href="https://www.quebec.ca/en/transports/electric-transportation/financial-assistance-electric-vehicle/about-roulez-vert-program" className="incentives-link">
+          Quebec Incentives
+        </Link>
+        </div>
         <h4>Nova Scotia</h4>
         <h5>Electric Vehicle Home Charging Rebate Program</h5>
         <p>
@@ -141,6 +182,9 @@ function Incentives() {
           <strong>How to Apply:</strong> Applications can be submitted through
           Efficiency Nova Scotia’s website.
         </p>
+        <div className="incentives-link-content">
+        <Link href="https://www.efficiencyns.ca/evcharging/" className="incentives-link">Nova Scotia Incentives</Link>
+        </div>
         <h4 className="incentives-heading">Maximizing Financial Benefits</h4>
         <p>
           To maximize your financial benefits from these rebates and incentives,

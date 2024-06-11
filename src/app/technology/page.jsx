@@ -27,7 +27,7 @@ function Technology() {
   return (
     <div className="technology-content">
       <div className="container">
-        <h3>TECHNOLOGY</h3>
+        {/* <h3>TECHNOLOGY</h3>
         <div className="technology-electrum-logo-content">
           <div className="electrum-technology-logo">
             <Image src={ElectrumTechnologyLogo} alt="electrum-logo" />
@@ -39,9 +39,9 @@ function Technology() {
               projects.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="network-operation-content">
-          <h3>NETWORK OPERATION</h3>
+          <h3>Charging Management Platform</h3>
           <p>
             The Electrum Cloud Platform, is an EV charger network solution and
             includes features required by developers, property managers, site
@@ -143,12 +143,12 @@ function Technology() {
       </div>
       <div className="container">
         <div className="admin-platform">
-          <p>
+          {/* <p>
             The Electrum cloud platform provides a dashboard for users to manage
             and view their charging activities from their devices. Users will
             load their digital wallet for charger usage and manage charger
             authentication through their unique RFID card.
-          </p>
+          </p> */}
           <div className="admin-images d-flex justify-between">
             <div className="admin-image-content">
               <Image src={AdminImage1} alt="AdminImage1" />
@@ -253,7 +253,7 @@ function Technology() {
             </div>
           </div>
           <div className="custom-inner-content">
-            <div className="mr-5">
+            <div className="mr-5 consumption-data">
               <Image src={CONSUMPTION_DATA} alt="CONSUMPTION_DATA" />
             </div>
             <div className="ml-5">
@@ -280,9 +280,7 @@ function Technology() {
         </div>
       </div>
 
-      <div className="">
-        <Image src={NetworkPlatform} alt="network-image" />
-      </div>
+      
     </div>
   );
 }

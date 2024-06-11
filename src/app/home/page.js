@@ -190,17 +190,19 @@ export default function Home() {
         <div className="rebates-main-section">
           <h2>Rebates and Incentive Programs</h2>
           <div className="rebates-section">
-            <div className="rebates-image">
-              <Image src={Rebates} />
+            <div className="rebates-content">
+              <h3>$1M<span>+ secured</span></h3>
+              <p>in rebates and incentives for Electrum customers.</p>
             </div>
-            <div>
+            <div className="rebates-right-content">
               <p>
                 Electrum manages the rebate application process, carbon credit
-                aggregation and monetization, helping maximize your return on
-                investment.
+                aggregation and monetization, helping customers maximize their
+                return on investment.
               </p>
             </div>
           </div>
+          <Link href="/blog/government-incentives" className="more-information">More Information</Link>
         </div>
 
         <div className="bottom-cta">
