@@ -182,7 +182,7 @@ export default function Home() {
                   />
                 </div>
                 <h3 className="mt-4 mb-3">TURNKEY SOLUTIONS</h3>
-                <p>design, deploy, manage, and operate.</p>
+                <p>Design, deploy, manage, and operate.</p>
               </div>
             </div>
           </div>

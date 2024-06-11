@@ -1,0 +1,283 @@
+.technology-content {
+  padding-top: 100px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.electrum-technology-logo {
+  width: 40%;
+  margin-right: 5%;
+}
+.technology-electrum-logo-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  /* justify-content: space-around; */
+}
+.technology-electrum-logo-inner-content {
+  font-weight: bold;
+}
+.platform-content {
+  background-color: #e9f5f6;
+  padding: 50px 0;
+  margin: 50px 0;
+}
+.platform-main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.platform-inner-content {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#platform-image-content img {
+  max-width: 80px !important;
+  height: 100px;
+}
+
+.platform-icon-content {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.platform-inner-content b {
+  font-size: 22px;
+}
+.admin-platform p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.admin-image-content {
+  width: 50%;
+  text-align: center;
+}
+.admin-image-content img {
+  height: 335px;
+  width: 78%;
+  margin: 0 auto;
+}
+.electrum-cloud-main-content {
+  display: flex;
+  justify-content: space-between;
+}
+.electrum-cloud-right-content,
+.electrum-cloud-left-content {
+  width: 95%;
+}
+.electrum-cloud-left-content p {
+  font-size: 22px;
+  margin: 20px 0;
+}
+.features-overview-content,
+.charger-management-inner-content,
+.many-images-content {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.features-overview-content ul li {
+  font-size: 22px;
+}
+.features-overview-content b{
+  font-size: 26px;
+}
+.network-operation-content h3,
+.platform-content h3,
+.charger-management-content h3 {
+  color: #394a62;
+  font-size: 42px;
+  font-weight: 700;
+  margin: 20px 0 30px 0;
+  text-align: center;
+}
+.network-operation-content p,
+.platform-content p,
+.technology-electrum-logo-inner-content {
+  font-size: 22px;
+}
+.charger-management-content p {
+  font-size: 22px;
+}
+.many-images-content p {
+  width: 60%;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.many-images-content img {
+  max-width: 118px;
+  height: 120px;
+}
+.custom-billing-content {
+  background-color: #e9f5f6;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+.custom-inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.custom-inner-content img {
+  width: 100%;
+}
+.custom-inner-content h5 {
+  color: #394a62;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+.custom-inner-content p {
+  font-size: 18px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 950px;
+  }
+  .electrum-technology-logo {
+    width: 70%;
+  }
+  .many-images-content p {
+    width: 90%;
+    margin-left: 6px;
+    font-size: 18px;
+  }
+  .electrum-cloud-main-content {
+    align-items: center;
+  }
+  .network-operation-content h3,
+  .platform-content h3,
+  .charger-management-content h3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .container {
+    width: 760px;
+  }
+  .electrum-cloud-left-content p,
+  .admin-platform p,
+  .network-operation-content p,
+  .platform-content p,
+  .technology-electrum-logo-inner-content,
+  .features-overview-content ul li,
+  .charger-management-content p {
+    font-size: 18px;
+  }
+  .features-overview-content b,
+  .platform-inner-content b {
+    font-size: 20px;
+  }
+  .network-operation-content h3,
+  .platform-content h3,
+  .charger-management-content h3 {
+    font-size: 35px;
+  }
+  .custom-inner-content h5 {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+  .technology-electrum-logo-content {
+    display: block;
+    text-align: center;
+  }
+  .electrum-technology-logo {
+    margin-right: 0;
+    margin: 10px auto;
+  }
+  .platform-main-content,
+  .platform-inner-content,
+  .custom-inner-content,
+  .admin-images,
+  .electrum-cloud-main-content,
+  .features-overview-content,
+  .charger-management-inner-content,.many-images-content,.many-images-content img{
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #platform-image-content img {
+    margin: 0 auto;
+  }
+  .platform-inner-content {
+    width: 100%;
+  }
+  .platform-icon-content {
+    margin-top: 10px !important;
+  }
+  .admin-image-content img {
+    width: 100%;
+  }
+  
+  .network-operation-content h3,
+  .platform-content h3,
+  .charger-management-content h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .technology-content {
+    padding-top: 70px;
+  }
+  .technology-electrum-logo-content {
+    margin-bottom: 20px;
+  }
+  .technology-electrum-logo-inner-content p {
+    margin-top: 15px;
+  }
+  .electrum-cloud-left-content p,
+  .admin-platform p,
+  .network-operation-content p,
+  .platform-content p,
+  .technology-electrum-logo-inner-content,
+  .features-overview-content ul li,
+  .charger-management-content p {
+    text-align: center;
+  }
+  .platform-content,.custom-billing-content{
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  .platform-icon-content b{
+    display: block;
+    margin-bottom: 10px !important;
+  }
+  .access-control{
+    padding-top: 0 !important;
+  }
+  .admin-image-content {
+    width: 100%;
+  }
+  .custom-inner-content div{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .custom-inner-content{
+    margin: 10px 0;
+  }
+  .custom-inner-content img{
+    margin: 10px 0;
+  }
+  .electrum-cloud-left-content{
+    margin-right: 0;
+  }
+  .electrum-fee-structure{
+    margin-bottom: 10px !important;
+  }
+  .electrum-cloud-right-content{
+    margin-left: 0;
+  }
+  
+}

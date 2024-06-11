@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../public/Electrum_White.png";
+import Logo from "../../public/Electrum_White4.png";
 import Image from "next/image";
 import Link from "next/link";
 import "./footer.css";

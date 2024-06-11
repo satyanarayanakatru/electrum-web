@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "./navbar.css";
-import Logo from "../../public/Electrum_White.png";
+import Logo from "../../public/Electrum_White4.png";
 import NavItems from "./navItems";
 
 export default function Navbar() {

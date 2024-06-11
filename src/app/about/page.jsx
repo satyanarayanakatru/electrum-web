@@ -190,7 +190,7 @@ export default function About() {
 
       <div className="bottom-cta">
         <div className="bottom-cta-text">
-          <h2>Embrace our EV future.</h2>
+          <h2>Embrace our EV future</h2>
           <Link href="/contact" className="home-cta-btn">
             {" "}
             Contact Us{" "}

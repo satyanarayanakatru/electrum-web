@@ -14,7 +14,7 @@ function WorkplaceProject() {
           <h6 className="mb-3">
             {/* <b className="project-inner-heading">Company Name:</b>  */}
             Richmond
-            Hospital,
+            Hospital
           </h6>
           <p className="mb-3">
             <b className="project-inner-heading">Location:</b> Richmond BC,
@@ -45,7 +45,7 @@ function WorkplaceProject() {
         <div className="workplace-left-content ml-5">
           <ul className="ml-5 font-light">
             <li>
-              Successfully installed 40 Level II chargers and 2 DCFC chargers,
+              Successfully installed 40 Level 2 chargers and 2 DCFC chargers,
               all managed through Electrum’s network platform.
             </li>
             <li>

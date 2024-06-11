@@ -13,10 +13,7 @@ function MultiProject() {
       <h2 className="project-heading">Some Of Our Projects</h2>
       <div className="multi-project-inner-content">
         <div className="multi-left-content">
-          <h6 className="mb-3">
-          Kings Landing, Vancouver BC, Canada
-          (MURB)
-          </h6>
+          <h6 className="mb-3">Kings Landing, Vancouver BC, Canada MURB </h6>
           <p className="font-light">
             At Kings Landing, Electrum undertook a comprehensive project to
             electrify 165 stalls with individual 32Amp circuits, installing 114
@@ -36,7 +33,6 @@ function MultiProject() {
         </div>
         <div className="multi-left-content ml-5">
           <h6 className="mb-3">The City of Lougheed, Burnaby BC, Canada</h6>
-
           <p className="font-light">
             The City of Lougheed is a prime example of how Electrum integrates
             advanced technology with community needs. We installed 38 public

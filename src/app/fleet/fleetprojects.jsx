@@ -64,7 +64,7 @@ function FleetProjects() {
           <p>
             <b className="project-inner-heading">
               Chargers:
-              <span className="chargers text-dark"> 1 DCFC, 10 Level II</span>
+              <span className="chargers text-dark"> 1 DCFC, 10 Level 2</span>
             </b>
           </p>
           <div className="mt-2 font-light">
@@ -74,7 +74,7 @@ function FleetProjects() {
                 <b className="font-bold">
                   Comprehensive Charging Infrastructure:
                 </b>{" "}
-                Installed a 120kW DC fast charger and ten Level II chargers to
+                Installed a 120kW DC fast charger and ten Level 2 chargers to
                 support Frito Lay Canada&apos;s fleet electrification.
               </li>
               <li>
@@ -83,7 +83,7 @@ function FleetProjects() {
                 schedules on track.
               </li>
               <li>
-                <b className="font-bold">Efficient Level II Charging:</b>{" "}
+                <b className="font-bold">Efficient Level 2 Charging:</b>{" "}
                 Provides reliable overnight charging, ensuring vehicles are
                 ready for daily operations.
               </li>

@@ -20,7 +20,7 @@ footer {
   width: 77%;
 }
 .footer-signup {
-  width: 44%;
+  width: 30%;
 }
 .footer-signup p {
   margin-bottom: 20px;
@@ -38,7 +38,7 @@ footer {
 }
 .footer-signup #email {
   margin: 10px 0;
-  height: 50px;
+  height: 32px;
   padding: 0 10px;
   outline-style: none;
   border-radius: 5px;
@@ -91,14 +91,14 @@ footer {
   margin-top: 25px;
 }
 .footer-logo-content {
-  width: 42%;
+  width: 35%;
 }
 .footerlogo {
   width: 370px !important;
   margin-left: -2%;
 }
 .footer-heading {
-  font-size: 30px !important;
+  font-size: 32px !important;
   font-weight: 700;
   margin-left: 5px;
 }
@@ -128,6 +128,9 @@ footer {
   }
   .footerlogo {
     max-width: 90% !important;
+  }
+  .footer-signup #email{
+    width: 200px;
   }
 }
 @media screen and (max-width: 979px) {
