@@ -18,6 +18,7 @@ import Universal from "../../public/Universal-logo.png";
 import AirCanada from "../../public/AirCanada-logo.png";
 import Rancho from "../../public/Rancho-logo.jpg";
 import District from "../../public/District-logo.jpg";
+import GWL from "../../public/gwl.jpg";
 import "./brandsliders.css";
 
 
@@ -84,6 +85,9 @@ function BrandSliders() {
         </div>
         <div className="slider-image">
           <Image src={District} alt="logo" />
+        </div>
+        <div className="slider-image">
+          <Image src={GWL} alt="logo" />
         </div>
       </Slider>
     </div>
